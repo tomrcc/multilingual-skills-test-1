@@ -1,0 +1,108 @@
+---
+_schema: default
+title: مقالة مدونة نموذجية مع مجموعة من المقتطفات
+description: >-
+  This is a sample blog post with a range of Snippets. You can make your own
+  Snippets with MDX components!
+date: 2026-02-18T00:00:00Z
+author: Anonymous
+image: /src/assets/images/blog-snippets.png
+tag: Example
+keywords: []
+---
+
+تدعم المدونات على CloudCannon **المقتطفات**: مكوّنات تفاعلية غنية تتجاوز الماركداون القياسي. تتيح مكوّنات MDX هذه تخطيطات متطورة ووظائف مضمّنة وتفاعلاً مُحسّناً مع المستخدم دون الحاجة إلى تطوير مخصص لكل مقالة.
+
+تعرض هذه المقالة مجموعة من المقتطفات النموذجية، بما في ذلك نص نائب لكل منها. ويمكنك أيضاً <a href="https://cloudcannon.com/documentation/developer-articles/snippets-using-mdx-components/" target="_blank" rel="noopener">إنشاء مقتطفاتك الخاصة باستخدام مكوّنات MDX</a>.
+
+- [الحث على الإجراء المركزي](#cta-center)
+- [نموذج الحث على الإجراء](#cta-form)
+- [الحث على الإجراء المقسّم](#cta-split)
+- [التضمين](#embed)
+- [قسم الأسئلة الشائعة](#faq-section)
+- [شبكة الميزات](#feature-grid)
+- [منزلق الميزات](#feature-slider)
+- [الميزة المقسّمة](#feature-split)
+- [النموذج](#form)
+- [الصورة](#image)
+- [الجدول](#table)
+- [قسم الشهادات](#testimonial-section)
+- [الفيديو](#video)
+
+## الحث على الإجراء المركزي
+
+ينشئ مقتطف الحث على الإجراء المركزي كتلة حث على الإجراء متميزة بصرياً داخل المحتوى الخاص بك، مع مجموعة من خيارات الألوان والخلفية والعرض.
+
+<CtaCenter heading={"<p>نص العنوان الرئيسي لقسم الحث على الإجراء المركزي.</p>"} id="cta-center" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "eye", size: "lg", color: "default", background: true, alignmentHorizontal: "center" }} eyebrowText="تسمية اختيارية تُعرض أعلى عنوان الحث على الإجراء المركزي." subtext="نص فرعي اختياري يُعرض أسفل عنوان الحث على الإجراء المركزي." buttonSections={[{ _component: "building-blocks/core-elements/button", text: "نص الزر مع أيقونة اختيارية", hideText: null, link: "", iconName: "chat-bubble-bottom-center", iconPosition: "after", variant: "primary", size: "md" }]} maxContentWidth="xl" paddingVertical="2xl" colorScheme="light" backgroundColor="brand-linear-gradient-reverse" contentBackground={true} rounded={true} />
+
+## نموذج الحث على الإجراء
+
+يضمّن مقتطف نموذج الحث على الإجراء نموذجاً لالتقاط العملاء المحتملين مباشرة في محتوى المتن. استخدمه عندما تريد من القرّاء طلب معلومات محددة تتعلق بموضوع المقالة.
+
+<CtaForm heading={"<p>نص العنوان الرئيسي لقسم نموذج الحث على الإجراء.</p>"} id="cta-form" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, alignmentHorizontal: "center" }} eyebrowText="تسمية اختيارية تُعرض أعلى عنوان نموذج الحث على الإجراء." formBlocks={[{ _component: "building-blocks/forms/input", label: "إدخالي", name: "my_input", type: "text", placeholder: null, required: false, value: null }, { _component: "building-blocks/forms/input", label: "إدخالي", name: "my_input", type: "text", placeholder: null, required: false, value: null }, { _component: "building-blocks/forms/submit", text: "إرسال", variant: "primary", size: "md", iconName: null, iconPosition: "before", hideText: false, disabled: false }]} buttonSections={[{ _component: "building-blocks/core-elements/button", text: "زر اختياري مع أيقونة اختيارية", iconName: "briefcase", iconPosition: "after", variant: "primary", size: "md" }]} maxContentWidth="xl" paddingVertical="2xl" colorScheme="inherit" backgroundColor="accent" contentBackground={true} verticalOffset={{ size: "none", direction: "front" }} rounded={true} subtext="نص فرعي اختياري يُعرض أسفل عنوان نموذج الحث على الإجراء." />
+
+## الحث على الإجراء المقسّم
+
+يعرض مقتطف الحث على الإجراء المقسّم خيارين متمايزين جنباً إلى جنب، مثل مقتطف الميزة المقسّمة. (لاحظ أنك قد تختار إنشاء مقتطفات متشابهة جداً بأسماء مختلفة، لمجرد تسهيل الأمور على المحررين لديك.)
+
+<CtaSplit heading={"عنوان الحث على الإجراء المقسّم"} id="cta-split" subtext="نص داعم أسفل العنوان." imageSource="/src/assets/images/blog-edge-nodes.png" imageAlt="نص بديل يصف صورة الحث على الإجراء." buttonSections={[{ _component: "building-blocks/core-elements/button", text: "نص الزر مع أيقونة اختيارية", hideText: null, link: "", iconName: "chart-bar-square", iconPosition: "after", variant: "primary", size: "md" }]} colorScheme="inherit" backgroundColor="accent" rounded={true} />
+
+## التضمين
+
+يتيح مقتطف التضمين إدراج محتوى خارجي — مقاطع فيديو، ولوحات معلومات، وعروضاً تفاعلية — مباشرة في المقالات عبر HTML الخام.
+
+<Embed aspectRatio="landscape"><iframe height="300" style="width: 100%;" scrolling="no" title="Night sky + Snow particles" src="https://codepen.io/Alexandra-Sevigny/embed/EayZPJx?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true"></iframe></Embed>
+
+## قسم الأسئلة الشائعة
+
+يعرض مقتطف قسم الأسئلة الشائعة الأسئلة المتكررة في تنسيق أكورديون قابل للتوسيع، مع خيارات لسلوك فتح الأكورديون ونظام الألوان ولون الخلفية.
+
+<FaqSection heading={"<p>نص العنوان الرئيسي لقسم الأسئلة الشائعة.</p>"} id="faq-section" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "question-mark-circle", size: "lg", color: "default", background: true, alignmentHorizontal: "center" }} eyebrowText="تسمية اختيارية تُعرض أعلى عنوان الأسئلة الشائعة." subtext="نص فرعي اختياري يُعرض أسفل عنوان الأسئلة الشائعة." items={[{ _component: "building-blocks/wrappers/accordion/accordion-item", title: "نص السؤال 1", contentSections: [{ _component: "building-blocks/core-elements/text", text: "نص الإجابة يُكتب هنا.", alignmentHorizontal: "start" }] }, { _component: "building-blocks/wrappers/accordion/accordion-item", title: "نص السؤال 2", contentSections: [{ _component: "building-blocks/core-elements/text", text: "نص الإجابة يُكتب هنا.", alignmentHorizontal: "start" }] }, { _component: "building-blocks/wrappers/accordion/accordion-item", title: "نص السؤال 3", contentSections: [{ _component: "building-blocks/core-elements/text", text: "نص الإجابة يُكتب هنا.", alignmentHorizontal: "start" }] }]} singleOpen={true} openFirst={true} maxContentWidth="xl" paddingVertical="2xl" colorScheme="inherit" backgroundColor="highlight-grid" contentBackground={true} verticalOffset={{ size: "none", direction: "front" }} rounded={true} />
+
+## شبكة الميزات
+
+يعرض مقتطف شبكة الميزات عدة بطاقات مترابطة في تخطيط منظم، لعرض الميزات أو خيارات التسعير. اضبط هذه البطاقات على عروض وارتفاعات مخصصة داخل شبكة.
+
+<FeatureGrid heading={"<p>نص العنوان الرئيسي لقسم شبكة الميزات.</p>"} id="feature-grid" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, alignmentHorizontal: "center" }} eyebrowText="تسمية اختيارية تُعرض أعلى عنوان شبكة الميزات." subtext="نص فرعي اختياري يُعرض أسفل عنوان شبكة الميزات." featureGrid={{ features: [{ _component: "page-sections/features/feature-grid/feature-item", link: "", image: { source: "", alt: "", rounded: false }, eyebrowIcon: { _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, iconOffset: false, alignmentHorizontal: "start" }, eyebrowText: "نص نائب للعنوان الفرعي", title: "عنوان الميزة", description: "نص نائب لوصف الميزة سيُستبدل بمحتوى فعلي. هذا النص النائب أطول قليلاً، لأن هذه البطاقة مضبوطة لتشغل صفين في الشبكة بدلاً من صف واحد.", columnSpan: 4, rowSpan: 2 }, { _component: "page-sections/features/feature-grid/feature-item", link: "", image: { source: "", alt: "", rounded: false }, eyebrowIcon: { _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, iconOffset: false, alignmentHorizontal: "start" }, eyebrowText: "نص نائب للعنوان الفرعي", title: "عنوان الميزة", description: "نص نائب لوصف الميزة سيُستبدل بمحتوى فعلي.", columnSpan: 8, rowSpan: 1 }, { _component: "page-sections/features/feature-grid/pricing-item", title: "عنوان التسعير", price: { prefix: "$", amount: "1", suffix: "/شهر" }, subtext: "نص فرعي اختياري يُعرض أسفل العنوان.", list: { _component: "building-blocks/core-elements/list", items: [{ text: "عنصر القائمة 1", iconName: "heart", iconColor: "default", link: "" }, { text: "عنصر القائمة 2", iconName: "heart", iconColor: "default", link: "" }, { text: "عنصر القائمة 3", iconName: "heart", iconColor: "default", link: "" }], direction: "vertical", alignmentHorizontal: "start", size: "md", listType: "icon" }, button: { _component: "building-blocks/core-elements/button", text: "ابدأ الآن", hideText: false, link: "https://cloudcannon.com/templates/jetstream/", iconName: "arrow-right", iconPosition: "after", variant: "secondary", size: "md" }, columnSpan: 4, rowSpan: 1 }, { _component: "page-sections/features/feature-grid/feature-item", link: "", image: { source: "", alt: "", rounded: false }, eyebrowIcon: { _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, iconOffset: false, alignmentHorizontal: "start" }, eyebrowText: "نص نائب للعنوان الفرعي", title: "عنوان الميزة", description: "نص نائب لوصف الميزة سيُستبدل بمحتوى فعلي.", columnSpan: 4, rowSpan: 1 }], backgroundColor: "accent", gridBackgroundMaxWidth: "none", gridMaxWidth: "2xl", rounded: true, overhang: false }} maxContentWidth="xl" paddingVertical="2xl" colorScheme="inherit" backgroundColor="accent" verticalOffset={{ size: "none", direction: "front" }} rounded={true} />
+
+## منزلق الميزات
+
+يعرض مقتطف منزلق الميزات الميزات في تنسيق دوّار تفاعلي. استخدمه للميزات المتسلسلة أو عندما تكون المساحة محدودة.
+
+<FeatureSlider paddingVertical="md" slides={[{ _component: "page-sections/features/feature-slider/feature-slider-item", eyebrow: "نص علوي اختياري يُعرض أعلى العنوان", title: "عنوان الشريحة 1", description: "وصف قصير لهذه الشريحة.", imageSource: "/src/assets/images/blog-edge-nodes.png", imageAlt: "نص بديل لصورة الشريحة", minSplitWidth: 0 }, { _component: "page-sections/features/feature-slider/feature-slider-item", eyebrow: "نص علوي اختياري يُعرض أعلى العنوان", title: "عنوان الشريحة 2", description: "وصف قصير لهذه الشريحة.", imageSource: "/src/assets/images/blog-edge-nodes.png", imageAlt: "نص بديل لصورة الشريحة", minSplitWidth: 0 }, { _component: "page-sections/features/feature-slider/feature-slider-item", eyebrow: "نص علوي اختياري يُعرض أعلى العنوان", title: "عنوان الشريحة 3", description: "وصف قصير لهذه الشريحة.", imageSource: "/src/assets/images/blog-edge-nodes.png", imageAlt: "نص بديل لصورة الشريحة", minSplitWidth: 0 }]} colorScheme="light" backgroundColor="brand-linear-gradient-muted" id="feature-slider" rounded={true}/>
+
+## الميزة المقسّمة
+
+يعرض مقتطف الميزة المقسّمة عنواناً واحداً ومنطقة نص جنباً إلى جنب مع صورة، مع خيار اختيار أيهما يظهر أولاً.
+
+<FeatureSplit eyebrow="نص علوي اختياري يُعرض أعلى العنوان" heading={"العنوان الرئيسي للقسم المقسّم"} subtext="نص متن داعم أسفل العنوان." buttonSections={[{ _component: "building-blocks/core-elements/button", text: "نص الزر مع أيقونة اختيارية", hideText: null, link: "", iconName: "", iconPosition: "before", variant: "primary", size: "md" }]} imageSource="/src/assets/images/blog-edge-nodes.png" imageAspectRatio="landscape" imageRounded={true} reverse={true} colorScheme="light" backgroundColor="brand-linear-gradient-muted" id="feature-split" rounded={true}/>
+
+## النموذج
+
+ينشئ مقتطف النموذج المستقل نماذج مخصصة، جاهزة للاتصال بـ <a href="https://cloudcannon.com/documentation/developer-articles/what-is-a-form/" target="_blank" rel="noopener">نماذج CloudCannon</a>.
+
+<Form formBlocks={[{ _component: "building-blocks/forms/input", label: "بريدي الإلكتروني", name: "my_email", type: "email", placeholder: "name@example.com", required: true, value: null }, { _component: "building-blocks/forms/select", label: "اختر خياراً", name: "option", required: true, options: [{ value: "option1", label: "الخيار 1" }, { value: "option2", label: "الخيار 2" }, { value: "option3", label: "الخيار 3" }], placeholder: "حدّد خياراً افتراضياً اختيارياً", value: "option2" }, { _component: "building-blocks/forms/date", label: "اختر تاريخاً", name: "my_date", required: false, value: "2026-01-01T15:30:00Z", min: null, max: null }, { _component: "building-blocks/forms/file-upload", label: "ارفع ملفاً", name: "upload", required: false, accept: ".webp", multiple: false }, { _component: "building-blocks/forms/input", label: "الاسم", name: "my_input", type: "text", placeholder: "الاسم", required: false, value: null }, { _component: "building-blocks/forms/textarea", label: "أضف تعليقاً", name: "my_comment", required: false, placeholder: "أخبرنا بكل أسرارك", value: null }, { _component: "building-blocks/forms/submit", text: "إرسال", variant: "primary", size: "md", iconName: null, iconPosition: "before", hideText: false, disabled: false }]} id="form"/>
+
+## الصورة
+
+يوفر مقتطف الصورة المحسّن تحكماً أكبر من صور الماركداون القياسية، بما في ذلك خيار تدوير الزوايا وضبط نسبة العرض إلى الارتفاع وخيارات التخطيط الأفقي / العمودي.
+
+<Image source="/src/assets/images/blog-edge-nodes.png" alt="مقتطف صورة نموذجي، مضبوط على نسبة عرض إلى ارتفاع 16:5 مع زوايا مدوّرة." rounded={true} aspectRatio="horizontal-strip" id="image"/>
+
+## الجدول
+
+يوفر مقتطف الجدول المحسّن جدولاً منسّقاً، مع رؤوس أعمدة، وتسميات أقسام لمجموعات الصفوف، وكل الصفوف والأعمدة التي يمكنك احتواؤها في صفحتك.
+
+<Table heading={"<p>عنوان الجدول</p>"} id="table" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "table-cells", size: "lg", color: "brand-gradient", background: true, alignmentHorizontal: "center" }} eyebrowText="تسمية اختيارية تُعرض أعلى عنوان الجدول." subtext="نص فرعي اختياري يُعرض أسفل عنوان الجدول." table={{ headers: [{ hideText: true, text: "رأس" }, { text: "الرأس الأول" }, { text: "الرأس الثاني" }, { text: "الرأس الثالث" }], sections: [{ sectionName: "القسم الأول", rows: [{ cells: ["الخلية الأولى", "الخلية الثانية", "الخلية الثالثة"] }, { cells: ["الخلية الأولى", "الخلية الثانية", "الخلية الثالثة"] }] }, { sectionName: "القسم الثاني", rows: [{ cells: ["الخلية الأولى", "الخلية الثانية", "الخلية الثالثة"] }, { cells: ["الخلية الأولى", "الخلية الثانية", "الخلية الثالثة"] }] }, { sectionName: "القسم الثالث", rows: [{ cells: ["الخلية الأولى", "الخلية الثانية", "الخلية الثالثة"] }] }] }} maxContentWidth="xl" paddingVertical="md" colorScheme="inherit" backgroundColor="none" verticalOffset={{ size: "none", direction: "front" }} />
+
+## قسم الشهادات
+
+يعرض مقتطف قسم الشهادات اقتباسات مع نسبتها إلى أصحابها، مع خيارات موحّدة لنظام الألوان ولون الخلفية.
+
+<TestimonialSection id="testimonial-section" text="أقسام الشهادات هي طريقتي المفضلة لبناء الثقة والتحقق من ادعاءات المبيعات عبر قنواتي التسويقية." authorName="Robin Poynter" authorDescription="كاتب محتوى نائب، Jetstream" authorImage="/src/assets/images/testimonial.png" paddingVertical="md" colorScheme="dark" backgroundColor="brand-linear-gradient-muted"/>
+
+## الفيديو
+
+يضمّن مقتطف الفيديو محتوى فيديو من مصادر مستضافة خارجياً (Vimeo وYouTube) أو من ملفات مستضافة محلياً.
+
+<Video id="video" type="youtube" title="Rick Astley - Never Gonna Give You Up (Official Video)" videoId="dQw4w9WgXcQ"/>

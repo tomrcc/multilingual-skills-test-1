@@ -1,0 +1,1807 @@
+{
+  "about:0:heading": {
+    "original": "  <p><span class=\"highlight-text\">We exist to make the internet work</span> the way people assume it already does.</p>  ",
+    "value": "  <p><span class=\"highlight-text\">نحن موجودون لنجعل الإنترنت يعمل</span> بالطريقة التي يفترض الناس أنه يعمل بها بالفعل.</p>  ",
+    "_base_original": "  <p><span class=\"highlight-text\">We exist to make the internet work</span> the way people assume it already does.</p>  "
+  },
+  "about:0:title": {
+    "original": " Our mission ",
+    "value": " مهمتنا ",
+    "_base_original": " Our mission "
+  },
+  "about:1:0:0:eyebrowText": {
+    "original": " Global reach ",
+    "value": " انتشار عالمي ",
+    "_base_original": " Global reach "
+  },
+  "about:1:0:0:heading": {
+    "original": " 847 edge nodes, six continents ",
+    "value": " 847 عقدة طرفية، ست قارات ",
+    "_base_original": " 847 edge nodes, six continents "
+  },
+  "about:1:0:0:text": {
+    "original": "  <p>Your content lives closer to your users than their nearest coffee shop, with redundant routing that assumes failure is always one misconfigured router away.</p>\n  ",
+    "value": "  <p>يوجد محتواك أقرب إلى مستخدميك من أقرب مقهى إليهم، مع توجيه احتياطي يفترض أن العطل دائمًا على بُعد جهاز توجيه واحد مُهيّأ بشكل خاطئ.</p>\n  ",
+    "_base_original": "  <p>Your content lives closer to your users than their nearest coffee shop, with redundant routing that assumes failure is always one misconfigured router away.</p>\n  "
+  },
+  "about:1:0:2:eyebrowText": {
+    "original": " Automatic everything ",
+    "value": " كل شيء تلقائي ",
+    "_base_original": " Automatic everything "
+  },
+  "about:1:0:2:heading": {
+    "original": " Infrastructure that manages itself ",
+    "value": " بنية تحتية تدير نفسها بنفسها ",
+    "_base_original": " Infrastructure that manages itself "
+  },
+  "about:1:0:2:text": {
+    "original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  ",
+    "value": "  <p>تجديدات SSL، وتوجيه حركة المرور، واكتشاف التهديدات، وتوسيع السعة تحدث دون تدخل بشري — إذ تتخذ أنظمتنا قرارات أفضل وأسرع مما يستطيع البشر.</p>\n  ",
+    "_base_original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  "
+  },
+  "about:1:0:4:eyebrowText": {
+    "original": " Real-time visibility ",
+    "value": " رؤية آنية ",
+    "_base_original": " Real-time visibility "
+  },
+  "about:1:0:4:heading": {
+    "original": " Analytics that update in a snap ",
+    "value": " تحليلات تتحدث في لمح البصر ",
+    "_base_original": " Analytics that update in a snap "
+  },
+  "about:1:0:4:text": {
+    "original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  ",
+    "value": "  <p>راقب كل طلب وكل تهديد محتمل من خلال لوحات معلومات تُظهر لك ما يحدث الآن، لا ما حدث قبل خمس دقائق.</p>\n  ",
+    "_base_original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  "
+  },
+  "about:1:0:5:eyebrowText": {
+    "original": " Zero-trust security ",
+    "value": " أمان انعدام الثقة ",
+    "_base_original": " Zero-trust security "
+  },
+  "about:1:0:5:heading": {
+    "original": " Assume everything is a threat ",
+    "value": " افترض أن كل شيء تهديد ",
+    "_base_original": " Assume everything is a threat "
+  },
+  "about:1:0:5:text": {
+    "original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  ",
+    "value": "  <p>يتم التحقق من كل طلب، وتشفير كل اتصال، وتدقيق كل محاولة تسجيل دخول بواسطة أنظمة لا تتعب ولا تتهاون أبدًا.</p>\n  ",
+    "_base_original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  "
+  },
+  "about:1:1:0:eyebrowText": {
+    "original": " Automatic everything ",
+    "value": " كل شيء تلقائي ",
+    "_base_original": " Automatic everything "
+  },
+  "about:1:1:0:heading": {
+    "original": " Infrastructure that manages itself ",
+    "value": " بنية تحتية تدير نفسها بنفسها ",
+    "_base_original": " Infrastructure that manages itself "
+  },
+  "about:1:1:0:text": {
+    "original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  ",
+    "value": "  <p>تجديدات SSL، وتوجيه حركة المرور، واكتشاف التهديدات، وتوسيع السعة تحدث دون تدخل بشري — إذ تتخذ أنظمتنا قرارات أفضل وأسرع مما يستطيع البشر.</p>\n  ",
+    "_base_original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  "
+  },
+  "about:1:1:1:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " تكرار احتياطي هوسي ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:1:1:heading": {
+    "original": " Multiple backups for our backups ",
+    "value": " نسخ احتياطية متعددة لنسخنا الاحتياطية ",
+    "_base_original": " Multiple backups for our backups "
+  },
+  "about:1:1:1:text": {
+    "original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  ",
+    "value": "  <p>نقاط الفشل الوحيدة هي عيوب تصميمية أزلناها من الوجود عبر أنظمة احتياطية، وتوجيه متنوع، وقدر صحي من جنون الارتياب.</p>\n  ",
+    "_base_original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  "
+  },
+  "about:1:1:3:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " تكرار احتياطي هوسي ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:1:3:heading": {
+    "original": " Redundancy layers all the way down ",
+    "value": " طبقات تكرار احتياطي حتى الأعماق ",
+    "_base_original": " Redundancy layers all the way down "
+  },
+  "about:1:1:3:text": {
+    "original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  ",
+    "value": "  <p>كل نظام حيوي له نسخة احتياطية. وكل نسخة احتياطية لها نسخة احتياطية. توقفنا عن العد بعد الطبقة الخامسة، لكنها موجودة قطعًا.</p>\n  ",
+    "_base_original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  "
+  },
+  "about:1:1:6:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " تكرار احتياطي هوسي ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:1:6:heading": {
+    "original": " Trust nothing, backup everything ",
+    "value": " لا تثق بشيء، وانسخ كل شيء احتياطيًا ",
+    "_base_original": " Trust nothing, backup everything "
+  },
+  "about:1:1:6:text": {
+    "original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  ",
+    "value": "  <p>إن كان حيويًا، فهو مكرر. وإن كان مكررًا، فله نسخة احتياطية. تفترض بنيتنا التحتية أن العطل دائمًا على بُعد خطأ إعداد واحد من الحدوث.</p>\n  ",
+    "_base_original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  "
+  },
+  "about:1:2:0:eyebrowText": {
+    "original": " Real-time visibility ",
+    "value": " رؤية آنية ",
+    "_base_original": " Real-time visibility "
+  },
+  "about:1:2:0:heading": {
+    "original": " Analytics that update in a snap ",
+    "value": " تحليلات تتحدث في لمح البصر ",
+    "_base_original": " Analytics that update in a snap "
+  },
+  "about:1:2:0:text": {
+    "original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  ",
+    "value": "  <p>راقب كل طلب وكل تهديد محتمل من خلال لوحات معلومات تُظهر لك ما يحدث الآن، لا ما حدث قبل خمس دقائق.</p>\n  ",
+    "_base_original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  "
+  },
+  "about:1:3:0:eyebrowText": {
+    "original": " Zero-trust security ",
+    "value": " أمان انعدام الثقة ",
+    "_base_original": " Zero-trust security "
+  },
+  "about:1:3:0:heading": {
+    "original": " Assume everything is a threat ",
+    "value": " افترض أن كل شيء تهديد ",
+    "_base_original": " Assume everything is a threat "
+  },
+  "about:1:3:0:text": {
+    "original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  ",
+    "value": "  <p>يتم التحقق من كل طلب، وتشفير كل اتصال، وتدقيق كل محاولة تسجيل دخول بواسطة أنظمة لا تتعب ولا تتهاون أبدًا.</p>\n  ",
+    "_base_original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  "
+  },
+  "about:1:4:0:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " تكرار احتياطي هوسي ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:4:0:heading": {
+    "original": " Multiple backups for our backups ",
+    "value": " نسخ احتياطية متعددة لنسخنا الاحتياطية ",
+    "_base_original": " Multiple backups for our backups "
+  },
+  "about:1:4:0:text": {
+    "original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  ",
+    "value": "  <p>نقاط الفشل الوحيدة هي عيوب تصميمية أزلناها من الوجود عبر أنظمة احتياطية، وتوجيه متنوع، وقدر صحي من جنون الارتياب.</p>\n  ",
+    "_base_original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  "
+  },
+  "about:1:5:0:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " تكرار احتياطي هوسي ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:5:0:heading": {
+    "original": " Redundancy layers all the way down ",
+    "value": " طبقات تكرار احتياطي حتى الأعماق ",
+    "_base_original": " Redundancy layers all the way down "
+  },
+  "about:1:5:0:text": {
+    "original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  ",
+    "value": "  <p>كل نظام حيوي له نسخة احتياطية. وكل نسخة احتياطية لها نسخة احتياطية. توقفنا عن العد بعد الطبقة الخامسة، لكنها موجودة قطعًا.</p>\n  ",
+    "_base_original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  "
+  },
+  "about:1:6:0:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " تكرار احتياطي هوسي ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:6:0:heading": {
+    "original": " Trust nothing, backup everything ",
+    "value": " لا تثق بشيء، وانسخ كل شيء احتياطيًا ",
+    "_base_original": " Trust nothing, backup everything "
+  },
+  "about:1:6:0:text": {
+    "original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  ",
+    "value": "  <p>إن كان حيويًا، فهو مكرر. وإن كان مكررًا، فله نسخة احتياطية. تفترض بنيتنا التحتية أن العطل دائمًا على بُعد خطأ إعداد واحد من الحدوث.</p>\n  ",
+    "_base_original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  "
+  },
+  "about:1:heading": {
+    "original": "  Our core commitments  ",
+    "value": "  التزاماتنا الأساسية  ",
+    "_base_original": "  Our core commitments  "
+  },
+  "about:2:heading": {
+    "original": "  How it all began  ",
+    "value": "  كيف بدأ كل شيء  ",
+    "_base_original": "  How it all began  "
+  },
+  "about:2:items.0.date": {
+    "original": " March 2019 ",
+    "value": " مارس 2019 ",
+    "_base_original": " March 2019 "
+  },
+  "about:2:items.0.heading": {
+    "original": " The 3am decision ",
+    "value": " قرار الثالثة فجرًا ",
+    "_base_original": " The 3am decision "
+  },
+  "about:2:items.0.text": {
+    "original": "  <p>We founded Jetstream after a particularly frustrating 3am incident response call convinced our co-founders that existing solutions lacked sufficient ambition.</p>\n  ",
+    "value": "  <p>أسّسنا Jetstream بعد مكالمة استجابة لحادث في الثالثة فجرًا كانت محبطة بشكل خاص، أقنعت مؤسسينا المشاركين بأن الحلول القائمة تفتقر إلى الطموح الكافي.</p>\n  ",
+    "_base_original": "  <p>We founded Jetstream after a particularly frustrating 3am incident response call convinced our co-founders that existing solutions lacked sufficient ambition.</p>\n  "
+  },
+  "about:2:items.1.date": {
+    "original": " August 2019 ",
+    "value": " أغسطس 2019 ",
+    "_base_original": " August 2019 "
+  },
+  "about:2:items.1.heading": {
+    "original": " First node goes live ",
+    "value": " إطلاق أول عقدة ",
+    "_base_original": " First node goes live "
+  },
+  "about:2:items.1.text": {
+    "original": "  <p>Our first edge node deployed in Singapore. We then monitored it obsessively for three weeks straight.</p>\n  ",
+    "value": "  <p>نُشرت أول عقدة طرفية لنا في سنغافورة. ثم راقبناها بهوس لمدة ثلاثة أسابيع متواصلة.</p>\n  ",
+    "_base_original": "  <p>Our first edge node deployed in Singapore. We then monitored it obsessively for three weeks straight.</p>\n  "
+  },
+  "about:2:items.2.date": {
+    "original": " February 2020 ",
+    "value": " فبراير 2020 ",
+    "_base_original": " February 2020 "
+  },
+  "about:2:items.2.heading": {
+    "original": " Trial by traffic ",
+    "value": " امتحان بحركة المرور ",
+    "_base_original": " Trial by traffic "
+  },
+  "about:2:items.2.text": {
+    "original": "  <p>We successfully mitigated our first major DDoS attack (4.2Tbps); our engineering team celebrated with a pizza-and-additional-monitoring-party.</p>\n  ",
+    "value": "  <p>نجحنا في التصدي لأول هجوم DDoS كبير علينا (4.2 تيرابت/ث)؛ واحتفل فريق الهندسة لدينا بحفلة بيتزا ومراقبة إضافية.</p>\n  ",
+    "_base_original": "  <p>We successfully mitigated our first major DDoS attack (4.2Tbps); our engineering team celebrated with a pizza-and-additional-monitoring-party.</p>\n  "
+  },
+  "about:2:items.3.date": {
+    "original": " November 2022 ",
+    "value": " نوفمبر 2022 ",
+    "_base_original": " November 2022 "
+  },
+  "about:2:items.3.heading": {
+    "original": " Certificates that renew themselves ",
+    "value": " شهادات تُجدِّد نفسها ",
+    "_base_original": " Certificates that renew themselves "
+  },
+  "about:2:items.3.text": {
+    "original": "  <p>We launched automated SSL certificate management after customer support received their 10,000th \"help, my certificate expired\" ticket.</p>\n  ",
+    "value": "  <p>أطلقنا الإدارة التلقائية لشهادات SSL بعد أن استقبل دعم العملاء التذكرة رقم 10,000 من نوع \"النجدة، انتهت صلاحية شهادتي\".</p>\n  ",
+    "_base_original": "  <p>We launched automated SSL certificate management after customer support received their 10,000th \"help, my certificate expired\" ticket.</p>\n  "
+  },
+  "about:2:items.4.date": {
+    "original": " September 2025 ",
+    "value": " سبتمبر 2025 ",
+    "_base_original": " September 2025 "
+  },
+  "about:2:items.4.heading": {
+    "original": " Achieved 847 global edge nodes ",
+    "value": " بلوغ 847 عقدة طرفية حول العالم ",
+    "_base_original": " Achieved 847 global edge nodes "
+  },
+  "about:2:items.4.text": {
+    "original": "  <p>Our original three-person engineering team now leads a department of 200 who share their pathological intolerance for downtime.</p>\n  ",
+    "value": "  <p>فريق الهندسة الأصلي المكوّن من ثلاثة أشخاص يقود الآن قسمًا من 200 شخص يشاركونهم عدم تحمّلهم المَرَضي للتوقف.</p>\n  ",
+    "_base_original": "  <p>Our original three-person engineering team now leads a department of 200 who share their pathological intolerance for downtime.</p>\n  "
+  },
+  "about:2:subtext": {
+    "original": "  <p>Architecture discussions in a poorly-ventilated office became a working prototype, then a functioning network, then a company that takes global internet infrastructure perhaps more seriously than is strictly necessary.</p>\n  ",
+    "value": "  <p>تحوّلت نقاشات معمارية في مكتب سيّئ التهوية إلى نموذج أولي عامل، ثم شبكة تعمل بكفاءة، ثم شركة تأخذ البنية التحتية العالمية للإنترنت على محمل الجد أكثر مما هو ضروري تمامًا.</p>\n  ",
+    "_base_original": "  <p>Architecture discussions in a poorly-ventilated office became a working prototype, then a functioning network, then a company that takes global internet infrastructure perhaps more seriously than is strictly necessary.</p>\n  "
+  },
+  "about:3:heading": {
+    "original": "  The team behind the network  ",
+    "value": "  الفريق الذي يقف خلف الشبكة  ",
+    "_base_original": "  The team behind the network  "
+  },
+  "about:3:subtext": {
+    "original": " Engineers, optimists, and people who refuse to accept that anything is impossible until proven otherwise. ",
+    "value": " مهندسون ومتفائلون وأناس يرفضون تقبّل أن أي شيء مستحيل حتى يثبت العكس. ",
+    "_base_original": " Engineers, optimists, and people who refuse to accept that anything is impossible until proven otherwise. "
+  },
+  "about:4:heading": {
+    "original": "  Join the team that takes infrastructure personally  ",
+    "value": "  انضم إلى الفريق الذي يأخذ البنية التحتية على محمل شخصي  ",
+    "_base_original": "  Join the team that takes infrastructure personally  "
+  },
+  "accordion": {
+    "original": "Accordion",
+    "value": "أكورديون",
+    "_base_original": "Accordion"
+  },
+  "back-to-site": {
+    "original": "← Back to site",
+    "value": "← العودة إلى الموقع",
+    "_base_original": "← Back to site"
+  },
+  "bar": {
+    "original": "Bar",
+    "value": "شريط",
+    "_base_original": "Bar"
+  },
+  "bento-box": {
+    "original": "Bento Box",
+    "value": "صندوق بينتو",
+    "_base_original": "Bento Box"
+  },
+  "bento-box-grid": {
+    "original": "Bento Box Grid",
+    "value": "شبكة صناديق بينتو",
+    "_base_original": "Bento Box Grid"
+  },
+  "blog:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/2:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/2:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/2:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/2:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/2:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/2:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/2:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/2:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/five-signs-your-cdn-is-lying-to-you-about-cache-hit-rates:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/five-signs-your-cdn-is-lying-to-you-about-cache-hit-rates:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/five-signs-your-cdn-is-lying-to-you-about-cache-hit-rates:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/how-we-achieve-99-999-uptime-redundancy-paranoia-and-spite:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/how-we-achieve-99-999-uptime-redundancy-paranoia-and-spite:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/how-we-achieve-99-999-uptime-redundancy-paranoia-and-spite:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:description": {
+    "original": "  <p>Feature description placeholder text that will be replaced with actual content. This placeholder text is slightly longer, because this card is set to take up two rows in the grid rather than one.</p>\n  ",
+    "value": "  <p>نص وصف الميزة النائب الذي سيُستبدَل بمحتوى فعلي. هذا النص النائب أطول قليلًا، لأن هذه البطاقة مُعدّة لتشغل صفّين في الشبكة بدلًا من صف واحد.</p>\n  ",
+    "_base_original": "  <p>Feature description placeholder text that will be replaced with actual content. This placeholder text is slightly longer, because this card is set to take up two rows in the grid rather than one.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:eyebrow": {
+    "original": "  Optional eyebrow text displayed above the title  ",
+    "value": "  نص تمهيدي اختياري يظهر أعلى العنوان  ",
+    "_base_original": "  Optional eyebrow text displayed above the title  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:eyebrowText": {
+    "original": "  Eyebrow placeholder  ",
+    "value": "  نص تمهيدي نائب  ",
+    "_base_original": "  Eyebrow placeholder  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:text": {
+    "original": "  <p>Answer text goes here.</p>\n  ",
+    "value": "  <p>يوضع نص الإجابة هنا.</p>\n  ",
+    "_base_original": "  <p>Answer text goes here.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:title": {
+    "original": " Feature title ",
+    "value": " عنوان الميزة ",
+    "_base_original": " Feature title "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:1:description": {
+    "original": "  <p>Feature description placeholder text that will be replaced with actual content.</p>\n  ",
+    "value": "  <p>نص وصف الميزة النائب الذي سيُستبدَل بمحتوى فعلي.</p>\n  ",
+    "_base_original": "  <p>Feature description placeholder text that will be replaced with actual content.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:1:eyebrow": {
+    "original": "  Optional eyebrow text displayed above the title  ",
+    "value": "  نص تمهيدي اختياري يظهر أعلى العنوان  ",
+    "_base_original": "  Optional eyebrow text displayed above the title  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:1:eyebrowText": {
+    "original": "  Eyebrow placeholder  ",
+    "value": "  نص تمهيدي نائب  ",
+    "_base_original": "  Eyebrow placeholder  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:1:title": {
+    "original": " Feature title ",
+    "value": " عنوان الميزة ",
+    "_base_original": " Feature title "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:description": {
+    "original": "  <p>Short description for this slide.</p>\n  ",
+    "value": "  <p>وصف قصير لهذه الشريحة.</p>\n  ",
+    "_base_original": "  <p>Short description for this slide.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:eyebrow": {
+    "original": "  Optional eyebrow text displayed above the title  ",
+    "value": "  نص تمهيدي اختياري يظهر أعلى العنوان  ",
+    "_base_original": "  Optional eyebrow text displayed above the title  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:subtext": {
+    "original": "  <p>Optional subtext displayed beneath the heading.</p>\n  ",
+    "value": "  <p>نص فرعي اختياري يظهر أسفل العنوان.</p>\n  ",
+    "_base_original": "  <p>Optional subtext displayed beneath the heading.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:text": {
+    "original": " List item 1 ",
+    "value": " عنصر القائمة 1 ",
+    "_base_original": " List item 1 "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:title": {
+    "original": " Pricing heading ",
+    "value": " عنوان التسعير ",
+    "_base_original": " Pricing heading "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:3:description": {
+    "original": "  <p>Feature description placeholder text that will be replaced with actual content.</p>\n  ",
+    "value": "  <p>نص وصف الميزة النائب الذي سيُستبدَل بمحتوى فعلي.</p>\n  ",
+    "_base_original": "  <p>Feature description placeholder text that will be replaced with actual content.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:3:eyebrowText": {
+    "original": "  Eyebrow placeholder  ",
+    "value": "  نص تمهيدي نائب  ",
+    "_base_original": "  Eyebrow placeholder  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:3:title": {
+    "original": " Feature title ",
+    "value": " عنوان الميزة ",
+    "_base_original": " Feature title "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:eyebrow": {
+    "original": "  Optional eyebrow text displayed above the heading  ",
+    "value": "  نص تمهيدي اختياري يظهر أعلى العنوان  ",
+    "_base_original": "  Optional eyebrow text displayed above the heading  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:eyebrowText": {
+    "original": " Optional label displayed above the CTA Center heading. ",
+    "value": " تسمية اختيارية تظهر أعلى عنوان CTA Center. ",
+    "_base_original": " Optional label displayed above the CTA Center heading. "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:heading": {
+    "original": "  <p>Main heading text for the CTA Center section.</p>  ",
+    "value": "  <p>نص العنوان الرئيسي لقسم CTA Center.</p>  ",
+    "_base_original": "  <p>Main heading text for the CTA Center section.</p>  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:subtext": {
+    "original": "  <p>Optional subtext displayed beneath the CTA Center heading.</p>\n  ",
+    "value": "  <p>نص فرعي اختياري يظهر أسفل عنوان CTA Center.</p>\n  ",
+    "_base_original": "  <p>Optional subtext displayed beneath the CTA Center heading.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:text": {
+    "original": "  <p>Testimonial sections are my favorite way to build trust, and validate sales claims across my marketing channels.</p>\n  ",
+    "value": "  <p>أقسام الشهادات هي طريقتي المفضلة لبناء الثقة والتحقق من ادعاءات المبيعات عبر قنواتي التسويقية.</p>\n  ",
+    "_base_original": "  <p>Testimonial sections are my favorite way to build trust, and validate sales claims across my marketing channels.</p>\n  "
+  },
+  "blog/sample-blog-post-with-all-markdown-styling-options:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/sample-blog-post-with-all-markdown-styling-options:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/sample-blog-post-with-all-markdown-styling-options:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/ssl-certificates-a-love-story-about-automation-and-trust:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/ssl-certificates-a-love-story-about-automation-and-trust:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/ssl-certificates-a-love-story-about-automation-and-trust:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/tag/Caching:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Caching:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Caching:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Caching:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Caching:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Caching:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Caching:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Caching:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/CDN:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/CDN:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/CDN:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/CDN:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/CDN:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/CDN:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/CDN:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/CDN:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Downtime:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Downtime:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Downtime:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Downtime:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Downtime:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Downtime:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Downtime:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Downtime:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Example:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Example:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Example:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Example:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Example:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Example:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Example:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Example:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Performance:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Performance:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Performance:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Performance:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Performance:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Performance:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Performance:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Performance:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Photons:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Photons:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Photons:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Photons:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Photons:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Photons:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Photons:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Photons:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Prediction:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Prediction:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Prediction:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Prediction:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Prediction:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Prediction:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Prediction:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Prediction:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Security:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Security:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Security:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Security:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Security:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Security:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Security:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Security:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Uptime:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل السابق (غير مقبول)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Uptime:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>زمن استجابة المُحلِّل الجديد (مقبول)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Uptime:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>أسطر برمجية كُتبت وحُذفت وأُعيدت كتابتها</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Uptime:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>اجتماعات عامة لإقناع الإدارة</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Uptime:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  لماذا أعدنا بناء مُحلِّل DNS من الصفر (<span class=\"highlight-text\">مجددًا</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Uptime:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  أحيانًا لا يكون \"الجيد بما يكفي\" جيدًا بما يكفي، خصوصًا حين تكون لمهندسينا آراء قوية حول تحسين الاستعلامات.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Uptime:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  مجلة الهندسة  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Uptime:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>رؤى وتحديثات وتحليلات تقنية معمّقة من حين لآخر من الفريق الذي يُبقي الإنترنت يعمل.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/the-great-ddos-attack-of-last-tuesday-a-postmortem:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/the-great-ddos-attack-of-last-tuesday-a-postmortem:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/the-great-ddos-attack-of-last-tuesday-a-postmortem:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/the-meeting-where-we-decided-downtime-was-optional:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/the-meeting-where-we-decided-downtime-was-optional:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/the-meeting-where-we-decided-downtime-was-optional:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/we-added-47-edge-nodes-last-month-and-nobody-noticed:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/we-added-47-edge-nodes-last-month-and-nobody-noticed:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/we-added-47-edge-nodes-last-month-and-nobody-noticed:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/what-happened-when-an-entire-country-tried-to-stream-the-same-thing:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/what-happened-when-an-entire-country-tried-to-stream-the-same-thing:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/what-happened-when-an-entire-country-tried-to-stream-the-same-thing:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/what-happens-when-you-ping-our-network-10-billion-times:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/what-happens-when-you-ping-our-network-10-billion-times:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/what-happens-when-you-ping-our-network-10-billion-times:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/why-our-engineers-get-excited-about-fiber-optic-cables:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/why-our-engineers-get-excited-about-fiber-optic-cables:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/why-our-engineers-get-excited-about-fiber-optic-cables:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/why-we-rebuilt-our-dns-resolver-from-scratch-again:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/why-we-rebuilt-our-dns-resolver-from-scratch-again:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/why-we-rebuilt-our-dns-resolver-from-scratch-again:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "blog/your-traffic-patterns-are-more-predictable-than-you-think:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "blog/your-traffic-patterns-are-more-predictable-than-you-think:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nشارك هذا المقال:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/your-traffic-patterns-are-more-predictable-than-you-think:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " أحدث الأخبار ",
+    "_base_original": " Latest News "
+  },
+  "builders": {
+    "original": "Builders",
+    "value": "أدوات البناء",
+    "_base_original": "Builders"
+  },
+  "building-a-page-section": {
+    "original": "Building a Page Section",
+    "value": "بناء قسم صفحة",
+    "_base_original": "Building a Page Section"
+  },
+  "building-blocks": {
+    "original": "Building Blocks",
+    "value": "اللبنات الأساسية",
+    "_base_original": "Building Blocks"
+  },
+  "button": {
+    "original": "Button",
+    "value": "زر",
+    "_base_original": "Button"
+  },
+  "button-group": {
+    "original": "Button Group",
+    "value": "مجموعة أزرار",
+    "_base_original": "Button Group"
+  },
+  "card": {
+    "original": "Card",
+    "value": "بطاقة",
+    "_base_original": "Card"
+  },
+  "carousel": {
+    "original": "Carousel",
+    "value": "شريط عرض دوّار",
+    "_base_original": "Carousel"
+  },
+  "choice-group": {
+    "original": "Choice Group",
+    "value": "مجموعة خيارات",
+    "_base_original": "Choice Group"
+  },
+  "component-builder": {
+    "original": "Component Builder",
+    "value": "أداة بناء المكوّنات",
+    "_base_original": "Component Builder"
+  },
+  "contact:0:heading": {
+    "original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  ",
+    "value": "  تحتاج مزيدًا من المعلومات؟<br><span class=\"highlight-text\">تواصل معنا</span>  ",
+    "_base_original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  "
+  },
+  "contact:0:subtext": {
+    "original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  ",
+    "value": "  <p>فريق الحلول لدينا جاهز بالإجابات وبقدر مناسب من الحماس.</p>\n  ",
+    "_base_original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  "
+  },
+  "content-selector": {
+    "original": "Content Selector",
+    "value": "مُحدِّد المحتوى",
+    "_base_original": "Content Selector"
+  },
+  "core-elements": {
+    "original": "Core Elements",
+    "value": "العناصر الأساسية",
+    "_base_original": "Core Elements"
+  },
+  "counter": {
+    "original": "Counter",
+    "value": "عدّاد",
+    "_base_original": "Counter"
+  },
+  "cta-center": {
+    "original": "CTA Center",
+    "value": "حث على الإجراء وسطي",
+    "_base_original": "CTA Center"
+  },
+  "cta-form": {
+    "original": "CTA Form",
+    "value": "نموذج حث على الإجراء",
+    "_base_original": "CTA Form"
+  },
+  "cta-split": {
+    "original": "CTA Split",
+    "value": "حث على الإجراء مقسّم",
+    "_base_original": "CTA Split"
+  },
+  "ctas": {
+    "original": "CTAs",
+    "value": "أزرار الحث على الإجراء",
+    "_base_original": "CTAs"
+  },
+  "custom-section": {
+    "original": "Custom Section",
+    "value": "قسم مخصّص",
+    "_base_original": "Custom Section"
+  },
+  "customizing-your-brand": {
+    "original": "Customizing Your Brand",
+    "value": "تخصيص علامتك التجارية",
+    "_base_original": "Customizing Your Brand"
+  },
+  "date": {
+    "original": "Date",
+    "value": "تاريخ",
+    "_base_original": "Date"
+  },
+  "definition-list": {
+    "original": "Definition List",
+    "value": "قائمة تعريفات",
+    "_base_original": "Definition List"
+  },
+  "divider": {
+    "original": "Divider",
+    "value": "فاصل",
+    "_base_original": "Divider"
+  },
+  "editing-a-page": {
+    "original": "Editing a Page",
+    "value": "تحرير صفحة",
+    "_base_original": "Editing a Page"
+  },
+  "editing-the-blog": {
+    "original": "Editing the Blog",
+    "value": "تحرير المدونة",
+    "_base_original": "Editing the Blog"
+  },
+  "embed": {
+    "original": "Embed",
+    "value": "تضمين",
+    "_base_original": "Embed"
+  },
+  "faq-section": {
+    "original": "FAQ Section",
+    "value": "قسم الأسئلة الشائعة",
+    "_base_original": "FAQ Section"
+  },
+  "feature-carousel-grid": {
+    "original": "Feature Carousel Grid",
+    "value": "شبكة شريط ميزات دوّار",
+    "_base_original": "Feature Carousel Grid"
+  },
+  "feature-grid": {
+    "original": "Feature Grid",
+    "value": "شبكة ميزات",
+    "_base_original": "Feature Grid"
+  },
+  "feature-slider": {
+    "original": "Feature Slider",
+    "value": "شريط تمرير الميزات",
+    "_base_original": "Feature Slider"
+  },
+  "feature-split": {
+    "original": "Feature Split",
+    "value": "ميزة مقسّمة",
+    "_base_original": "Feature Split"
+  },
+  "features": {
+    "original": "Features",
+    "value": "الميزات",
+    "_base_original": "Features"
+  },
+  "file-upload": {
+    "original": "File Upload",
+    "value": "رفع ملف",
+    "_base_original": "File Upload"
+  },
+  "footer": {
+    "original": "Footer",
+    "value": "التذييل",
+    "_base_original": "Footer"
+  },
+  "footer:about": {
+    "original": "About",
+    "value": "من نحن",
+    "_base_original": "About"
+  },
+  "footer:blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "footer:contact": {
+    "original": "Contact",
+    "value": "تواصل معنا",
+    "_base_original": "Contact"
+  },
+  "footer:home": {
+    "original": "Home",
+    "value": "الرئيسية",
+    "_base_original": "Home"
+  },
+  "footer:legal": {
+    "original": "  <p>© 2026 All rights reserved.</p>\n  ",
+    "value": "  <p>© 2026 جميع الحقوق محفوظة.</p>\n  ",
+    "_base_original": "  <p>© 2026 All rights reserved.</p>\n  "
+  },
+  "footer:pricing": {
+    "original": "Pricing",
+    "value": "التسعير",
+    "_base_original": "Pricing"
+  },
+  "form": {
+    "original": "Form",
+    "value": "نموذج",
+    "_base_original": "Form"
+  },
+  "forms": {
+    "original": "Forms",
+    "value": "النماذج",
+    "_base_original": "Forms"
+  },
+  "getting-started": {
+    "original": "Getting Started",
+    "value": "البدء",
+    "_base_original": "Getting Started"
+  },
+  "grid": {
+    "original": "Grid",
+    "value": "شبكة",
+    "_base_original": "Grid"
+  },
+  "heading": {
+    "original": "Heading",
+    "value": "عنوان",
+    "_base_original": "Heading"
+  },
+  "hero-card": {
+    "original": "Hero Card",
+    "value": "واجهة ببطاقة",
+    "_base_original": "Hero Card"
+  },
+  "hero-center": {
+    "original": "Hero Center",
+    "value": "واجهة وسطية",
+    "_base_original": "Hero Center"
+  },
+  "hero-split": {
+    "original": "Hero Split",
+    "value": "واجهة مقسّمة",
+    "_base_original": "Hero Split"
+  },
+  "heroes": {
+    "original": "Heroes",
+    "value": "الواجهات الرئيسية",
+    "_base_original": "Heroes"
+  },
+  "hidden": {
+    "original": "Hidden",
+    "value": "مخفي",
+    "_base_original": "Hidden"
+  },
+  "home": {
+    "original": "Home",
+    "value": "الرئيسية",
+    "_base_original": "Home"
+  },
+  "how-visual-editing-works": {
+    "original": "How Visual Editing Works",
+    "value": "كيف يعمل التحرير المرئي",
+    "_base_original": "How Visual Editing Works"
+  },
+  "icon": {
+    "original": "Icon",
+    "value": "أيقونة",
+    "_base_original": "Icon"
+  },
+  "image": {
+    "original": "Image",
+    "value": "صورة",
+    "_base_original": "Image"
+  },
+  "image-carousel": {
+    "original": "Image Carousel",
+    "value": "شريط عرض صور دوّار",
+    "_base_original": "Image Carousel"
+  },
+  "index:0:heading": {
+    "original": "  Introducing<br><span class=\"highlight-text\">Jetstream</span>  ",
+    "value": "  نقدّم لكم<br><span class=\"highlight-text\">Jetstream</span>  ",
+    "_base_original": "  Introducing<br><span class=\"highlight-text\">Jetstream</span>  "
+  },
+  "index:0:subtext": {
+    "original": "  <p>A new Astro template by CloudCannon, built with our <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> for top performance, true visual editing, and an ideal developer experience.</p>\n  ",
+    "value": "  <p>قالب Astro جديد من CloudCannon، مبني باستخدام <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> الخاص بنا لتحقيق أداء متميز، وتحرير مرئي حقيقي، وتجربة مثالية للمطوّرين.</p>\n  ",
+    "_base_original": "  <p>A new Astro template by CloudCannon, built with our <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> for top performance, true visual editing, and an ideal developer experience.</p>\n  "
+  },
+  "index:1:heading": {
+    "original": "  We’ve solved the internet for the world’s most ambitious engineering teams.  ",
+    "value": "  لقد حللنا معضلة الإنترنت لصالح أكثر فرق الهندسة طموحًا في العالم.  ",
+    "_base_original": "  We’ve solved the internet for the world’s most ambitious engineering teams.  "
+  },
+  "index:2:0:description": {
+    "original": "  <p>Your websites will load faster than human perception allows. We're not saying we've broken the laws of physics, but our CDN operates at speeds that would make light jealous.</p>\n  ",
+    "value": "  <p>ستُحمَّل مواقعك بسرعة تفوق ما يسمح به الإدراك البشري. لا نقول إننا خرقنا قوانين الفيزياء، لكن شبكة CDN لدينا تعمل بسرعات تثير غيرة الضوء نفسه.</p>\n  ",
+    "_base_original": "  <p>Your websites will load faster than human perception allows. We're not saying we've broken the laws of physics, but our CDN operates at speeds that would make light jealous.</p>\n  "
+  },
+  "index:2:0:title": {
+    "original": " Content delivery acceleration ",
+    "value": " تسريع تسليم المحتوى ",
+    "_base_original": " Content delivery acceleration "
+  },
+  "index:2:1:description": {
+    "original": "  <p>Bad actors don't stand a chance against our behavioral analysis engines, which have been trained on every known attack pattern, plus several we invented just to be thorough.</p>\n  ",
+    "value": "  <p>لا حظّ لأصحاب النوايا الخبيثة في مواجهة محرّكات التحليل السلوكي لدينا، التي دُرِّبت على كل نمط هجوم معروف، إضافة إلى عدة أنماط ابتكرناها بأنفسنا حرصًا على الشمولية.</p>\n  ",
+    "_base_original": "  <p>Bad actors don't stand a chance against our behavioral analysis engines, which have been trained on every known attack pattern, plus several we invented just to be thorough.</p>\n  "
+  },
+  "index:2:1:eyebrowText": {
+    "original": "  We've got this.  ",
+    "value": "  نحن نتولى الأمر.  ",
+    "_base_original": "  We've got this.  "
+  },
+  "index:2:1:title": {
+    "original": " DDoS mitigation that never sleeps ",
+    "value": " تصدٍّ لهجمات DDoS لا ينام أبدًا ",
+    "_base_original": " DDoS mitigation that never sleeps "
+  },
+  "index:2:2:description": {
+    "original": "  <p>We trust nothing and verify everything, twice. Sometimes three times if it's Tuesday. Our security team operates under the principle that paranoia isn't a bug — it's a feature we bill for.</p>\n  ",
+    "value": "  <p>لا نثق بشيء ونتحقق من كل شيء مرتين. وأحيانًا ثلاث مرات إن كان اليوم ثلاثاء. يعمل فريق الأمن لدينا وفق مبدأ أن جنون الارتياب ليس خللًا — بل ميزة نتقاضى مقابلها.</p>\n  ",
+    "_base_original": "  <p>We trust nothing and verify everything, twice. Sometimes three times if it's Tuesday. Our security team operates under the principle that paranoia isn't a bug — it's a feature we bill for.</p>\n  "
+  },
+  "index:2:2:title": {
+    "original": " Zero-trust security framework ",
+    "value": " إطار أمان انعدام الثقة ",
+    "_base_original": " Zero-trust security framework "
+  },
+  "index:2:3:description": {
+    "original": "  <p>Our automated certificate lifecycle system renews your SSL certificates before they even think about expiring. We've eliminated the 3am renewal panic entirely.</p>\n  ",
+    "value": "  <p>يجدّد نظامنا الآلي لدورة حياة الشهادات شهادات SSL الخاصة بك قبل أن تفكّر حتى في الانتهاء. لقد قضينا تمامًا على هلع التجديد في الثالثة فجرًا.</p>\n  ",
+    "_base_original": "  <p>Our automated certificate lifecycle system renews your SSL certificates before they even think about expiring. We've eliminated the 3am renewal panic entirely.</p>\n  "
+  },
+  "index:2:3:title": {
+    "original": " Automated SSL / TLS management ",
+    "value": " إدارة آلية لـ SSL / TLS ",
+    "_base_original": " Automated SSL / TLS management "
+  },
+  "index:2:4:description": {
+    "original": "  <p>Our global DNS infrastructure responds in fractions of milliseconds that require new units of measurement. Your domain names resolve before users finished typing them.</p>\n  ",
+    "value": "  <p>تستجيب بنيتنا التحتية العالمية لـ DNS في أجزاء من الأجزاء من الألف من الثانية تتطلب وحدات قياس جديدة. تُحَل أسماء نطاقاتك قبل أن ينتهي المستخدمون من كتابتها.</p>\n  ",
+    "_base_original": "  <p>Our global DNS infrastructure responds in fractions of milliseconds that require new units of measurement. Your domain names resolve before users finished typing them.</p>\n  "
+  },
+  "index:2:4:title": {
+    "original": " DNS resolution bordering on prescient ",
+    "value": " تحليل DNS يكاد يكون تنبؤيًا ",
+    "_base_original": " DNS resolution bordering on prescient "
+  },
+  "index:2:heading": {
+    "original": "  Jetstream protects what matters most: <br>your uptime percentage  ",
+    "value": "  يحمي Jetstream ما يهم أكثر من غيره: <br>نسبة جهوزية موقعك  ",
+    "_base_original": "  Jetstream protects what matters most: <br>your uptime percentage  "
+  },
+  "index:2:subtext": {
+    "original": "  <p>Everything you need to scale from boutique team to a global enterprise without the operational friction —&nbsp;or the science fiction.</p>\n  ",
+    "value": "  <p>كل ما تحتاجه للتوسّع من فريق صغير إلى مؤسسة عالمية دون احتكاك تشغيلي —&nbsp;أو خيال علمي.</p>\n  ",
+    "_base_original": "  <p>Everything you need to scale from boutique team to a global enterprise without the operational friction —&nbsp;or the science fiction.</p>\n  "
+  },
+  "index:3:0:0:text": {
+    "original": "  We implemented our low-latency routing protocol and deployed dedicated health sector edge nodes with HIPAA-compliant encryption that doesn't slow things down.<br>Doctors can read patient expressions in real-time, and medical care is delivered at the speed of actual conversation — which, our research indicates, is how medical care should work.  ",
+    "value": "  طبّقنا بروتوكول التوجيه منخفض زمن الوصول لدينا ونشرنا عقدًا طرفية مخصصة لقطاع الصحة بتشفير متوافق مع HIPAA لا يُبطئ الأمور.<br>يستطيع الأطباء قراءة تعابير المرضى في الوقت الفعلي، وتُقدَّم الرعاية الطبية بسرعة المحادثة الحقيقية — وهو، وفق ما تشير إليه أبحاثنا، ما ينبغي أن تكون عليه الرعاية الطبية.  ",
+    "_base_original": "  We implemented our low-latency routing protocol and deployed dedicated health sector edge nodes with HIPAA-compliant encryption that doesn't slow things down.<br>Doctors can read patient expressions in real-time, and medical care is delivered at the speed of actual conversation — which, our research indicates, is how medical care should work.  "
+  },
+  "index:3:1:1:text": {
+    "original": "  <p><strong>Reduction in connection quality complaints</strong></p>\n  ",
+    "value": "  <p><strong>انخفاض في شكاوى جودة الاتصال</strong></p>\n  ",
+    "_base_original": "  <p><strong>Reduction in connection quality complaints</strong></p>\n  "
+  },
+  "index:3:1:3:text": {
+    "original": "  <p><strong>More numbers than other companies</strong></p>\n  ",
+    "value": "  <p><strong>أرقام أكثر من الشركات الأخرى</strong></p>\n  ",
+    "_base_original": "  <p><strong>More numbers than other companies</strong></p>\n  "
+  },
+  "index:3:heading": {
+    "original": "  Customer solutions that solve themselves  ",
+    "value": "  حلول للعملاء تحل نفسها بنفسها  ",
+    "_base_original": "  Customer solutions that solve themselves  "
+  },
+  "index:3:subtext": {
+    "original": " We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart. ",
+    "value": " نحن لا نوفّر بنية تحتية فحسب — بل نوفّر بنية تحتية تفهم عملك. وقلبك أيضًا. ",
+    "_base_original": " We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart. "
+  },
+  "index:4:text": {
+    "original": "  <p>Downtime used to be a weekly crisis. Now it's a theoretical concept we vaguely remember.</p>\n  ",
+    "value": "  <p>كان التوقف عن العمل أزمة أسبوعية. أما الآن فهو مفهوم نظري نتذكره بغموض.</p>\n  ",
+    "_base_original": "  <p>Downtime used to be a weekly crisis. Now it's a theoretical concept we vaguely remember.</p>\n  "
+  },
+  "index:5:0:subtext": {
+    "original": "  <p>For organizations that need reliability</p>\n  ",
+    "value": "  <p>للمؤسسات التي تحتاج إلى الموثوقية</p>\n  ",
+    "_base_original": "  <p>For organizations that need reliability</p>\n  "
+  },
+  "index:5:0:text": {
+    "original": " Global CDN with 800+ edge nodes ",
+    "value": " شبكة CDN عالمية بأكثر من 800 عقدة طرفية ",
+    "_base_original": " Global CDN with 800+ edge nodes "
+  },
+  "index:5:0:title": {
+    "original": " Standard ",
+    "value": " قياسي ",
+    "_base_original": " Standard "
+  },
+  "index:5:1:subtext": {
+    "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
+    "value": "  <p>للمؤسسات التي ترفض تقبّل مفهوم التوقف عن العمل</p>\n  ",
+    "_base_original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  "
+  },
+  "index:5:1:text": {
+    "original": " Priority traffic routing ",
+    "value": " توجيه حركة مرور ذو أولوية ",
+    "_base_original": " Priority traffic routing "
+  },
+  "index:5:1:title": {
+    "original": " Team ",
+    "value": " فريق ",
+    "_base_original": " Team "
+  },
+  "index:5:heading": {
+    "original": "  Pricing that scales with your ambition  ",
+    "value": "  تسعير يتوسّع مع طموحك  ",
+    "_base_original": "  Pricing that scales with your ambition  "
+  },
+  "index:5:subtext": {
+    "original": "  <p>Choose the plan that matches your current infrastructure needs, then upgrade when your inevitable success makes it necessary. We'll be here, ready with congratulations and additional bandwidth.</p>\n  ",
+    "value": "  <p>اختر الخطة التي تناسب احتياجات بنيتك التحتية الحالية، ثم قم بالترقية عندما يجعل نجاحك الحتمي ذلك ضروريًا. سنكون هنا، جاهزين بالتهاني وبعرض نطاق ترددي إضافي.</p>\n  ",
+    "_base_original": "  <p>Choose the plan that matches your current infrastructure needs, then upgrade when your inevitable success makes it necessary. We'll be here, ready with congratulations and additional bandwidth.</p>\n  "
+  },
+  "index:6:heading": {
+    "original": "  Ready for performance that defies conventional wisdom?  ",
+    "value": "  هل أنت مستعد لأداء يتحدى الحكمة السائدة؟  ",
+    "_base_original": "  Ready for performance that defies conventional wisdom?  "
+  },
+  "info-blocks": {
+    "original": "Info Blocks",
+    "value": "كتل معلومات",
+    "_base_original": "Info Blocks"
+  },
+  "input": {
+    "original": "Input",
+    "value": "حقل إدخال",
+    "_base_original": "Input"
+  },
+  "list": {
+    "original": "List",
+    "value": "قائمة",
+    "_base_original": "List"
+  },
+  "logo-strip": {
+    "original": "Logo Strip",
+    "value": "شريط الشعارات",
+    "_base_original": "Logo Strip"
+  },
+  "main-nav": {
+    "original": "Main Nav",
+    "value": "التنقل الرئيسي",
+    "_base_original": "Main Nav"
+  },
+  "mobile": {
+    "original": "Mobile",
+    "value": "الجوال",
+    "_base_original": "Mobile"
+  },
+  "modal": {
+    "original": "Modal",
+    "value": "نافذة منبثقة",
+    "_base_original": "Modal"
+  },
+  "nav:about": {
+    "original": "About",
+    "value": "من نحن",
+    "_base_original": "About"
+  },
+  "nav:blog": {
+    "original": "Blog",
+    "value": "المدونة",
+    "_base_original": "Blog"
+  },
+  "nav:contact": {
+    "original": "Contact",
+    "value": "تواصل معنا",
+    "_base_original": "Contact"
+  },
+  "nav:features": {
+    "original": "Features",
+    "value": "الميزات",
+    "_base_original": "Features"
+  },
+  "nav:get-started": {
+    "original": "Get started",
+    "value": "ابدأ الآن",
+    "_base_original": "Get started"
+  },
+  "nav:pricing": {
+    "original": "Pricing",
+    "value": "التسعير",
+    "_base_original": "Pricing"
+  },
+  "nav:problems-we-ve-solved": {
+    "original": "Problems we've solved ↓",
+    "value": "مشكلات حللناها ↓",
+    "_base_original": "Problems we've solved ↓"
+  },
+  "nav:search": {
+    "original": "Search",
+    "value": "بحث",
+    "_base_original": "Search"
+  },
+  "nav:what-we-do-best": {
+    "original": "What we do best ↓",
+    "value": "ما نبرع فيه ↓",
+    "_base_original": "What we do best ↓"
+  },
+  "navigation": {
+    "original": "Navigation",
+    "value": "التنقل",
+    "_base_original": "Navigation"
+  },
+  "page-sections": {
+    "original": "Page Sections",
+    "value": "أقسام الصفحة",
+    "_base_original": "Page Sections"
+  },
+  "pagination": {
+    "original": "Pagination",
+    "value": "ترقيم الصفحات",
+    "_base_original": "Pagination"
+  },
+  "people": {
+    "original": "People",
+    "value": "الأشخاص",
+    "_base_original": "People"
+  },
+  "pricing:0:heading": {
+    "original": "  Pricing designed<br>by <span class=\"highlight-text\">engineers</span><br>who know value  ",
+    "value": "  تسعير صمّمه<br>بواسطة <span class=\"highlight-text\">مهندسين</span><br>يعرفون القيمة  ",
+    "_base_original": "  Pricing designed<br>by <span class=\"highlight-text\">engineers</span><br>who know value  "
+  },
+  "pricing:0:subtext": {
+    "original": "  <p>We’ve eliminated the confusion typically associated with infrastructure pricing <br>through a strategy we call \"being straightforward about what things cost.\"</p>\n  ",
+    "value": "  <p>لقد أزلنا الالتباس المرتبط عادةً بتسعير البنية التحتية <br>من خلال استراتيجية نسميها \"الصراحة بشأن تكلفة الأشياء\".</p>\n  ",
+    "_base_original": "  <p>We’ve eliminated the confusion typically associated with infrastructure pricing <br>through a strategy we call \"being straightforward about what things cost.\"</p>\n  "
+  },
+  "pricing:1:0:subtext": {
+    "original": "  <p>For organizations that need reliability</p>\n  ",
+    "value": "  <p>للمؤسسات التي تحتاج إلى الموثوقية</p>\n  ",
+    "_base_original": "  <p>For organizations that need reliability</p>\n  "
+  },
+  "pricing:1:0:text": {
+    "original": " Global CDN with 800+ edge nodes ",
+    "value": " شبكة CDN عالمية بأكثر من 800 عقدة طرفية ",
+    "_base_original": " Global CDN with 800+ edge nodes "
+  },
+  "pricing:1:0:title": {
+    "original": " Standard ",
+    "value": " قياسي ",
+    "_base_original": " Standard "
+  },
+  "pricing:1:1:subtext": {
+    "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
+    "value": "  <p>للمؤسسات التي ترفض تقبّل مفهوم التوقف عن العمل</p>\n  ",
+    "_base_original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  "
+  },
+  "pricing:1:1:text": {
+    "original": " Priority traffic routing ",
+    "value": " توجيه حركة مرور ذو أولوية ",
+    "_base_original": " Priority traffic routing "
+  },
+  "pricing:1:1:title": {
+    "original": " Team ",
+    "value": " فريق ",
+    "_base_original": " Team "
+  },
+  "pricing:1:2:subtext": {
+    "original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  ",
+    "value": "  <p>للمؤسسات التي تعتبر البنية التحتية ميزة تنافسية</p>\n  ",
+    "_base_original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  "
+  },
+  "pricing:1:2:text": {
+    "original": " Custom API rate limits ",
+    "value": " حدود مخصصة لمعدل استخدام API ",
+    "_base_original": " Custom API rate limits "
+  },
+  "pricing:1:2:title": {
+    "original": " Enterprise ",
+    "value": " مؤسسات ",
+    "_base_original": " Enterprise "
+  },
+  "pricing:2:heading": {
+    "original": "  Compare plan features  ",
+    "value": "  قارن بين ميزات الخطط  ",
+    "_base_original": "  Compare plan features  "
+  },
+  "pricing:3:0:0:text": {
+    "original": "  <p>Approximately seven minutes for basic setup, assuming you can type reasonably fast and don't get distracted.</p>\n<p>Our onboarding process involves pointing your DNS at our nameservers and letting our automation handle the rest.</p>\n<p>For more complex migrations requiring custom configurations, our team can have you operational within 24 hours.</p>\n<p>We've timed it. Multiple times. With stopwatches.</p>\n  ",
+    "value": "  <p>حوالي سبع دقائق للإعداد الأساسي، بافتراض أنك تستطيع الكتابة بسرعة معقولة ولا تتشتت.</p>\n<p>تتضمّن عملية الإعداد لدينا توجيه DNS الخاص بك إلى خوادم الأسماء لدينا وترك الباقي لأتمتتنا.</p>\n<p>وبالنسبة إلى عمليات الترحيل الأكثر تعقيدًا التي تتطلب إعدادات مخصصة، يمكن لفريقنا تشغيلك خلال 24 ساعة.</p>\n<p>لقد قِسنا الوقت. مرات عديدة. بساعات إيقاف.</p>\n  ",
+    "_base_original": "  <p>Approximately seven minutes for basic setup, assuming you can type reasonably fast and don't get distracted.</p>\n<p>Our onboarding process involves pointing your DNS at our nameservers and letting our automation handle the rest.</p>\n<p>For more complex migrations requiring custom configurations, our team can have you operational within 24 hours.</p>\n<p>We've timed it. Multiple times. With stopwatches.</p>\n  "
+  },
+  "pricing:3:heading": {
+    "original": "  Common questions  ",
+    "value": "  أسئلة شائعة  ",
+    "_base_original": "  Common questions  "
+  },
+  "pricing:4:heading": {
+    "original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  ",
+    "value": "  تحتاج مزيدًا من المعلومات؟<br><span class=\"highlight-text\">تواصل معنا</span>  ",
+    "_base_original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  "
+  },
+  "pricing:4:subtext": {
+    "original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  ",
+    "value": "  <p>فريق الحلول لدينا جاهز بالإجابات وبقدر مناسب من الحماس.</p>\n  ",
+    "_base_original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  "
+  },
+  "project-tour": {
+    "original": "Project Tour",
+    "value": "جولة في المشروع",
+    "_base_original": "Project Tour"
+  },
+  "range": {
+    "original": "Range",
+    "value": "نطاق",
+    "_base_original": "Range"
+  },
+  "search:0:heading": {
+    "original": "  How can we help?  ",
+    "value": "  كيف يمكننا مساعدتك؟  ",
+    "_base_original": "  How can we help?  "
+  },
+  "search:0:subtext": {
+    "original": "  <p>We've indexed every page on our website with the kind of thoroughness that borders on excessive.</p>\n  ",
+    "value": "  <p>لقد فهرسنا كل صفحة على موقعنا بدقة تكاد تكون مفرطة.</p>\n  ",
+    "_base_original": "  <p>We've indexed every page on our website with the kind of thoroughness that borders on excessive.</p>\n  "
+  },
+  "segments": {
+    "original": "Segments",
+    "value": "المقاطع",
+    "_base_original": "Segments"
+  },
+  "select": {
+    "original": "Select",
+    "value": "قائمة اختيار",
+    "_base_original": "Select"
+  },
+  "side": {
+    "original": "Side",
+    "value": "جانبي",
+    "_base_original": "Side"
+  },
+  "simple-text": {
+    "original": "Simple Text",
+    "value": "نص بسيط",
+    "_base_original": "Simple Text"
+  },
+  "spacer": {
+    "original": "Spacer",
+    "value": "فاصل مسافة",
+    "_base_original": "Spacer"
+  },
+  "split": {
+    "original": "Split",
+    "value": "مقسّم",
+    "_base_original": "Split"
+  },
+  "submit": {
+    "original": "Submit",
+    "value": "إرسال",
+    "_base_original": "Submit"
+  },
+  "tabbed-content": {
+    "original": "Tabbed Content",
+    "value": "محتوى بعلامات تبويب",
+    "_base_original": "Tabbed Content"
+  },
+  "table": {
+    "original": "Table",
+    "value": "جدول",
+    "_base_original": "Table"
+  },
+  "team-grid": {
+    "original": "Team Grid",
+    "value": "شبكة الفريق",
+    "_base_original": "Team Grid"
+  },
+  "testimonial": {
+    "original": "Testimonial",
+    "value": "شهادة",
+    "_base_original": "Testimonial"
+  },
+  "testimonial-section": {
+    "original": "Testimonial Section",
+    "value": "قسم الشهادات",
+    "_base_original": "Testimonial Section"
+  },
+  "text": {
+    "original": "Text",
+    "value": "نص",
+    "_base_original": "Text"
+  },
+  "textarea": {
+    "original": "Textarea",
+    "value": "منطقة نص",
+    "_base_original": "Textarea"
+  },
+  "timeline": {
+    "original": "Timeline",
+    "value": "الجدول الزمني",
+    "_base_original": "Timeline"
+  },
+  "toggle": {
+    "original": "Toggle",
+    "value": "مفتاح تبديل",
+    "_base_original": "Toggle"
+  },
+  "video": {
+    "original": "Video",
+    "value": "فيديو",
+    "_base_original": "Video"
+  },
+  "video-modal": {
+    "original": "Video Modal",
+    "value": "نافذة فيديو منبثقة",
+    "_base_original": "Video Modal"
+  },
+  "wrappers": {
+    "original": "Wrappers",
+    "value": "الأغلفة",
+    "_base_original": "Wrappers"
+  }
+}

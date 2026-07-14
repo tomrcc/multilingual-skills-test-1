@@ -110,6 +110,18 @@ const blogCollection = defineCollection({
   schema: blogPostSchema,
 });
 
+// Split-by-directory locale blog collections. Each mirrors the English `blog`
+// schema; posts are translated copies served natively at /{locale}/blog/...
+const blogEsCollection = defineCollection({
+  loader: glob({ pattern: "**/*.mdx", base: "./src/content/blog_es" }),
+  schema: blogPostSchema,
+});
+
+const blogArCollection = defineCollection({
+  loader: glob({ pattern: "**/*.mdx", base: "./src/content/blog_ar" }),
+  schema: blogPostSchema,
+});
+
 const teamSchema = z.object({
   uuid: z.string(),
   name: z.string(),
@@ -130,5 +142,7 @@ export const collections = {
   "docs-pages": docsPagesCollection,
   "docs-components": docsComponentsCollection,
   blog: blogCollection,
+  blog_es: blogEsCollection,
+  blog_ar: blogArCollection,
   team: teamCollection,
 };

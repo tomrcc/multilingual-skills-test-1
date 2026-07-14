@@ -1,0 +1,107 @@
+---
+_schema: default
+title: "\"El gran ataque DDoS del pasado martes: un análisis post mortem\""
+description: >-
+  We faced 4.7 terabits of malicious traffic and our systems barely noticed, but
+  our monitoring team certainly did.
+date: 2026-02-17T00:00:00Z
+author: 2137f543-e0e7-4113-878f-d83e8cbcad3b
+image: /src/assets/images/blog-ddos.png
+tag: Performance
+---
+
+El martes pasado, a las 14:37 UTC, alguien decidió atacar nuestra red con 4,7 terabits por segundo de tráfico malicioso. Nuestros sistemas apenas lo notaron. Nuestro equipo de monitoreo, sin duda, sí.
+
+## Qué ocurrió
+
+El ataque comenzó con lo que parecían consultas DNS legítimas provenientes de aproximadamente 400.000 dispositivos IoT comprometidos. Refrigeradores, cámaras de seguridad, termostatos inteligentes: los sospechosos habituales en la infraestructura moderna de botnets. En un lapso de 90 segundos, el volumen de consultas pasó del ruido de fondo normal a 4,7Tbps de basura coordinada.
+
+Nuestros nodos de borde registraron la anomalía a las 14:37:08 UTC. Para las 14:37:12, nuestros sistemas de detección de amenazas habían identificado el patrón del ataque, lo habían clasificado como un intento de amplificación de DNS y habían iniciado la mitigación. Para las 14:37:45, el ataque estaba prácticamente neutralizado, aunque continuó durante otras seis horas, porque las botnets no se caracterizan precisamente por su pensamiento estratégico.
+
+Impacto en los clientes: cero. Degradación del servicio: ninguna. Paquetes perdidos: estadísticamente insignificantes. Fue un éxito, pero el éxito enseña menos que los incidentes que estuvieron a punto de salir mal.
+
+Nuestros sistemas se comportaron exactamente como fueron diseñados, lo cual resulta gratificante pero no especialmente instructivo. La parte interesante es lo que aprendimos al analizar el ataque posteriormente.
+
+## La anatomía de 4,7 terabits
+
+Los ataques DDoS de esta magnitud requieren coordinación. Alguien reunió una botnet de 400.000 dispositivos, los configuró para atacar nuestra infraestructura de forma simultánea y lanzó el ataque con lo que nuestro equipo de seguridad describió como "entusiasmo de aficionado pero herramientas profesionales".
+
+El ataque utilizó amplificación de DNS, una técnica en la que los atacantes envían consultas pequeñas con direcciones de origen falsificadas a los resolutores DNS, que a su vez envían respuestas mucho más grandes a la víctima. Es eficiente desde la perspectiva del atacante: envías 60 bytes y recibes de vuelta 3.000 bytes, todos dirigidos a tu objetivo.
+
+Nuestra red recibió aproximadamente 800.000 millones de consultas DNS maliciosas a lo largo de seis horas. Cada consulta estaba diseñada para generar el mayor tamaño de respuesta posible. La cuenta es sencilla: una pequeña inversión en ancho de banda, un retorno masivo en tráfico de ataque.
+
+Lo que hizo interesante a este ataque no fue la técnica: la amplificación de DNS es bien conocida y tiene décadas de antigüedad. Lo que lo hizo interesante fue la escala y la aparente lógica de selección de objetivos.
+
+## Por qué a nuestros sistemas no les importó
+
+Hemos dedicado años a construir una infraestructura que trata los ataques DDoS como ruido de fondo y no como amenazas existenciales. Nuestra defensa opera por capas, y cada capa está diseñada para atrapar lo que la anterior dejó pasar.
+
+### **Capa uno: perfilado de tráfico en el borde**
+
+Cada nodo de borde monitorea los patrones de solicitudes entrantes en tiempo real. Nuestros sistemas saben cómo se ve el tráfico normal para cada región, hora del día y cliente. Cuando 400.000 dispositivos IoT comienzan de repente a realizar consultas DNS idénticas, la desviación respecto de lo normal resulta inmediatamente evidente.
+
+Nuestros nodos de borde comenzaron a filtrar el tráfico malicioso en un plazo de cuatro segundos desde el inicio del ataque. El ataque continuó, pero la mayor parte nunca alcanzó nuestra infraestructura central.
+
+### **Capa dos: análisis de comportamiento**
+
+Las consultas DNS legítimas siguen patrones. Provienen de fuentes diversas, solicitan diferentes dominios y llegan a intervalos variables. El tráfico de ataque es uniforme, repetitivo y predecible.
+
+Nuestros sistemas de análisis de comportamiento marcaron el tráfico de ataque en función de la similitud de las consultas, la diversidad de las fuentes (o la falta de ella) y la temporización de las solicitudes. Para las 14:37:30, nuestros sistemas habían construido un perfil del ataque y descartaban automáticamente el tráfico coincidente.
+
+### **Capa tres: absorción de capacidad**
+
+Incluso con el filtrado y el bloqueo por comportamiento, parte del tráfico de ataque logró pasar. Nuestra infraestructura está deliberadamente sobredimensionada precisamente para este escenario. Mantenemos suficiente capacidad de reserva para absorber picos masivos de tráfico sin afectar las solicitudes legítimas.
+
+El ataque de 4,7Tbps representó aproximadamente el 40% de la capacidad total de nuestra red. Incómodo, pero manejable. El tráfico de nuestros clientes siguió fluyendo a través del 60% restante sin una degradación perceptible.
+
+## Qué aprendimos
+
+El ataque en sí no tuvo nada de extraordinario. Los ataques de amplificación de DNS ocurren constantemente: mitigamos decenas a diario. Lo que hizo que este mereciera un análisis fue el patrón de selección de objetivos.
+
+El atacante apuntó específicamente a los nodos de borde que dan servicio a clientes de servicios financieros durante las horas pico de operaciones bursátiles. Esto no fue aleatorio. Alguien había investigado la topología de nuestra red, identificado objetivos de alto valor y sincronizado el ataque para lograr el máximo impacto potencial.
+
+Fracasaron, pero el intento fue lo suficientemente sofisticado como para merecer atención.
+
+Nuestro equipo de seguridad dedicó la semana siguiente a analizar el tráfico del ataque, rastrear la infraestructura de comando y control de la botnet e identificar patrones que pudieran indicar quién lanzó el ataque o por qué. Compartimos nuestros hallazgos con las autoridades pertinentes y con otros proveedores de infraestructura que podrían enfrentar ataques similares.
+
+También actualizamos nuestros modelos de detección de amenazas con base en los nuevos patrones de ataque que observamos. Cada ataque, exitoso o no, mejora nuestros sistemas.
+
+## La celebración con pizza y monitoreo
+
+Tras confirmar que el ataque estaba completamente mitigado, nuestro equipo de operaciones pidió pizza y pasó la tarde observando los paneles de monitoreo. Esto se ha convertido en una especie de tradición: celebramos una defensa exitosa con comida y un análisis obsesivo de métricas.
+
+Alguien sugirió que deberíamos sentirnos orgullosos de que nuestros sistemas se comportaran de forma impecable bajo un ataque de 4,7Tbps. Nuestro vicepresidente de Seguridad no estuvo de acuerdo. "Deberíamos sentirnos debidamente satisfechos de que unos sistemas diseñados para manejar exactamente este escenario manejaran exactamente este escenario", dijo, mientras comía su tercera porción. "El orgullo llega cuando manejamos algo que no anticipamos".
+
+Buen punto.
+
+## Las acciones de seguimiento
+
+Ningún sistema es perfecto. Incluso una defensa exitosa revela oportunidades de mejora.
+
+Identificamos tres áreas de mejora:
+
+- **Detección inicial más rápida** — Cuatro segundos desde el inicio del ataque hasta la mitigación es un buen resultado. Nuestro equipo cree que podemos reducirlo a menos de dos segundos mediante una mejor comunicación entre los nodos de borde.
+- **Mejor atribución de ataques** — Bloqueamos el ataque con éxito, pero nos costó identificar su origen con rapidez. Estamos implementando capacidades forenses adicionales para rastrear los ataques hasta su origen más rápidamente.
+- **Intercambio automatizado de inteligencia sobre amenazas** — Compartimos manualmente los datos del ataque con otros proveedores. Este proceso debería ser automático. Estamos desarrollando API para el intercambio de inteligencia sobre amenazas en tiempo real entre proveedores de infraestructura.
+
+Estas mejoras ya forman parte de nuestro backlog de ingeniería, con implementación prevista para el próximo trimestre.
+
+## Lo que debes saber
+
+Si fuiste cliente de Jetstream el martes pasado, probablemente no notaste nada inusual. Así es exactamente como debe funcionar la mitigación de DDoS: invisible cuando tiene éxito, evidente solo cuando falla.
+
+Nuestra infraestructura está diseñada para absorber ataques de esta magnitud sin afectar el tráfico legítimo. Mantenemos capacidad excedente, implementamos múltiples capas de defensa y actualizamos continuamente nuestra detección de amenazas con base en ataques del mundo real.
+
+El próximo ataque será más grande. Siempre lo son. Nuestro equipo está preparado.
+
+**Estadísticas del ataque:**
+
+- **4\.7Tbps** de tráfico máximo del ataque
+- **400.000** dispositivos IoT comprometidos en la botnet
+- **800.000 millones** de consultas DNS maliciosas en 6 horas
+- **4 segundos** desde el inicio del ataque hasta la mitigación
+- **0** impacto en los clientes
+- **6 horas** de duración total del ataque
+- **3** pizzas consumidas durante el análisis posterior al incidente
+
+**¿Te preocupa la protección contra DDoS de tu infraestructura?** Nuestro equipo de seguridad ha dedicado años a prepararse para ataques exactamente como este. [Habla con nosotros](/pricing/#about) sobre cómo mantenemos los servicios en línea cuando todos los demás estarían en apuros.

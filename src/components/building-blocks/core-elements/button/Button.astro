@@ -14,6 +14,7 @@ const {
   class: className,
   useDefaultEditableBinding = false,
   "data-prop": customDataProp,
+  "data-rosey": roseyProp,
   _component,
   ...htmlAttributes
 } = Astro.props;
@@ -22,6 +23,11 @@ const effectiveDataProp = customDataProp ?? (useDefaultEditableBinding ? "text" 
 const textDataAttributes = effectiveDataProp
   ? { "data-editable": "text", "data-prop": effectiveDataProp }
   : {};
+
+// Auto-derive the Rosey translation key from the editing prop unless opted out
+// with data-rosey={false}.
+const effectiveDataRosey = roseyProp === false ? null : (roseyProp ?? effectiveDataProp ?? null);
+const roseyAttributes = effectiveDataRosey ? { "data-rosey": effectiveDataRosey } : {};
 
 const isPopoverLink = link?.startsWith("^");
 const Tag = (element ?? (isPopoverLink || !link ? "button" : "a")) as any;
@@ -115,6 +121,7 @@ if (!_component && !hasText && !hasSlotContent && !hasIcon) return;
               <span
                 class="label-text"
                 {...textDataAttributes}
+                {...roseyAttributes}
               >
                 <slot>{text}</slot>
               </span>

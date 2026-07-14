@@ -13,6 +13,7 @@ const {
   class: className,
   useDefaultEditableBinding = false,
   "data-prop": customDataProp,
+  "data-rosey": roseyProp,
   _component,
   ...htmlAttributes
 } = Astro.props;
@@ -21,6 +22,11 @@ const effectiveDataProp = customDataProp ?? (useDefaultEditableBinding ? "text" 
 const textDataAttributes = effectiveDataProp
   ? { "data-editable": "text", "data-type": "text", "data-prop": effectiveDataProp }
   : {};
+
+// Auto-derive the Rosey translation key from the editing prop unless opted out
+// with data-rosey={false}. Keeps translatable text tagged wherever this renders.
+const effectiveDataRosey = roseyProp === false ? null : (roseyProp ?? effectiveDataProp ?? null);
+const roseyAttributes = effectiveDataRosey ? { "data-rosey": effectiveDataRosey } : {};
 
 const md = MarkdownIt({ html: true });
 let MarkdownText = text ? md.renderInline(text) : "";
@@ -54,6 +60,7 @@ if (!_component && !hasText && !hasSlotContent) return;
     <span
       class="heading-text"
       {...textDataAttributes}
+      {...roseyAttributes}
     >
       <slot>
         {text && <Fragment set:html={MarkdownText} />}

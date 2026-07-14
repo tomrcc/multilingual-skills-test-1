@@ -1,0 +1,279 @@
+---
+_schema: default
+title: "\"Cómo logramos un tiempo de actividad del 99,999 %: redundancia, paranoia y rencor\""
+description: >-
+  The technical and philosophical foundations of building infrastructure that
+  refuses to fail under any circumstances.
+date: 2026-02-02T00:00:00Z
+author: 6c4b5141-d659-4153-b8f9-aa2f93feaa7c
+image: /src/assets/images/blog-uptime.png
+tag: Uptime
+---
+
+Jetstream ha mantenido un tiempo de actividad real del 99,998% a lo largo de seis años de operación. Hemos experimentado un total de cinco minutos de inactividad visible para el cliente. Dos incidentes, ambos breves, ambos resueltos con rapidez, ambos seguidos de análisis post-mortem exhaustivos y mejoras en el sistema.
+
+Este nivel de fiabilidad no se produce por accidente. Requiere decisiones arquitectónicas que priorizan la fiabilidad sobre la comodidad, sistemas de monitorización que rozan la obsesión y una cultura organizativa que trata la inactividad como un fallo de ingeniería, y no como una realidad operativa aceptable.
+
+Así es como lo logramos realmente.
+
+## Redundancia en cada capa
+
+Los puntos únicos de fallo son defectos de diseño. Si el fallo de cualquier componente puede provocar inactividad, la arquitectura es incorrecta.
+
+Hemos implementado redundancia en todos los niveles de nuestra infraestructura:
+
+### **Redundancia de hardware**
+
+Cada nodo de borde funciona sobre servidores con fuentes de alimentación redundantes, tarjetas de red redundantes, unidades de almacenamiento redundantes en configuraciones RAID y sistemas de refrigeración redundantes. Cuando una fuente de alimentación falla, la de respaldo se activa al instante. Cuando una unidad falla, los arreglos RAID siguen funcionando mientras programamos su sustitución.
+
+Los fallos de hardware ocurren constantemente a nuestra escala. Operamos miles de servidores. La probabilidad estadística garantiza múltiples fallos de hardware a diario. La redundancia asegura que estos fallos no provoquen interrupciones del servicio.
+
+### **Redundancia de red**
+
+Cada nodo de borde se conecta a internet a través de múltiples proveedores de red. Si un operador experimenta cortes, el tráfico se enruta automáticamente a través de operadores alternativos.
+
+Nuestros centros de datos mantienen conexiones con al menos tres operadores de red diferentes. El tráfico se enruta por la ruta que ofrezca el mejor rendimiento y fiabilidad en cada momento.
+
+Hemos experimentado cortes completos de operadores en varias ocasiones. Nuestro enrutamiento automático evitó el impacto en los clientes.
+
+### **Redundancia geográfica**
+
+Cada región en la que operamos contiene múltiples nodos de borde. Si un nodo de borde entero falla —pérdida de energía, fallo de red, problemas catastróficos de hardware—, el tráfico se redirige automáticamente a los nodos cercanos.
+
+Los usuarios podrían experimentar una latencia ligeramente mayor al acceder a un nodo más distante, pero el servicio permanece disponible. Priorizamos la disponibilidad sobre el rendimiento óptimo durante los escenarios de fallo.
+
+### **Redundancia de software**
+
+Los componentes de software críticos funcionan en configuraciones activo-activo repartidas en múltiples servidores. Los balanceadores de carga distribuyen el tráfico entre las instancias saludables. Cuando una instancia falla, el tráfico se desplaza automáticamente a las instancias restantes.
+
+Nuestros sistemas DNS funcionan sobre docenas de servidores distribuidos geográficamente. Podrían fallar varios servidores de forma simultánea sin afectar a la disponibilidad del servicio.
+
+### **Redundancia de datos**
+
+Los datos de configuración de los clientes se replican en múltiples bases de datos en múltiples regiones geográficas. Las escrituras se confirman en varias réplicas antes de darse por aceptadas. Si un servidor de base de datos falla, las lecturas continúan desde las réplicas restantes mientras restauramos el servidor caído.
+
+Nunca hemos perdido datos de clientes por un fallo de hardware, porque los datos existen en múltiples lugares de forma simultánea.
+
+## Detección automatizada de fallos
+
+La redundancia solo ayuda si los fallos se detectan y gestionan con rapidez. Esperar a que los operadores humanos adviertan los problemas introduce un retraso inaceptable.
+
+Nuestros sistemas se monitorizan continuamente a sí mismos y responden automáticamente a los fallos:
+
+### **Comprobaciones de estado en múltiples niveles**
+
+Cada servicio expone endpoints de comprobación de estado que verifican su correcto funcionamiento. Los balanceadores de carga consultan estos endpoints cada pocos segundos. Los servicios que no superan las comprobaciones de estado se retiran automáticamente de la rotación.
+
+Las comprobaciones de estado verifican algo más que "si el proceso está en ejecución": ponen a prueba la funcionalidad real. Un servicio que está en ejecución pero es incapaz de procesar correctamente las solicitudes no supera las comprobaciones de estado y se retira del servicio.
+
+### **Monitorización sintética**
+
+Generamos continuamente tráfico de prueba que ejercita cada parte de nuestra infraestructura. Este tráfico sintético imita las solicitudes reales de los clientes, pero proviene de nuestros propios sistemas de monitorización.
+
+Si las solicitudes sintéticas comienzan a fallar, sabemos que algo va mal incluso antes de que se vea afectado el tráfico real de los clientes. Esto proporciona una advertencia temprana de los problemas antes de que impacten en los usuarios.
+
+### **Monitorización distribuida**
+
+Nuestra monitorización se ejecuta desde múltiples ubicaciones geográficas. Un servicio podría parecer poco saludable desde una ubicación de monitorización debido a problemas de red, mientras permanece saludable desde otras ubicaciones.
+
+Distinguimos entre fallos reales del servicio y problemas de partición de red comparando los resultados de las comprobaciones de estado desde múltiples puntos de observación. Esto evita las falsas alarmas y, a la vez, detecta con rapidez los fallos genuinos.
+
+### **Pruebas de inyección de fallos**
+
+Rompemos las cosas intencionadamente con regularidad para verificar que nuestra detección de fallos y la recuperación automática funcionan correctamente. Estas pruebas de "ingeniería del caos" matan procesos de forma aleatoria, deshabilitan conexiones de red o simulan fallos de hardware.
+
+Si la recuperación automática no funciona durante las pruebas, lo corregimos antes de que los fallos reales expongan el problema.
+
+## El principio de la paranoia
+
+La fiabilidad requiere asumir que todo acabará fallando en algún momento. La ingeniería defensiva significa diseñar para esos fallos en lugar de confiar en que no ocurrirán.
+
+### **Asume que las redes no son fiables**
+
+Las redes se particionan. Los paquetes se pierden. La latencia se dispara de forma inesperada. Nuestros sistemas deben seguir funcionando durante los problemas de red.
+
+Implementamos tiempos de espera agresivos en todas las solicitudes de red. Las solicitudes que no se completan dentro de los plazos previstos se reintentan automáticamente. Los disyuntores (circuit breakers) evitan los fallos en cascada cuando los servicios posteriores dejan de ser fiables.
+
+### **Asume que los servicios externos fallarán**
+
+Dependemos de proveedores de DNS, autoridades de certificación, proveedores de infraestructura en la nube y operadores de red. Asumimos que todos ellos fallarán ocasionalmente.
+
+Mantenemos contratos con múltiples proveedores para cada dependencia. Cuando uno falla, cambiamos automáticamente a las alternativas. Hemos experimentado fallos de todos los grandes proveedores que utilizamos. La redundancia evitó la inactividad en todas las ocasiones.
+
+### **Asume que nuestro propio código tiene errores**
+
+El software perfecto no existe. Asumimos que cada cambio de código podría introducir errores, y desplegamos de forma defensiva.
+
+El código nuevo se despliega primero en pequeños porcentajes de la infraestructura. Si las tasas de error aumentan, el despliegue se revierte automáticamente. La mayoría de los errores se detectan antes de que afecten a más del 1% del tráfico.
+
+### **Asume que las configuraciones serán incorrectas**
+
+Las configuraciones generadas por humanos contienen errores. Hemos visto reglas de firewall incorrectas, balanceadores de carga mal configurados y tablas de enrutamiento con erratas.
+
+Todos los cambios de configuración pasan por una validación automatizada antes del despliegue. Las configuraciones que romperían el servicio se rechazan automáticamente. Hemos evitado docenas de cortes al detectar errores de configuración antes de que llegaran a producción.
+
+### **Asume que el hardware fallará constantemente**
+
+A nuestra escala, los fallos de hardware no son una cuestión de "si" sino de "cuándo" y "con qué frecuencia". Diseñamos asumiendo múltiples fallos de hardware diarios.
+
+Nuestra infraestructura permanece operativa a pesar de los continuos fallos de hardware. Los servidores fallan, se retiran del servicio automáticamente y se sustituyen sin interrupción del servicio. Programamos la sustitución de hardware durante el horario laboral porque no hay urgencia.
+
+## El factor despecho
+
+En realidad, esto no es despecho. Es orgullo profesional combinado con la negativa a aceptar que la inactividad sea inevitable.
+
+Muchos proveedores de infraestructura tratan los cortes ocasionales como una realidad operativa aceptable. "Todo falla alguna vez" se convierte en una excusa para una inversión insuficiente en fiabilidad.
+
+Consideramos esta actitud ofensiva. La inactividad es un fallo de ingeniería, punto.
+
+### **Cada corte merece un post-mortem**
+
+Hemos tenido dos incidentes que provocaron inactividad visible para el cliente en seis años. Ambos recibieron un análisis post-mortem exhaustivo.
+
+Los análisis post-mortem no atribuyen la culpa a personas concretas: los fallos de los sistemas suelen ser problemas de los sistemas, no de las personas. Pero analizamos con rigor qué falló, por qué falló y cómo prevenir fallos similares.
+
+Tras nuestro incidente de DNS de junio de 2021, implementamos tres capas adicionales de validación de la configuración DNS. Tras el error de replicación de base de datos de marzo de 2024, reescribimos nuestra monitorización de replicación y añadimos nueva cobertura de pruebas para casos límite.
+
+Nos tomamos los cortes de forma personal, pero de un modo productivo: como motivación para mejorar los sistemas.
+
+### **Los objetivos de fiabilidad son mínimos, no aspiraciones**
+
+Nuestro objetivo de tiempo de actividad del 99,999% permite 5,26 minutos de inactividad al año. Este es nuestro rendimiento mínimo aceptable, no una meta aspiracional que esperamos alcanzar.
+
+Si experimentamos una inactividad que se acerca a este umbral, es una crisis que requiere una respuesta inmediata. No tratamos los objetivos del SLA como metas que cumplir: los tratamos como suelos por debajo de los cuales hemos fracasado.
+
+### **Sobreinvertimos en fiabilidad**
+
+Construir para un tiempo de actividad de cinco nueves cuesta bastante más que construir para tres nueves. La redundancia es cara. Una monitorización integral requiere recursos de ingeniería considerables. La arquitectura defensiva añade complejidad.
+
+Aceptamos estos costes porque la fiabilidad es innegociable. Otros proveedores podrían considerar excesiva nuestra inversión en fiabilidad. Nosotros consideramos inaceptables sus tasas de cortes.
+
+## Validación continua
+
+Los sistemas se degradan de forma gradual. El rendimiento se deteriora lentamente, las tasas de error se arrastran al alza, los márgenes de capacidad se reducen. Sin una validación continua, la degradación pasa desapercibida hasta que provoca problemas visibles.
+
+Verificamos continuamente que los sistemas operan dentro de parámetros aceptables:
+
+### **Pruebas de rendimiento en producción**
+
+Medimos continuamente el rendimiento real bajo carga real. La monitorización sintética proporciona pruebas controladas, pero el tráfico de producción revela problemas que las pruebas sintéticas pasan por alto.
+
+Cuando el rendimiento cae por debajo de los umbrales, investigamos de inmediato. Por lo general, la causa es gradual: ineficiencia de caché acumulada, degradación del rendimiento de las consultas a la base de datos o crecimiento del tráfico que consume la capacidad disponible.
+
+La detección temprana permite corregir los problemas antes de que se conviertan en cortes.
+
+### **Monitorización y planificación de la capacidad**
+
+Rastreamos continuamente la utilización de la capacidad. Cuando cualquier sistema se acerca al 70% de utilización de la capacidad, comenzamos a planificar la expansión. Al 80%, la expansión se vuelve urgente.
+
+Esta planificación agresiva de la capacidad evita el escenario en el que un crecimiento inesperado del tráfico agota la capacidad disponible antes de que podamos responder.
+
+### **Detección de desviaciones**
+
+La desviación de la configuración (drift) —en la que los sistemas de producción divergen gradualmente de la configuración prevista— causa problemas sutiles que se acumulan con el tiempo.
+
+Comparamos continuamente el estado real del sistema con la configuración deseada. Cualquier desviación activa alertas. Esto detecta problemas como:
+
+- Versiones de software que quedan rezagadas en algunos servidores
+- Archivos de configuración editados manualmente en lugar de desplegados correctamente
+- Políticas de seguridad que no se aplican de manera uniforme
+- Monitorización deshabilitada o mal configurada en sistemas concretos
+
+Detectar la desviación de forma temprana evita que cause problemas más adelante.
+
+## El componente cultural
+
+Una infraestructura fiable requiere una cultura organizativa que priorice la fiabilidad por encima de otras preocupaciones que compiten por la atención.
+
+### **Respuesta a incidentes sin culpables**
+
+Cuando las cosas salen mal, nos centramos en comprender qué falló y cómo prevenir su repetición, no en encontrar a alguien a quien culpar.
+
+Los ingenieros se sienten cómodos escalando posibles problemas porque no se les culpará por plantear inquietudes. Esto fomenta la notificación temprana de los problemas antes de que se conviertan en incidentes.
+
+### **Tiempo de ingeniería para el trabajo de fiabilidad**
+
+Asignamos aproximadamente el 20% del tiempo de ingeniería a mejoras de fiabilidad: refactorizar el código para que sea más robusto, mejorar la monitorización, añadir redundancia y automatizar procesos manuales.
+
+Esta inversión rinde dividendos continuos. Los sistemas se vuelven más fiables con el tiempo, en lugar de degradarse gradualmente por la deuda técnica acumulada.
+
+### **Los ingenieros de guardia tienen autoridad**
+
+Nuestros ingenieros de guardia pueden tomar decisiones operativas importantes durante los incidentes sin pedir permiso. Si algo debe revertirse, el tráfico debe reenrutarse o hay que añadir capacidad con urgencia, los ingenieros de guardia tienen autoridad para actuar de inmediato.
+
+La burocracia durante los incidentes acaba con la fiabilidad. Hemos optimizado para una respuesta rápida por encima de la corrección procedimental.
+
+### **El aprendizaje tras los incidentes es obligatorio**
+
+Después de cada incidente significativo —no solo los cortes, sino cualquier evento que podría haberse convertido en un corte—, llevamos a cabo revisiones de aprendizaje.
+
+Estas revisiones se centran en:
+
+- Qué ocurrió y por qué
+- Qué evitó que fuera peor
+- Qué podría prevenir incidentes similares
+- Qué aprendimos sobre nuestros sistemas
+
+Este aprendizaje continuo mejora la fiabilidad con el tiempo.
+
+## Los números reales
+
+A lo largo de seis años de operación:
+
+**Tiempo de actividad: 99,998%**
+
+- Objetivo: 99,999% (5,26 minutos de inactividad permitidos al año)
+- Real: 99,998% (5 minutos de inactividad total en seis años)
+- Estamos dentro del objetivo, pero por poco
+
+**Incidentes: 2 cortes**
+
+- Junio de 2021: problema de DNS de 3 minutos (solo Europa)
+- Marzo de 2024: problema de configuración de 2 minutos (global)
+- Ambos seguidos de inmediato por análisis post-mortem exhaustivos y correcciones
+
+**Situaciones límite: 47 posibles cortes evitados**
+
+- La conmutación por error automática evitó que 23 posibles cortes se convirtieran en cortes reales
+- La detección e intervención tempranas evitaron otros 24
+- No aparecen en las métricas visibles para el cliente, pero importan enormemente
+
+**Fallos de hardware: 2.847 en seis años**
+
+- La redundancia evitó que todos ellos provocaran una interrupción del servicio
+- Los fallos ocurren constantemente a escala; la arquitectura los gestiona
+
+**Reversiones de despliegue: 156**
+
+- Los cambios de código que causaron problemas se revirtieron automáticamente
+- Se evitó que los errores llegaran a producción a escala
+
+## Lo que cuesta
+
+Mantener este nivel de fiabilidad requiere una inversión considerable:
+
+**Sobreaprovisionamiento de infraestructura:** Mantenemos entre un 40% y un 50% de capacidad excedente por encima del uso actual. Puede parecer un desperdicio, pero proporciona el margen necesario para los picos de tráfico y los escenarios de fallo.
+
+**Recursos de ingeniería:** Aproximadamente el 20% del tiempo de ingeniería se dedica al trabajo de fiabilidad en lugar de al desarrollo de funcionalidades.
+
+**Sistemas redundantes:** Pagamos por múltiples proveedores de DNS, múltiples autoridades de certificación, múltiples operadores de red y una redundancia geográfica que incrementa los costes operativos.
+
+**Infraestructura de monitorización:** Nuestros sistemas de monitorización cuestan casi tanto como nuestra infraestructura de producción. Una observabilidad integral es cara.
+
+**Coste total:** Aproximadamente un 60% superior al de construir para un tiempo de actividad del 99,9%.
+
+Hemos decidido que este coste está justificado. Nuestros clientes no experimentan cortes. Sus servicios permanecen disponibles incluso cuando los nuestros experimentan fallos. Ese es el servicio que hemos prometido ofrecer.
+
+## La valoración honesta
+
+No hemos logrado una fiabilidad perfecta. Dos incidentes en seis años significa que hemos fallado dos veces.
+
+Pero hemos logrado una fiabilidad excepcional según los estándares del sector. La mayoría de los proveedores de infraestructura experimentan más inactividad al mes que la que nosotros hemos experimentado en seis años en total.
+
+Esto no ocurrió por accidente ni por suerte. Ocurrió gracias a decisiones arquitectónicas que priorizan la fiabilidad, a la redundancia implementada en cada capa, a la detección y recuperación automatizadas de fallos, a prácticas de ingeniería defensiva, a la monitorización y validación continuas y a una cultura organizativa que trata la inactividad como algo inaceptable.
+
+Construir una infraestructura de cinco nueves requiere disciplina, inversión y un compromiso genuino con la fiabilidad como valor primordial. Es caro y exige un esfuerzo constante.
+
+Pero es alcanzable. Lo hemos demostrado. No somos perfectos, pero estamos muy cerca de serlo.
+
+Así es como se logra un tiempo de actividad del 99,999%: redundancia, paranoia y despecho. La redundancia gestiona los fallos. La paranoia los previene. El despecho se niega a aceptar que la inactividad sea inevitable.

@@ -113,6 +113,7 @@ const mobileSlides = slides.flatMap(
             aria-label={`Slide ${index + 1} of ${slides.length}`}
             data-editable="array-item"
             data-id="page-sections/features/feature-carousel-grid/feature-carousel-slide"
+            data-rosey-ns={slide._uuid ?? String(index)}
             {...slide}
             class="feature-carousel-grid-slide"
           />
@@ -132,6 +133,7 @@ const mobileSlides = slides.flatMap(
       {
         mobileSlides.map((slide: any, index: number) => (
           <FeatureCarouselSlide
+            data-rosey-ns={slide._uuid ?? String(index)}
             {...slide}
             class="feature-carousel-grid-slide-mobile"
           />

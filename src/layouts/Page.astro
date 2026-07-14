@@ -42,6 +42,12 @@ type Props = {
   disablePagefind?: boolean;
   mainNav?: Record<string, unknown>;
   footer?: Record<string, unknown>;
+  /**
+   * Rosey namespace root for this page. Defaults to the URL-derived slug.
+   * Split-by-directory locale pages pass the English-equivalent path (e.g.
+   * "blog/my-post") so their keys align with the source-language keys.
+   */
+  roseyRoot?: string;
 };
 
 const {
@@ -57,7 +63,18 @@ const {
   disablePagefind = false,
   mainNav = mainNavData,
   footer = footerData,
+  roseyRoot,
 } = Astro.props as Props;
+
+// Rosey namespace root: strip leading/trailing slashes from the URL path and, for
+// prefixed locales, drop the leading locale segment so keys match the source
+// language. Home page falls back to "index".
+const knownLocales = ["en", "es", "ar"];
+const derivedSlug =
+  Astro.url.pathname
+    .replace(/^\/|\/$/g, "")
+    .replace(new RegExp(`^(${knownLocales.join("|")})(/|$)`), "") || "index";
+const pageRoseyRoot = roseyRoot ?? derivedSlug;
 
 const title = frontmatter?.title ?? titleProp ?? "";
 const description = frontmatter?.description ?? descriptionProp;
@@ -83,7 +100,10 @@ const sections = frontmatter?.pageSections ?? [];
   {mainNav.themeToggle && <ThemeToggleScript slot="head" />}
   <MainNavigation {...mainNav} />
 
-  <main {...disablePagefind ? { "data-pagefind-ignore": "all" } : {}}>
+  <main
+    data-rosey-root={pageRoseyRoot}
+    {...disablePagefind ? { "data-pagefind-ignore": "all" } : {}}
+  >
     {
       sections.length > 0 && (
         <div

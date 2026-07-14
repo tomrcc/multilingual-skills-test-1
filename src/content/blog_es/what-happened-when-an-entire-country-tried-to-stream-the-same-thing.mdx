@@ -1,0 +1,179 @@
+---
+_schema: default
+title: Qué pasó cuando todo un país intentó reproducir lo mismo en streaming
+description: >-
+  Peak traffic events reveal whether your CDN was built by optimists or
+  engineers; ours was built by both.
+date: 2026-02-10T00:00:00Z
+author: c63acdd1-33d5-4366-a000-34f0c17ca88b
+image: /src/assets/images/blog-country.png
+tag: CDN
+---
+
+A las 20:00 hora local del 15 de enero de 2026, aproximadamente 40 millones de personas en Corea del Sur comenzaron a reproducir simultáneamente el final de una popular serie dramática. Nuestra CDN estaba sirviendo el contenido.
+
+El tráfico máximo alcanzó los 2,8 petabytes por hora. Cada nodo edge de la región funcionaba a máxima capacidad. Nuestros sistemas se mantuvieron estables sin una sola queja por almacenamiento en búfer.
+
+Esto es lo que ocurrió.
+
+## La advertencia
+
+Nuestro cliente, una importante plataforma de streaming, se puso en contacto con nosotros cuatro días antes del evento. "Esperamos un tráfico muy alto para este final", nos dijeron. "Probablemente el más alto que hayamos visto nunca."
+
+Nos facilitaron estimaciones: entre 30 y 50 millones de espectadores simultáneos, sostenidos durante 90 minutos, concentrados en Corea del Sur con desbordamiento hacia países vecinos. Requisitos de ancho de banda máximo: desconocidos, pero sustancialmente superiores a cualquier evento anterior.
+
+Nuestro equipo de cuentas trasladó esto a nuestro equipo de operaciones con una nota: "¿Es esto un problema?"
+
+Nuestro VP de Operaciones revisó las cifras, comprobó la capacidad regional, ejecutó algunas proyecciones y respondió: "Estaremos bien. Probablemente."
+
+El "probablemente" nos inquietó lo suficiente como para prepararnos con mayor rigor.
+
+## Análisis de capacidad previo al evento
+
+Examinamos nuestra infraestructura surcoreana: 24 nodos edge en la región, cada uno capaz de servir 150Gbps en condiciones ideales. Capacidad regional máxima teórica: 3,6Tbps.
+
+Pero el máximo teórico asume una distribución de carga perfecta, sin requisitos de redundancia y sin tráfico de otros clientes. La capacidad utilizable en el mundo real suele situarse entre el 60 y el 70% del máximo teórico.
+
+Capacidad realista: aproximadamente 2,3Tbps.
+
+Las estimaciones de tráfico del cliente sugerían que podríamos necesitar entre 2,5 y 3,0Tbps.
+
+Podíamos quedarnos cortos por entre 200 y 700Gbps.
+
+## La ampliación de capacidad
+
+Teníamos cuatro días para añadir capacidad de ancho de banda en una región donde no podíamos instalar físicamente nuevos nodos edge con la rapidez suficiente. Nuestra solución involucró tres enfoques:
+
+### **Enfoque uno: reequilibrio de capacidad**
+
+Trasladamos temporalmente recursos de nodos edge desde regiones de menor tráfico hacia Corea del Sur. Los nodos de Australia y Japón que normalmente funcionaban al 30% de su capacidad se reconfiguraron para priorizar el tráfico con destino a Corea del Sur durante la ventana del evento.
+
+Esto no añadía capacidad, pero garantizaba que la máxima capacidad disponible se dirigiera allí donde más se necesitaba.
+
+### **Enfoque dos: optimización del almacenamiento en caché**
+
+El contenido era un archivo de vídeo de 90 minutos. Una vez almacenado en caché en los nodos edge, las solicitudes posteriores se servirían enteramente desde la caché sin tocar la infraestructura de origen.
+
+Posicionamos previamente el contenido en cada nodo edge de la región 12 horas antes del evento. También precacheamos el vídeo en múltiples niveles de calidad y segmentos de archivo para garantizar una entrega eficiente independientemente de la calidad de conexión del espectador.
+
+Tasa de aciertos de caché durante el evento: 99,94%. Casi ningún tráfico hacia el origen.
+
+### **Enfoque tres: enrutamiento predictivo del tráfico**
+
+Nuestro enrutamiento de tráfico normalmente se optimiza para la latencia, dirigiendo a los usuarios a su nodo edge más cercano. Para este evento, configuramos el enrutamiento para optimizar la distribución de la capacidad.
+
+Se dirigió a los usuarios a nodos con capacidad disponible en lugar de estrictamente a los nodos más cercanos. Esto introdujo entre 2 y 3ms de latencia adicional, pero evitó que un único nodo se saturara.
+
+## El evento comienza
+
+A las 19:30 hora local, 30 minutos antes del final, el tráfico comenzó a aumentar. Usuarios iniciando sesión, explorando contenido, preparándose para ver la serie.
+
+A las 19:55, el tráfico se aceleró rápidamente. Cinco minutos antes de que el episodio saliera en directo, nuestros nodos edge surcoreanos ya servían 400Gbps, aproximadamente el doble del tráfico habitual de una noche.
+
+A las 20:00:00, el final quedó disponible.
+
+El tráfico se disparó.
+
+## Comportamiento del tráfico máximo
+
+En los 60 segundos posteriores a la salida en directo del final, nuestro tráfico regional saltó de 400Gbps a 2,1Tbps. En tres minutos: 2,6Tbps. En el pico: 2,8Tbps sostenidos durante 73 minutos.
+
+Esto representaba aproximadamente el 77% de nuestra capacidad regional máxima teórica y el 95% de nuestra capacidad utilizable realista. Estábamos operando extremadamente cerca de los límites.
+
+Nuestros paneles de monitorización mostraban cada nodo edge de la región operando entre el 85 y el 95% de su capacidad. Ningún nodo superó los límites de seguridad, pero los márgenes eran ajustados.
+
+Nuestro equipo de operaciones observaba de forma obsesiva, listo para implementar un enrutamiento de tráfico de emergencia si algún nodo se aproximaba al 100% de su capacidad. Nunca ocurrió. La distribución de la carga se mantuvo notablemente uniforme en todos los nodos.
+
+## Qué mantuvo estable el sistema
+
+Varios factores evitaron la sobrecarga:
+
+**El precacheo fue esencial:** Como el contenido estaba posicionado previamente en los nodos edge, gestionamos el 99,94% de las solicitudes desde la caché. Si tan solo el 1% de las solicitudes hubiera llegado al origen, nuestra infraestructura de origen se habría colapsado bajo la carga.
+
+**El streaming progresivo de vídeo ayudó:** Los usuarios no descargaban archivos enteros de forma simultánea. Reproducían de manera progresiva, solicitando segmentos de vídeo según los necesitaban. Esto distribuyó la carga a lo largo del tiempo en lugar de generar una demanda masiva instantánea.
+
+**La adaptación de calidad funcionó a la perfección:** Nuestro protocolo de streaming ajusta automáticamente la calidad del vídeo en función del ancho de banda disponible. Cuando los nodos edge se aproximaban a su capacidad, algunos usuarios recibían automáticamente transmisiones de calidad ligeramente inferior, evitando la falta de búfer y manteniendo la reproducción.
+
+**La adaptación del enrutamiento de tráfico fue crucial:** A medida que ciertos nodos edge se aproximaban a sus límites de capacidad, nuestro sistema de enrutamiento dirigía automáticamente las nuevas conexiones a nodos con capacidad disponible. Esto sucedía de forma automática, miles de veces por segundo, manteniendo la carga equilibrada.
+
+**Cooperación del tráfico regional:** Nuestros nodos edge en países vecinos (Japón, China, Taiwán) sirvieron a los usuarios de habla coreana de esas regiones, evitando que todo el tráfico se concentrara en los nodos surcoreanos.
+
+## Lo único que salió mal
+
+Aproximadamente a los 18 minutos del final, un nodo edge de Seúl experimentó un breve pico de CPU. La utilización de la CPU alcanzó el 97% durante unos 45 segundos.
+
+Esto no provocó una degradación del servicio (el nodo siguió operando), pero desencadenó un desvío automático del tráfico. Nuestro sistema de enrutamiento redujo inmediatamente el tráfico hacia ese nodo en un 30%, repartiendo la carga entre otros nodos mientras se resolvía el pico.
+
+El pico de CPU fue causado por una inusual confluencia de factores: un número de conexiones extremadamente alto, una validación agresiva de la caché que ocurría simultáneamente con la entrega de contenido, y la recolección de basura en el sistema de caché, todo ello sucediendo en el mismo momento.
+
+Para cuando nuestro equipo de operaciones advirtió la alerta y comenzó a investigar, la mitigación automática ya había resuelto el problema. El nodo volvió a su funcionamiento normal, el enrutamiento de tráfico se reajustó y el evento continuó sin impacto para los usuarios.
+
+Más adelante identificamos y corregimos la ruta de código que provocaba una validación excesiva de la caché bajo alta carga. Los eventos futuros no experimentarán este problema.
+
+## Métricas de experiencia de usuario
+
+Hacemos un seguimiento obsesivo de las métricas de calidad del streaming:
+
+**Tasa de almacenamiento en búfer:** El 0,06% de las sesiones de visualización experimentó algún tipo de búfer. Esto es en realidad mejor que nuestra referencia habitual del 0,08%, posiblemente porque el contenido precacheado elimina algunas fuentes de variabilidad de latencia.
+
+**Calidad de vídeo media:** El 94% de los espectadores recibió calidad full HD o superior durante todo el evento. El 6% experimentó reducciones temporales de calidad durante los primeros minutos mientras se equilibraba la capacidad.
+
+**Fallos de reproducción:** 0,003%. Prácticamente cero. Los pocos fallos que observamos se debieron a problemas del lado del cliente (mala wifi local, problemas de dispositivo) y no a problemas de la CDN.
+
+**Quejas de usuarios:** Monitorizamos las redes sociales y los canales de atención al cliente. Cero quejas sobre búfer o problemas de calidad. Los usuarios comentaban el contenido del final, no su entrega.
+
+Desde la perspectiva de la experiencia de usuario, el evento fue indistinguible de un streaming normal.
+
+## El análisis posterior al evento
+
+Tras finalizar el capítulo, el tráfico descendió rápidamente. A las 22:00, dos horas después del inicio del episodio, el tráfico había vuelto a los niveles habituales de una noche.
+
+Nuestro equipo de operaciones dedicó la semana siguiente a analizar cada aspecto del evento:
+
+- Patrones de utilización de capacidad en todos los nodos edge
+- Decisiones de enrutamiento de tráfico y su eficacia
+- Tasas de aciertos de caché y eficiencia en la entrega de contenido
+- Uso de CPU y memoria bajo carga máxima
+- Utilización de la red y eficiencia del ancho de banda
+
+Conclusiones clave:
+
+**Teníamos aproximadamente 200Gbps de capacidad de reserva:** El tráfico máximo fue de 2,8Tbps frente a nuestra capacidad realista de 3,0Tbps. Un margen cómodo, pero no excesivo.
+
+**La distribución de la carga fue impresionantemente uniforme:** La desviación estándar en la utilización de los nodos fue de solo el 6%. Nuestro enrutamiento de tráfico logró un equilibrio de carga casi perfecto a pesar de no estar explícitamente optimizado para ello.
+
+**El precacheo era innegociable:** Sin él, el evento habría fracasado. La infraestructura de origen no habría podido gestionar ni siquiera el 1% de ese volumen de tráfico.
+
+**La gestión automática de capacidad funcionó:** Nuestros sistemas tomaron miles de decisiones de enrutamiento durante el evento sin intervención humana. Todas las decisiones fueron correctas.
+
+## Lo que aprendimos
+
+Los eventos de alto tráfico revelan verdades sobre la infraestructura:
+
+**El posicionamiento previo importa más que la capacidad bruta:** Tuvimos éxito no porque dispusiéramos de un ancho de banda infinito, sino porque el contenido estaba almacenado en caché de forma inteligente allí donde los usuarios lo solicitarían.
+
+**Los sistemas automáticos superan a los humanos durante los eventos pico:** Los operadores humanos no podían tomar decisiones de enrutamiento con la rapidez suficiente a esta escala. Los sistemas automatizados ajustaron la distribución del tráfico en milisegundos.
+
+**La planificación de márgenes es crítica:** Operar al 95% de la capacidad es incómodo pero manejable. Si hubiéramos planificado para una utilización de solo el 70%, habríamos necesitado una inversión en infraestructura significativamente mayor con un beneficio mínimo para las operaciones normales.
+
+**Las métricas de experiencia de usuario no se correlacionan linealmente con la utilización de la capacidad:** Operamos muy cerca de los límites de capacidad, pero la experiencia de usuario se mantuvo excelente. Una buena ingeniería hace que una alta utilización sea sostenible.
+
+## La reacción del cliente
+
+La plataforma de streaming se puso en contacto con nosotros al día siguiente. El mensaje de su CEO: "Lanzamos contra vuestra infraestructura todo lo que teníamos y ni se inmutó. Bien hecho."
+
+Nos facilitaron sus métricas internas: 41 millones de espectadores simultáneos en el pico, 97 minutos de tiempo medio de visualización, cero quejas de clientes sobre la calidad del streaming.
+
+Desde entonces han migrado todo su catálogo a nuestra CDN y nos han recomendado a otras plataformas de streaming.
+
+Un único evento exitoso en condiciones extremas generó más confianza de la que años de marketing podrían haber logrado.
+
+## Qué viene ahora
+
+Ahora nos estamos preparando activamente para eventos aún mayores. Nuestro análisis sugiere que podríamos llegar a servir entre 60 y 70 millones de transmisiones simultáneas si nos preparamos adecuadamente.
+
+Hemos ampliado nuestra infraestructura surcoreana, añadiendo capacidad redundante que esperamos no tener que utilizar nunca por completo. Hemos refinado nuestras estrategias de precacheo basándonos en lo que funcionó durante este evento. Hemos mejorado nuestra optimización de CPU para evitar el pico que se produjo.
+
+La próxima vez que un país entero decida reproducir algo simultáneamente, estaremos listos.
+
+Probablemente.

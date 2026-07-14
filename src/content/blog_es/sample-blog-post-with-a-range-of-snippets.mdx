@@ -1,0 +1,108 @@
+---
+_schema: default
+title: Entrada de blog de ejemplo con una variedad de Snippets
+description: >-
+  This is a sample blog post with a range of Snippets. You can make your own
+  Snippets with MDX components!
+date: 2026-02-18T00:00:00Z
+author: Anonymous
+image: /src/assets/images/blog-snippets.png
+tag: Example
+keywords: []
+---
+
+Bloguear en CloudCannon admite **Snippets**: componentes interactivos enriquecidos que van más allá del markdown estándar. Estos componentes MDX permiten diseños sofisticados, funcionalidad integrada y una mayor interacción de los usuarios sin necesidad de desarrollar código personalizado para cada publicación.
+
+Esta publicación muestra una variedad de Snippets de ejemplo, incluido texto de marcador de posición para cada uno. También puedes <a href="https://cloudcannon.com/documentation/developer-articles/snippets-using-mdx-components/" target="_blank" rel="noopener">crear tus propios Snippets con componentes MDX</a>.
+
+- [CTA Center](#cta-center)
+- [CTA Form](#cta-form)
+- [CTA Split](#cta-split)
+- [Embed](#embed)
+- [Sección de preguntas frecuentes](#faq-section)
+- [Feature Grid](#feature-grid)
+- [Feature Slider](#feature-slider)
+- [Feature Split](#feature-split)
+- [Formulario](#form)
+- [Imagen](#image)
+- [Tabla](#table)
+- [Sección de testimonios](#testimonial-section)
+- [Vídeo](#video)
+
+## CTA Center
+
+El Snippet CTA Center crea un bloque de llamada a la acción visualmente diferenciado dentro de tu contenido, con una variedad de opciones de color, fondo y presentación.
+
+<CtaCenter heading={"<p>Texto del encabezado principal para la sección CTA Center.</p>"} id="cta-center" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "eye", size: "lg", color: "default", background: true, alignmentHorizontal: "center" }} eyebrowText="Etiqueta opcional mostrada encima del encabezado de CTA Center." subtext="Subtexto opcional mostrado debajo del encabezado de CTA Center." buttonSections={[{ _component: "building-blocks/core-elements/button", text: "Texto del botón con icono opcional", hideText: null, link: "", iconName: "chat-bubble-bottom-center", iconPosition: "after", variant: "primary", size: "md" }]} maxContentWidth="xl" paddingVertical="2xl" colorScheme="light" backgroundColor="brand-linear-gradient-reverse" contentBackground={true} rounded={true} />
+
+## CTA Form
+
+El Snippet CTA Form incrusta un formulario de captación de clientes potenciales directamente en el cuerpo de tu contenido. Úsalo cuando quieras que los lectores soliciten información específica relacionada con el tema de la publicación.
+
+<CtaForm heading={"<p>Texto del encabezado principal para la sección CTA Form.</p>"} id="cta-form" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, alignmentHorizontal: "center" }} eyebrowText="Etiqueta opcional mostrada encima del encabezado de CTA Form." formBlocks={[{ _component: "building-blocks/forms/input", label: "Mi campo", name: "my_input", type: "text", placeholder: null, required: false, value: null }, { _component: "building-blocks/forms/input", label: "Mi campo", name: "my_input", type: "text", placeholder: null, required: false, value: null }, { _component: "building-blocks/forms/submit", text: "Enviar", variant: "primary", size: "md", iconName: null, iconPosition: "before", hideText: false, disabled: false }]} buttonSections={[{ _component: "building-blocks/core-elements/button", text: "Botón opcional con icono opcional", iconName: "briefcase", iconPosition: "after", variant: "primary", size: "md" }]} maxContentWidth="xl" paddingVertical="2xl" colorScheme="inherit" backgroundColor="accent" contentBackground={true} verticalOffset={{ size: "none", direction: "front" }} rounded={true} subtext="Subtexto opcional mostrado debajo del encabezado de CTA Form." />
+
+## CTA Split
+
+El Snippet CTA Split presenta dos opciones diferenciadas una al lado de la otra, como el Snippet Feature Split. (Ten en cuenta que puedes optar por crear Snippets muy similares con nombres diferentes, simplemente para facilitar las cosas a tus editores).
+
+<CtaSplit heading={"Titular para el CTA Split"} id="cta-split" subtext="Texto de apoyo debajo del titular." imageSource="/src/assets/images/blog-edge-nodes.png" imageAlt="Texto alternativo que describe la imagen del CTA." buttonSections={[{ _component: "building-blocks/core-elements/button", text: "Texto del botón con icono opcional", hideText: null, link: "", iconName: "chart-bar-square", iconPosition: "after", variant: "primary", size: "md" }]} colorScheme="inherit" backgroundColor="accent" rounded={true} />
+
+## Embed
+
+El Snippet Embed permite insertar contenido externo (vídeos, paneles, demos interactivas) directamente en las publicaciones mediante HTML sin procesar.
+
+<Embed aspectRatio="landscape"><iframe height="300" style="width: 100%;" scrolling="no" title="Night sky + Snow particles" src="https://codepen.io/Alexandra-Sevigny/embed/EayZPJx?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true"></iframe></Embed>
+
+## FAQ Section
+
+El Snippet FAQ Section presenta preguntas frecuentes en un formato de acordeón expandible, con opciones para el comportamiento de apertura del acordeón, el esquema de color y el color de fondo.
+
+<FaqSection heading={"<p>Texto del encabezado principal para la sección de preguntas frecuentes.</p>"} id="faq-section" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "question-mark-circle", size: "lg", color: "default", background: true, alignmentHorizontal: "center" }} eyebrowText="Etiqueta opcional mostrada encima del encabezado de preguntas frecuentes." subtext="Subtexto opcional mostrado debajo del encabezado de preguntas frecuentes." items={[{ _component: "building-blocks/wrappers/accordion/accordion-item", title: "Texto de la pregunta 1", contentSections: [{ _component: "building-blocks/core-elements/text", text: "Aquí va el texto de la respuesta.", alignmentHorizontal: "start" }] }, { _component: "building-blocks/wrappers/accordion/accordion-item", title: "Texto de la pregunta 2", contentSections: [{ _component: "building-blocks/core-elements/text", text: "Aquí va el texto de la respuesta.", alignmentHorizontal: "start" }] }, { _component: "building-blocks/wrappers/accordion/accordion-item", title: "Texto de la pregunta 3", contentSections: [{ _component: "building-blocks/core-elements/text", text: "Aquí va el texto de la respuesta.", alignmentHorizontal: "start" }] }]} singleOpen={true} openFirst={true} maxContentWidth="xl" paddingVertical="2xl" colorScheme="inherit" backgroundColor="highlight-grid" contentBackground={true} verticalOffset={{ size: "none", direction: "front" }} rounded={true} />
+
+## Feature Grid
+
+El Snippet Feature Grid muestra varias tarjetas relacionadas en un diseño estructurado, presentando características u opciones de precios. Configura estas tarjetas con anchos y alturas personalizados dentro de una cuadrícula.
+
+<FeatureGrid heading={"<p>Texto del encabezado principal para la sección Feature Grid.</p>"} id="feature-grid" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, alignmentHorizontal: "center" }} eyebrowText="Etiqueta opcional mostrada encima del encabezado de Feature Grid." subtext="Subtexto opcional mostrado debajo del encabezado de Feature Grid." featureGrid={{ features: [{ _component: "page-sections/features/feature-grid/feature-item", link: "", image: { source: "", alt: "", rounded: false }, eyebrowIcon: { _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, iconOffset: false, alignmentHorizontal: "start" }, eyebrowText: "Marcador de posición de eyebrow", title: "Título de la característica", description: "Texto de marcador de posición de la descripción de la característica que se reemplazará con contenido real. Este texto de marcador de posición es algo más largo, porque esta tarjeta está configurada para ocupar dos filas en la cuadrícula en lugar de una.", columnSpan: 4, rowSpan: 2 }, { _component: "page-sections/features/feature-grid/feature-item", link: "", image: { source: "", alt: "", rounded: false }, eyebrowIcon: { _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, iconOffset: false, alignmentHorizontal: "start" }, eyebrowText: "Marcador de posición de eyebrow", title: "Título de la característica", description: "Texto de marcador de posición de la descripción de la característica que se reemplazará con contenido real.", columnSpan: 8, rowSpan: 1 }, { _component: "page-sections/features/feature-grid/pricing-item", title: "Encabezado de precios", price: { prefix: "$", amount: "1", suffix: "/mes" }, subtext: "Subtexto opcional mostrado debajo del encabezado.", list: { _component: "building-blocks/core-elements/list", items: [{ text: "Elemento de lista 1", iconName: "heart", iconColor: "default", link: "" }, { text: "Elemento de lista 2", iconName: "heart", iconColor: "default", link: "" }, { text: "Elemento de lista 3", iconName: "heart", iconColor: "default", link: "" }], direction: "vertical", alignmentHorizontal: "start", size: "md", listType: "icon" }, button: { _component: "building-blocks/core-elements/button", text: "Comenzar", hideText: false, link: "https://cloudcannon.com/templates/jetstream/", iconName: "arrow-right", iconPosition: "after", variant: "secondary", size: "md" }, columnSpan: 4, rowSpan: 1 }, { _component: "page-sections/features/feature-grid/feature-item", link: "", image: { source: "", alt: "", rounded: false }, eyebrowIcon: { _component: "building-blocks/core-elements/icon", name: "bolt", size: "lg", color: "default", background: true, iconOffset: false, alignmentHorizontal: "start" }, eyebrowText: "Marcador de posición de eyebrow", title: "Título de la característica", description: "Texto de marcador de posición de la descripción de la característica que se reemplazará con contenido real.", columnSpan: 4, rowSpan: 1 }], backgroundColor: "accent", gridBackgroundMaxWidth: "none", gridMaxWidth: "2xl", rounded: true, overhang: false }} maxContentWidth="xl" paddingVertical="2xl" colorScheme="inherit" backgroundColor="accent" verticalOffset={{ size: "none", direction: "front" }} rounded={true} />
+
+## Feature Slider
+
+El Snippet Feature Slider presenta características en un formato de carrusel interactivo. Úsalo para características secuenciales o cuando el espacio es limitado.
+
+<FeatureSlider paddingVertical="md" slides={[{ _component: "page-sections/features/feature-slider/feature-slider-item", eyebrow: "Texto de eyebrow opcional mostrado encima del título", title: "Título de la diapositiva 1", description: "Descripción breve para esta diapositiva.", imageSource: "/src/assets/images/blog-edge-nodes.png", imageAlt: "Texto alternativo de la imagen de la diapositiva", minSplitWidth: 0 }, { _component: "page-sections/features/feature-slider/feature-slider-item", eyebrow: "Texto de eyebrow opcional mostrado encima del título", title: "Título de la diapositiva 2", description: "Descripción breve para esta diapositiva.", imageSource: "/src/assets/images/blog-edge-nodes.png", imageAlt: "Texto alternativo de la imagen de la diapositiva", minSplitWidth: 0 }, { _component: "page-sections/features/feature-slider/feature-slider-item", eyebrow: "Texto de eyebrow opcional mostrado encima del título", title: "Título de la diapositiva 3", description: "Descripción breve para esta diapositiva.", imageSource: "/src/assets/images/blog-edge-nodes.png", imageAlt: "Texto alternativo de la imagen de la diapositiva", minSplitWidth: 0 }]} colorScheme="light" backgroundColor="brand-linear-gradient-muted" id="feature-slider" rounded={true}/>
+
+## Feature Split
+
+El Snippet Feature Split presenta un único encabezado y área de texto junto a una imagen, con la opción de elegir cuál aparece primero.
+
+<FeatureSplit eyebrow="Texto de eyebrow opcional mostrado encima del encabezado" heading={"Encabezado principal para la sección dividida"} subtext="Texto de cuerpo de apoyo debajo del encabezado." buttonSections={[{ _component: "building-blocks/core-elements/button", text: "Texto del botón con icono opcional", hideText: null, link: "", iconName: "", iconPosition: "before", variant: "primary", size: "md" }]} imageSource="/src/assets/images/blog-edge-nodes.png" imageAspectRatio="landscape" imageRounded={true} reverse={true} colorScheme="light" backgroundColor="brand-linear-gradient-muted" id="feature-split" rounded={true}/>
+
+## Form
+
+El Snippet Form independiente crea formularios personalizados, listos para conectarse a <a href="https://cloudcannon.com/documentation/developer-articles/what-is-a-form/" target="_blank" rel="noopener">CloudCannon Forms</a>.
+
+<Form formBlocks={[{ _component: "building-blocks/forms/input", label: "Mi correo electrónico", name: "my_email", type: "email", placeholder: "name@example.com", required: true, value: null }, { _component: "building-blocks/forms/select", label: "Elige una opción", name: "option", required: true, options: [{ value: "option1", label: "Opción 1" }, { value: "option2", label: "Opción 2" }, { value: "option3", label: "Opción 3" }], placeholder: "Establece una opción predeterminada opcional", value: "option2" }, { _component: "building-blocks/forms/date", label: "Elige una fecha", name: "my_date", required: false, value: "2026-01-01T15:30:00Z", min: null, max: null }, { _component: "building-blocks/forms/file-upload", label: "Sube un archivo", name: "upload", required: false, accept: ".webp", multiple: false }, { _component: "building-blocks/forms/input", label: "Nombre", name: "my_input", type: "text", placeholder: "Nombre", required: false, value: null }, { _component: "building-blocks/forms/textarea", label: "Añade un comentario", name: "my_comment", required: false, placeholder: "Cuéntanos todos tus secretos", value: null }, { _component: "building-blocks/forms/submit", text: "Enviar", variant: "primary", size: "md", iconName: null, iconPosition: "before", hideText: false, disabled: false }]} id="form"/>
+
+## Image
+
+El Snippet de imagen mejorada ofrece más control que las imágenes de markdown estándar, incluida la opción de redondear las esquinas, establecer la relación de aspecto y opciones de diseño horizontal / vertical.
+
+<Image source="/src/assets/images/blog-edge-nodes.png" alt="Snippet de imagen de ejemplo, configurado con una relación de aspecto de 16:5 y esquinas redondeadas." rounded={true} aspectRatio="horizontal-strip" id="image"/>
+
+## Table
+
+El Snippet de tabla mejorada ofrece una tabla con estilo, con encabezados de columna, etiquetas de sección para grupos de filas y todas las filas y columnas que puedas colocar en tu página.
+
+<Table heading={"<p>Encabezado de la tabla</p>"} id="table" eyebrowIcon={{ _component: "building-blocks/core-elements/icon", name: "table-cells", size: "lg", color: "brand-gradient", background: true, alignmentHorizontal: "center" }} eyebrowText="Etiqueta opcional mostrada encima del encabezado de la tabla." subtext="Subtexto opcional mostrado debajo del encabezado de la tabla." table={{ headers: [{ hideText: true, text: "Encabezado" }, { text: "Encabezado Uno" }, { text: "Encabezado Dos" }, { text: "Encabezado Tres" }], sections: [{ sectionName: "Sección Uno", rows: [{ cells: ["Celda uno", "Celda dos", "Celda tres"] }, { cells: ["Celda uno", "Celda dos", "Celda tres"] }] }, { sectionName: "Sección Dos", rows: [{ cells: ["Celda uno", "Celda dos", "Celda tres"] }, { cells: ["Celda uno", "Celda dos", "Celda tres"] }] }, { sectionName: "Sección Tres", rows: [{ cells: ["Celda uno", "Celda dos", "Celda tres"] }] }] }} maxContentWidth="xl" paddingVertical="md" colorScheme="inherit" backgroundColor="none" verticalOffset={{ size: "none", direction: "front" }} />
+
+## Testimonial Section
+
+El Snippet Testimonial Section muestra citas con atribución, con opciones estandarizadas para el esquema de color y el color de fondo.
+
+<TestimonialSection id="testimonial-section" text="Las secciones de testimonios son mi forma favorita de generar confianza y validar las afirmaciones de ventas en todos mis canales de marketing." authorName="Robin Poynter" authorDescription="Redactora publicitaria de marcador de posición, Jetstream" authorImage="/src/assets/images/testimonial.png" paddingVertical="md" colorScheme="dark" backgroundColor="brand-linear-gradient-muted"/>
+
+## Video
+
+El Snippet Video incrusta contenido de vídeo desde fuentes alojadas externamente (Vimeo, YouTube) o desde archivos alojados localmente.
+
+<Video id="video" type="youtube" title="Rick Astley - Never Gonna Give You Up (Official Video)" videoId="dQw4w9WgXcQ"/>

@@ -1,0 +1,1807 @@
+{
+  "about:0:heading": {
+    "original": "  <p><span class=\"highlight-text\">We exist to make the internet work</span> the way people assume it already does.</p>  ",
+    "value": "  <p><span class=\"highlight-text\">Existimos para hacer que internet funcione</span> como la gente da por sentado que ya funciona.</p>  ",
+    "_base_original": "  <p><span class=\"highlight-text\">We exist to make the internet work</span> the way people assume it already does.</p>  "
+  },
+  "about:0:title": {
+    "original": " Our mission ",
+    "value": " Nuestra misión ",
+    "_base_original": " Our mission "
+  },
+  "about:1:0:0:eyebrowText": {
+    "original": " Global reach ",
+    "value": " Alcance global ",
+    "_base_original": " Global reach "
+  },
+  "about:1:0:0:heading": {
+    "original": " 847 edge nodes, six continents ",
+    "value": " 847 nodos perimetrales, seis continentes ",
+    "_base_original": " 847 edge nodes, six continents "
+  },
+  "about:1:0:0:text": {
+    "original": "  <p>Your content lives closer to your users than their nearest coffee shop, with redundant routing that assumes failure is always one misconfigured router away.</p>\n  ",
+    "value": "  <p>Su contenido reside más cerca de sus usuarios que su cafetería más próxima, con enrutamiento redundante que asume que un fallo siempre está a un router mal configurado de distancia.</p>\n  ",
+    "_base_original": "  <p>Your content lives closer to your users than their nearest coffee shop, with redundant routing that assumes failure is always one misconfigured router away.</p>\n  "
+  },
+  "about:1:0:2:eyebrowText": {
+    "original": " Automatic everything ",
+    "value": " Todo automático ",
+    "_base_original": " Automatic everything "
+  },
+  "about:1:0:2:heading": {
+    "original": " Infrastructure that manages itself ",
+    "value": " Infraestructura que se gestiona sola ",
+    "_base_original": " Infrastructure that manages itself "
+  },
+  "about:1:0:2:text": {
+    "original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  ",
+    "value": "  <p>Las renovaciones SSL, el enrutamiento del tráfico, la detección de amenazas y el escalado de capacidad ocurren sin intervención humana: nuestros sistemas toman mejores decisiones y más rápido de lo que las personas pueden.</p>\n  ",
+    "_base_original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  "
+  },
+  "about:1:0:4:eyebrowText": {
+    "original": " Real-time visibility ",
+    "value": " Visibilidad en tiempo real ",
+    "_base_original": " Real-time visibility "
+  },
+  "about:1:0:4:heading": {
+    "original": " Analytics that update in a snap ",
+    "value": " Analíticas que se actualizan en un abrir y cerrar de ojos ",
+    "_base_original": " Analytics that update in a snap "
+  },
+  "about:1:0:4:text": {
+    "original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  ",
+    "value": "  <p>Supervise cada solicitud y cada posible amenaza mediante paneles que le muestran lo que ocurre ahora, no hace cinco minutos.</p>\n  ",
+    "_base_original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  "
+  },
+  "about:1:0:5:eyebrowText": {
+    "original": " Zero-trust security ",
+    "value": " Seguridad de confianza cero ",
+    "_base_original": " Zero-trust security "
+  },
+  "about:1:0:5:heading": {
+    "original": " Assume everything is a threat ",
+    "value": " Asuma que todo es una amenaza ",
+    "_base_original": " Assume everything is a threat "
+  },
+  "about:1:0:5:text": {
+    "original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  ",
+    "value": "  <p>Cada solicitud se verifica, cada conexión se cifra y cada intento de inicio de sesión es examinado por sistemas que nunca se cansan ni se confían.</p>\n  ",
+    "_base_original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  "
+  },
+  "about:1:1:0:eyebrowText": {
+    "original": " Automatic everything ",
+    "value": " Todo automático ",
+    "_base_original": " Automatic everything "
+  },
+  "about:1:1:0:heading": {
+    "original": " Infrastructure that manages itself ",
+    "value": " Infraestructura que se gestiona sola ",
+    "_base_original": " Infrastructure that manages itself "
+  },
+  "about:1:1:0:text": {
+    "original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  ",
+    "value": "  <p>Las renovaciones SSL, el enrutamiento del tráfico, la detección de amenazas y el escalado de capacidad ocurren sin intervención humana: nuestros sistemas toman mejores decisiones y más rápido de lo que las personas pueden.</p>\n  ",
+    "_base_original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  "
+  },
+  "about:1:1:1:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:1:1:heading": {
+    "original": " Multiple backups for our backups ",
+    "value": " Múltiples copias de seguridad de nuestras copias de seguridad ",
+    "_base_original": " Multiple backups for our backups "
+  },
+  "about:1:1:1:text": {
+    "original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  ",
+    "value": "  <p>Los puntos únicos de fallo son defectos de diseño que hemos eliminado por completo mediante sistemas redundantes, enrutamiento diverso y una dosis sana de paranoia.</p>\n  ",
+    "_base_original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  "
+  },
+  "about:1:1:3:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:1:3:heading": {
+    "original": " Redundancy layers all the way down ",
+    "value": " Capas de redundancia hasta el fondo ",
+    "_base_original": " Redundancy layers all the way down "
+  },
+  "about:1:1:3:text": {
+    "original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  ",
+    "value": "  <p>Cada sistema crítico tiene una copia de seguridad. Cada copia de seguridad tiene otra copia de seguridad. Dejamos de contar después de la quinta capa, pero sin duda están ahí.</p>\n  ",
+    "_base_original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  "
+  },
+  "about:1:1:6:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:1:6:heading": {
+    "original": " Trust nothing, backup everything ",
+    "value": " No confíe en nada, respalde todo ",
+    "_base_original": " Trust nothing, backup everything "
+  },
+  "about:1:1:6:text": {
+    "original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  ",
+    "value": "  <p>Si es crítico, es redundante. Si es redundante, tiene una copia de seguridad. Nuestra infraestructura asume que un fallo siempre está a una mala configuración de producirse.</p>\n  ",
+    "_base_original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  "
+  },
+  "about:1:2:0:eyebrowText": {
+    "original": " Real-time visibility ",
+    "value": " Visibilidad en tiempo real ",
+    "_base_original": " Real-time visibility "
+  },
+  "about:1:2:0:heading": {
+    "original": " Analytics that update in a snap ",
+    "value": " Analíticas que se actualizan en un abrir y cerrar de ojos ",
+    "_base_original": " Analytics that update in a snap "
+  },
+  "about:1:2:0:text": {
+    "original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  ",
+    "value": "  <p>Supervise cada solicitud y cada posible amenaza mediante paneles que le muestran lo que ocurre ahora, no hace cinco minutos.</p>\n  ",
+    "_base_original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  "
+  },
+  "about:1:3:0:eyebrowText": {
+    "original": " Zero-trust security ",
+    "value": " Seguridad de confianza cero ",
+    "_base_original": " Zero-trust security "
+  },
+  "about:1:3:0:heading": {
+    "original": " Assume everything is a threat ",
+    "value": " Asuma que todo es una amenaza ",
+    "_base_original": " Assume everything is a threat "
+  },
+  "about:1:3:0:text": {
+    "original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  ",
+    "value": "  <p>Cada solicitud se verifica, cada conexión se cifra y cada intento de inicio de sesión es examinado por sistemas que nunca se cansan ni se confían.</p>\n  ",
+    "_base_original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  "
+  },
+  "about:1:4:0:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:4:0:heading": {
+    "original": " Multiple backups for our backups ",
+    "value": " Múltiples copias de seguridad de nuestras copias de seguridad ",
+    "_base_original": " Multiple backups for our backups "
+  },
+  "about:1:4:0:text": {
+    "original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  ",
+    "value": "  <p>Los puntos únicos de fallo son defectos de diseño que hemos eliminado por completo mediante sistemas redundantes, enrutamiento diverso y una dosis sana de paranoia.</p>\n  ",
+    "_base_original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  "
+  },
+  "about:1:5:0:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:5:0:heading": {
+    "original": " Redundancy layers all the way down ",
+    "value": " Capas de redundancia hasta el fondo ",
+    "_base_original": " Redundancy layers all the way down "
+  },
+  "about:1:5:0:text": {
+    "original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  ",
+    "value": "  <p>Cada sistema crítico tiene una copia de seguridad. Cada copia de seguridad tiene otra copia de seguridad. Dejamos de contar después de la quinta capa, pero sin duda están ahí.</p>\n  ",
+    "_base_original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  "
+  },
+  "about:1:6:0:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:1:6:0:heading": {
+    "original": " Trust nothing, backup everything ",
+    "value": " No confíe en nada, respalde todo ",
+    "_base_original": " Trust nothing, backup everything "
+  },
+  "about:1:6:0:text": {
+    "original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  ",
+    "value": "  <p>Si es crítico, es redundante. Si es redundante, tiene una copia de seguridad. Nuestra infraestructura asume que un fallo siempre está a una mala configuración de producirse.</p>\n  ",
+    "_base_original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  "
+  },
+  "about:1:heading": {
+    "original": "  Our core commitments  ",
+    "value": "  Nuestros compromisos fundamentales  ",
+    "_base_original": "  Our core commitments  "
+  },
+  "about:2:heading": {
+    "original": "  How it all began  ",
+    "value": "  Cómo empezó todo  ",
+    "_base_original": "  How it all began  "
+  },
+  "about:2:items.0.date": {
+    "original": " March 2019 ",
+    "value": " Marzo de 2019 ",
+    "_base_original": " March 2019 "
+  },
+  "about:2:items.0.heading": {
+    "original": " The 3am decision ",
+    "value": " La decisión de las 3 de la madrugada ",
+    "_base_original": " The 3am decision "
+  },
+  "about:2:items.0.text": {
+    "original": "  <p>We founded Jetstream after a particularly frustrating 3am incident response call convinced our co-founders that existing solutions lacked sufficient ambition.</p>\n  ",
+    "value": "  <p>Fundamos Jetstream después de que una llamada de respuesta a incidentes especialmente frustrante, a las 3 de la madrugada, convenciera a nuestros cofundadores de que las soluciones existentes carecían de suficiente ambición.</p>\n  ",
+    "_base_original": "  <p>We founded Jetstream after a particularly frustrating 3am incident response call convinced our co-founders that existing solutions lacked sufficient ambition.</p>\n  "
+  },
+  "about:2:items.1.date": {
+    "original": " August 2019 ",
+    "value": " Agosto de 2019 ",
+    "_base_original": " August 2019 "
+  },
+  "about:2:items.1.heading": {
+    "original": " First node goes live ",
+    "value": " El primer nodo entra en funcionamiento ",
+    "_base_original": " First node goes live "
+  },
+  "about:2:items.1.text": {
+    "original": "  <p>Our first edge node deployed in Singapore. We then monitored it obsessively for three weeks straight.</p>\n  ",
+    "value": "  <p>Nuestro primer nodo perimetral se desplegó en Singapur. Después lo supervisamos obsesivamente durante tres semanas seguidas.</p>\n  ",
+    "_base_original": "  <p>Our first edge node deployed in Singapore. We then monitored it obsessively for three weeks straight.</p>\n  "
+  },
+  "about:2:items.2.date": {
+    "original": " February 2020 ",
+    "value": " Febrero de 2020 ",
+    "_base_original": " February 2020 "
+  },
+  "about:2:items.2.heading": {
+    "original": " Trial by traffic ",
+    "value": " Prueba de fuego por tráfico ",
+    "_base_original": " Trial by traffic "
+  },
+  "about:2:items.2.text": {
+    "original": "  <p>We successfully mitigated our first major DDoS attack (4.2Tbps); our engineering team celebrated with a pizza-and-additional-monitoring-party.</p>\n  ",
+    "value": "  <p>Mitigamos con éxito nuestro primer gran ataque DDoS (4.2Tbps); nuestro equipo de ingeniería lo celebró con una fiesta de pizza y monitorización adicional.</p>\n  ",
+    "_base_original": "  <p>We successfully mitigated our first major DDoS attack (4.2Tbps); our engineering team celebrated with a pizza-and-additional-monitoring-party.</p>\n  "
+  },
+  "about:2:items.3.date": {
+    "original": " November 2022 ",
+    "value": " Noviembre de 2022 ",
+    "_base_original": " November 2022 "
+  },
+  "about:2:items.3.heading": {
+    "original": " Certificates that renew themselves ",
+    "value": " Certificados que se renuevan solos ",
+    "_base_original": " Certificates that renew themselves "
+  },
+  "about:2:items.3.text": {
+    "original": "  <p>We launched automated SSL certificate management after customer support received their 10,000th \"help, my certificate expired\" ticket.</p>\n  ",
+    "value": "  <p>Lanzamos la gestión automatizada de certificados SSL después de que el equipo de soporte recibiera su ticket número 10 000 de «ayuda, mi certificado ha caducado».</p>\n  ",
+    "_base_original": "  <p>We launched automated SSL certificate management after customer support received their 10,000th \"help, my certificate expired\" ticket.</p>\n  "
+  },
+  "about:2:items.4.date": {
+    "original": " September 2025 ",
+    "value": " Septiembre de 2025 ",
+    "_base_original": " September 2025 "
+  },
+  "about:2:items.4.heading": {
+    "original": " Achieved 847 global edge nodes ",
+    "value": " Alcanzamos 847 nodos perimetrales globales ",
+    "_base_original": " Achieved 847 global edge nodes "
+  },
+  "about:2:items.4.text": {
+    "original": "  <p>Our original three-person engineering team now leads a department of 200 who share their pathological intolerance for downtime.</p>\n  ",
+    "value": "  <p>Nuestro equipo de ingeniería original de tres personas ahora dirige un departamento de 200 que comparten su intolerancia patológica al tiempo de inactividad.</p>\n  ",
+    "_base_original": "  <p>Our original three-person engineering team now leads a department of 200 who share their pathological intolerance for downtime.</p>\n  "
+  },
+  "about:2:subtext": {
+    "original": "  <p>Architecture discussions in a poorly-ventilated office became a working prototype, then a functioning network, then a company that takes global internet infrastructure perhaps more seriously than is strictly necessary.</p>\n  ",
+    "value": "  <p>Las discusiones sobre arquitectura en una oficina mal ventilada se convirtieron en un prototipo funcional, luego en una red operativa y después en una empresa que se toma la infraestructura global de internet quizá más en serio de lo estrictamente necesario.</p>\n  ",
+    "_base_original": "  <p>Architecture discussions in a poorly-ventilated office became a working prototype, then a functioning network, then a company that takes global internet infrastructure perhaps more seriously than is strictly necessary.</p>\n  "
+  },
+  "about:3:heading": {
+    "original": "  The team behind the network  ",
+    "value": "  El equipo detrás de la red  ",
+    "_base_original": "  The team behind the network  "
+  },
+  "about:3:subtext": {
+    "original": " Engineers, optimists, and people who refuse to accept that anything is impossible until proven otherwise. ",
+    "value": " Ingenieros, optimistas y personas que se niegan a aceptar que algo sea imposible hasta que se demuestre lo contrario. ",
+    "_base_original": " Engineers, optimists, and people who refuse to accept that anything is impossible until proven otherwise. "
+  },
+  "about:4:heading": {
+    "original": "  Join the team that takes infrastructure personally  ",
+    "value": "  Únase al equipo que se toma la infraestructura como algo personal  ",
+    "_base_original": "  Join the team that takes infrastructure personally  "
+  },
+  "accordion": {
+    "original": "Accordion",
+    "value": "Acordeón",
+    "_base_original": "Accordion"
+  },
+  "back-to-site": {
+    "original": "← Back to site",
+    "value": "← Volver al sitio",
+    "_base_original": "← Back to site"
+  },
+  "bar": {
+    "original": "Bar",
+    "value": "Barra",
+    "_base_original": "Bar"
+  },
+  "bento-box": {
+    "original": "Bento Box",
+    "value": "Bento Box",
+    "_base_original": "Bento Box"
+  },
+  "bento-box-grid": {
+    "original": "Bento Box Grid",
+    "value": "Cuadrícula Bento Box",
+    "_base_original": "Bento Box Grid"
+  },
+  "blog:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/2:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/2:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/2:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/2:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/2:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/2:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/2:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/2:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/five-signs-your-cdn-is-lying-to-you-about-cache-hit-rates:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/five-signs-your-cdn-is-lying-to-you-about-cache-hit-rates:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/five-signs-your-cdn-is-lying-to-you-about-cache-hit-rates:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/how-we-achieve-99-999-uptime-redundancy-paranoia-and-spite:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/how-we-achieve-99-999-uptime-redundancy-paranoia-and-spite:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/how-we-achieve-99-999-uptime-redundancy-paranoia-and-spite:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:description": {
+    "original": "  <p>Feature description placeholder text that will be replaced with actual content. This placeholder text is slightly longer, because this card is set to take up two rows in the grid rather than one.</p>\n  ",
+    "value": "  <p>Texto de marcador de posición de la descripción de la función que se reemplazará por contenido real. Este texto de marcador de posición es algo más largo, porque esta tarjeta está configurada para ocupar dos filas de la cuadrícula en lugar de una.</p>\n  ",
+    "_base_original": "  <p>Feature description placeholder text that will be replaced with actual content. This placeholder text is slightly longer, because this card is set to take up two rows in the grid rather than one.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:eyebrow": {
+    "original": "  Optional eyebrow text displayed above the title  ",
+    "value": "  Texto de sobretítulo opcional que se muestra encima del título  ",
+    "_base_original": "  Optional eyebrow text displayed above the title  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:eyebrowText": {
+    "original": "  Eyebrow placeholder  ",
+    "value": "  Marcador de posición de sobretítulo  ",
+    "_base_original": "  Eyebrow placeholder  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:text": {
+    "original": "  <p>Answer text goes here.</p>\n  ",
+    "value": "  <p>El texto de la respuesta va aquí.</p>\n  ",
+    "_base_original": "  <p>Answer text goes here.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:0:title": {
+    "original": " Feature title ",
+    "value": " Título de la función ",
+    "_base_original": " Feature title "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:1:description": {
+    "original": "  <p>Feature description placeholder text that will be replaced with actual content.</p>\n  ",
+    "value": "  <p>Texto de marcador de posición de la descripción de la función que se reemplazará por contenido real.</p>\n  ",
+    "_base_original": "  <p>Feature description placeholder text that will be replaced with actual content.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:1:eyebrow": {
+    "original": "  Optional eyebrow text displayed above the title  ",
+    "value": "  Texto de sobretítulo opcional que se muestra encima del título  ",
+    "_base_original": "  Optional eyebrow text displayed above the title  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:1:eyebrowText": {
+    "original": "  Eyebrow placeholder  ",
+    "value": "  Marcador de posición de sobretítulo  ",
+    "_base_original": "  Eyebrow placeholder  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:1:title": {
+    "original": " Feature title ",
+    "value": " Título de la función ",
+    "_base_original": " Feature title "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:description": {
+    "original": "  <p>Short description for this slide.</p>\n  ",
+    "value": "  <p>Descripción breve de esta diapositiva.</p>\n  ",
+    "_base_original": "  <p>Short description for this slide.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:eyebrow": {
+    "original": "  Optional eyebrow text displayed above the title  ",
+    "value": "  Texto de sobretítulo opcional que se muestra encima del título  ",
+    "_base_original": "  Optional eyebrow text displayed above the title  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:subtext": {
+    "original": "  <p>Optional subtext displayed beneath the heading.</p>\n  ",
+    "value": "  <p>Subtexto opcional que se muestra debajo del encabezado.</p>\n  ",
+    "_base_original": "  <p>Optional subtext displayed beneath the heading.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:text": {
+    "original": " List item 1 ",
+    "value": " Elemento de lista 1 ",
+    "_base_original": " List item 1 "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:2:title": {
+    "original": " Pricing heading ",
+    "value": " Encabezado de precios ",
+    "_base_original": " Pricing heading "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:3:description": {
+    "original": "  <p>Feature description placeholder text that will be replaced with actual content.</p>\n  ",
+    "value": "  <p>Texto de marcador de posición de la descripción de la función que se reemplazará por contenido real.</p>\n  ",
+    "_base_original": "  <p>Feature description placeholder text that will be replaced with actual content.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:3:eyebrowText": {
+    "original": "  Eyebrow placeholder  ",
+    "value": "  Marcador de posición de sobretítulo  ",
+    "_base_original": "  Eyebrow placeholder  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:3:title": {
+    "original": " Feature title ",
+    "value": " Título de la función ",
+    "_base_original": " Feature title "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:eyebrow": {
+    "original": "  Optional eyebrow text displayed above the heading  ",
+    "value": "  Texto de sobretítulo opcional que se muestra encima del encabezado  ",
+    "_base_original": "  Optional eyebrow text displayed above the heading  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:eyebrowText": {
+    "original": " Optional label displayed above the CTA Center heading. ",
+    "value": " Etiqueta opcional que se muestra encima del encabezado de CTA Center. ",
+    "_base_original": " Optional label displayed above the CTA Center heading. "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:heading": {
+    "original": "  <p>Main heading text for the CTA Center section.</p>  ",
+    "value": "  <p>Texto del encabezado principal de la sección CTA Center.</p>  ",
+    "_base_original": "  <p>Main heading text for the CTA Center section.</p>  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:subtext": {
+    "original": "  <p>Optional subtext displayed beneath the CTA Center heading.</p>\n  ",
+    "value": "  <p>Subtexto opcional que se muestra debajo del encabezado de CTA Center.</p>\n  ",
+    "_base_original": "  <p>Optional subtext displayed beneath the CTA Center heading.</p>\n  "
+  },
+  "blog/sample-blog-post-with-a-range-of-snippets:text": {
+    "original": "  <p>Testimonial sections are my favorite way to build trust, and validate sales claims across my marketing channels.</p>\n  ",
+    "value": "  <p>Las secciones de testimonios son mi forma favorita de generar confianza y validar las afirmaciones de ventas en mis canales de marketing.</p>\n  ",
+    "_base_original": "  <p>Testimonial sections are my favorite way to build trust, and validate sales claims across my marketing channels.</p>\n  "
+  },
+  "blog/sample-blog-post-with-all-markdown-styling-options:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/sample-blog-post-with-all-markdown-styling-options:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/sample-blog-post-with-all-markdown-styling-options:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/ssl-certificates-a-love-story-about-automation-and-trust:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/ssl-certificates-a-love-story-about-automation-and-trust:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/ssl-certificates-a-love-story-about-automation-and-trust:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/tag/Caching:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Caching:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Caching:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Caching:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Caching:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Caching:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Caching:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Caching:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/CDN:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/CDN:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/CDN:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/CDN:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/CDN:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/CDN:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/CDN:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/CDN:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Downtime:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Downtime:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Downtime:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Downtime:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Downtime:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Downtime:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Downtime:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Downtime:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Example:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Example:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Example:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Example:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Example:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Example:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Example:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Example:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Performance:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Performance:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Performance:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Performance:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Performance:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Performance:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Performance:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Performance:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Photons:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Photons:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Photons:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Photons:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Photons:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Photons:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Photons:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Photons:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Prediction:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Prediction:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Prediction:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Prediction:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Prediction:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Prediction:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Prediction:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Prediction:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Security:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Security:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Security:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Security:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Security:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Security:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Security:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Security:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Uptime:0:0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Uptime:0:1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Uptime:0:2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Uptime:0:3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Uptime:0:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Uptime:0:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Uptime:0:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Uptime:0:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/the-great-ddos-attack-of-last-tuesday-a-postmortem:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/the-great-ddos-attack-of-last-tuesday-a-postmortem:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/the-great-ddos-attack-of-last-tuesday-a-postmortem:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/the-meeting-where-we-decided-downtime-was-optional:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/the-meeting-where-we-decided-downtime-was-optional:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/the-meeting-where-we-decided-downtime-was-optional:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/we-added-47-edge-nodes-last-month-and-nobody-noticed:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/we-added-47-edge-nodes-last-month-and-nobody-noticed:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/we-added-47-edge-nodes-last-month-and-nobody-noticed:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/what-happened-when-an-entire-country-tried-to-stream-the-same-thing:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/what-happened-when-an-entire-country-tried-to-stream-the-same-thing:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/what-happened-when-an-entire-country-tried-to-stream-the-same-thing:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/what-happens-when-you-ping-our-network-10-billion-times:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/what-happens-when-you-ping-our-network-10-billion-times:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/what-happens-when-you-ping-our-network-10-billion-times:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/why-our-engineers-get-excited-about-fiber-optic-cables:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/why-our-engineers-get-excited-about-fiber-optic-cables:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/why-our-engineers-get-excited-about-fiber-optic-cables:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/why-we-rebuilt-our-dns-resolver-from-scratch-again:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/why-we-rebuilt-our-dns-resolver-from-scratch-again:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/why-we-rebuilt-our-dns-resolver-from-scratch-again:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "blog/your-traffic-patterns-are-more-predictable-than-you-think:breadcrumb_blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog/your-traffic-patterns-are-more-predictable-than-you-think:share_article": {
+    "original": " \nShare this article:\n ",
+    "value": " \nCompartir este artículo:\n ",
+    "_base_original": " \nShare this article:\n "
+  },
+  "blog/your-traffic-patterns-are-more-predictable-than-you-think:sidebar_latest": {
+    "original": " Latest News ",
+    "value": " Últimas noticias ",
+    "_base_original": " Latest News "
+  },
+  "builders": {
+    "original": "Builders",
+    "value": "Constructores",
+    "_base_original": "Builders"
+  },
+  "building-a-page-section": {
+    "original": "Building a Page Section",
+    "value": "Crear una sección de página",
+    "_base_original": "Building a Page Section"
+  },
+  "building-blocks": {
+    "original": "Building Blocks",
+    "value": "Bloques de construcción",
+    "_base_original": "Building Blocks"
+  },
+  "button": {
+    "original": "Button",
+    "value": "Botón",
+    "_base_original": "Button"
+  },
+  "button-group": {
+    "original": "Button Group",
+    "value": "Grupo de botones",
+    "_base_original": "Button Group"
+  },
+  "card": {
+    "original": "Card",
+    "value": "Tarjeta",
+    "_base_original": "Card"
+  },
+  "carousel": {
+    "original": "Carousel",
+    "value": "Carrusel",
+    "_base_original": "Carousel"
+  },
+  "choice-group": {
+    "original": "Choice Group",
+    "value": "Grupo de opciones",
+    "_base_original": "Choice Group"
+  },
+  "component-builder": {
+    "original": "Component Builder",
+    "value": "Constructor de componentes",
+    "_base_original": "Component Builder"
+  },
+  "contact:0:heading": {
+    "original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  ",
+    "value": "  ¿Necesita más información?<br><span class=\"highlight-text\">Contáctenos</span>  ",
+    "_base_original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  "
+  },
+  "contact:0:subtext": {
+    "original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  ",
+    "value": "  <p>Nuestro equipo de soluciones está listo con respuestas y un nivel de entusiasmo apropiado.</p>\n  ",
+    "_base_original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  "
+  },
+  "content-selector": {
+    "original": "Content Selector",
+    "value": "Selector de contenido",
+    "_base_original": "Content Selector"
+  },
+  "core-elements": {
+    "original": "Core Elements",
+    "value": "Elementos básicos",
+    "_base_original": "Core Elements"
+  },
+  "counter": {
+    "original": "Counter",
+    "value": "Contador",
+    "_base_original": "Counter"
+  },
+  "cta-center": {
+    "original": "CTA Center",
+    "value": "CTA Center",
+    "_base_original": "CTA Center"
+  },
+  "cta-form": {
+    "original": "CTA Form",
+    "value": "Formulario CTA",
+    "_base_original": "CTA Form"
+  },
+  "cta-split": {
+    "original": "CTA Split",
+    "value": "CTA dividido",
+    "_base_original": "CTA Split"
+  },
+  "ctas": {
+    "original": "CTAs",
+    "value": "CTAs",
+    "_base_original": "CTAs"
+  },
+  "custom-section": {
+    "original": "Custom Section",
+    "value": "Sección personalizada",
+    "_base_original": "Custom Section"
+  },
+  "customizing-your-brand": {
+    "original": "Customizing Your Brand",
+    "value": "Personalizar su marca",
+    "_base_original": "Customizing Your Brand"
+  },
+  "date": {
+    "original": "Date",
+    "value": "Fecha",
+    "_base_original": "Date"
+  },
+  "definition-list": {
+    "original": "Definition List",
+    "value": "Lista de definiciones",
+    "_base_original": "Definition List"
+  },
+  "divider": {
+    "original": "Divider",
+    "value": "Divisor",
+    "_base_original": "Divider"
+  },
+  "editing-a-page": {
+    "original": "Editing a Page",
+    "value": "Editar una página",
+    "_base_original": "Editing a Page"
+  },
+  "editing-the-blog": {
+    "original": "Editing the Blog",
+    "value": "Editar el blog",
+    "_base_original": "Editing the Blog"
+  },
+  "embed": {
+    "original": "Embed",
+    "value": "Insertar",
+    "_base_original": "Embed"
+  },
+  "faq-section": {
+    "original": "FAQ Section",
+    "value": "Sección de preguntas frecuentes",
+    "_base_original": "FAQ Section"
+  },
+  "feature-carousel-grid": {
+    "original": "Feature Carousel Grid",
+    "value": "Cuadrícula de carrusel de funciones",
+    "_base_original": "Feature Carousel Grid"
+  },
+  "feature-grid": {
+    "original": "Feature Grid",
+    "value": "Cuadrícula de funciones",
+    "_base_original": "Feature Grid"
+  },
+  "feature-slider": {
+    "original": "Feature Slider",
+    "value": "Control deslizante de funciones",
+    "_base_original": "Feature Slider"
+  },
+  "feature-split": {
+    "original": "Feature Split",
+    "value": "Función dividida",
+    "_base_original": "Feature Split"
+  },
+  "features": {
+    "original": "Features",
+    "value": "Funciones",
+    "_base_original": "Features"
+  },
+  "file-upload": {
+    "original": "File Upload",
+    "value": "Carga de archivos",
+    "_base_original": "File Upload"
+  },
+  "footer": {
+    "original": "Footer",
+    "value": "Pie de página",
+    "_base_original": "Footer"
+  },
+  "footer:about": {
+    "original": "About",
+    "value": "Acerca de",
+    "_base_original": "About"
+  },
+  "footer:blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "footer:contact": {
+    "original": "Contact",
+    "value": "Contacto",
+    "_base_original": "Contact"
+  },
+  "footer:home": {
+    "original": "Home",
+    "value": "Inicio",
+    "_base_original": "Home"
+  },
+  "footer:legal": {
+    "original": "  <p>© 2026 All rights reserved.</p>\n  ",
+    "value": "  <p>© 2026 Todos los derechos reservados.</p>\n  ",
+    "_base_original": "  <p>© 2026 All rights reserved.</p>\n  "
+  },
+  "footer:pricing": {
+    "original": "Pricing",
+    "value": "Precios",
+    "_base_original": "Pricing"
+  },
+  "form": {
+    "original": "Form",
+    "value": "Formulario",
+    "_base_original": "Form"
+  },
+  "forms": {
+    "original": "Forms",
+    "value": "Formularios",
+    "_base_original": "Forms"
+  },
+  "getting-started": {
+    "original": "Getting Started",
+    "value": "Primeros pasos",
+    "_base_original": "Getting Started"
+  },
+  "grid": {
+    "original": "Grid",
+    "value": "Cuadrícula",
+    "_base_original": "Grid"
+  },
+  "heading": {
+    "original": "Heading",
+    "value": "Encabezado",
+    "_base_original": "Heading"
+  },
+  "hero-card": {
+    "original": "Hero Card",
+    "value": "Hero Card",
+    "_base_original": "Hero Card"
+  },
+  "hero-center": {
+    "original": "Hero Center",
+    "value": "Hero Center",
+    "_base_original": "Hero Center"
+  },
+  "hero-split": {
+    "original": "Hero Split",
+    "value": "Hero Split",
+    "_base_original": "Hero Split"
+  },
+  "heroes": {
+    "original": "Heroes",
+    "value": "Heroes",
+    "_base_original": "Heroes"
+  },
+  "hidden": {
+    "original": "Hidden",
+    "value": "Oculto",
+    "_base_original": "Hidden"
+  },
+  "home": {
+    "original": "Home",
+    "value": "Inicio",
+    "_base_original": "Home"
+  },
+  "how-visual-editing-works": {
+    "original": "How Visual Editing Works",
+    "value": "Cómo funciona la edición visual",
+    "_base_original": "How Visual Editing Works"
+  },
+  "icon": {
+    "original": "Icon",
+    "value": "Icono",
+    "_base_original": "Icon"
+  },
+  "image": {
+    "original": "Image",
+    "value": "Imagen",
+    "_base_original": "Image"
+  },
+  "image-carousel": {
+    "original": "Image Carousel",
+    "value": "Carrusel de imágenes",
+    "_base_original": "Image Carousel"
+  },
+  "index:0:heading": {
+    "original": "  Introducing<br><span class=\"highlight-text\">Jetstream</span>  ",
+    "value": "  Presentamos<br><span class=\"highlight-text\">Jetstream</span>  ",
+    "_base_original": "  Introducing<br><span class=\"highlight-text\">Jetstream</span>  "
+  },
+  "index:0:subtext": {
+    "original": "  <p>A new Astro template by CloudCannon, built with our <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> for top performance, true visual editing, and an ideal developer experience.</p>\n  ",
+    "value": "  <p>Una nueva plantilla de Astro de CloudCannon, creada con nuestro <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> para un rendimiento óptimo, edición visual real y una experiencia de desarrollo ideal.</p>\n  ",
+    "_base_original": "  <p>A new Astro template by CloudCannon, built with our <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> for top performance, true visual editing, and an ideal developer experience.</p>\n  "
+  },
+  "index:1:heading": {
+    "original": "  We’ve solved the internet for the world’s most ambitious engineering teams.  ",
+    "value": "  Hemos resuelto internet para los equipos de ingeniería más ambiciosos del mundo.  ",
+    "_base_original": "  We’ve solved the internet for the world’s most ambitious engineering teams.  "
+  },
+  "index:2:0:description": {
+    "original": "  <p>Your websites will load faster than human perception allows. We're not saying we've broken the laws of physics, but our CDN operates at speeds that would make light jealous.</p>\n  ",
+    "value": "  <p>Sus sitios web se cargarán más rápido de lo que permite la percepción humana. No decimos que hayamos roto las leyes de la física, pero nuestra CDN funciona a velocidades que darían envidia a la luz.</p>\n  ",
+    "_base_original": "  <p>Your websites will load faster than human perception allows. We're not saying we've broken the laws of physics, but our CDN operates at speeds that would make light jealous.</p>\n  "
+  },
+  "index:2:0:title": {
+    "original": " Content delivery acceleration ",
+    "value": " Aceleración de entrega de contenido ",
+    "_base_original": " Content delivery acceleration "
+  },
+  "index:2:1:description": {
+    "original": "  <p>Bad actors don't stand a chance against our behavioral analysis engines, which have been trained on every known attack pattern, plus several we invented just to be thorough.</p>\n  ",
+    "value": "  <p>Los actores malintencionados no tienen ninguna oportunidad frente a nuestros motores de análisis de comportamiento, entrenados con todos los patrones de ataque conocidos, más varios que inventamos solo por ser minuciosos.</p>\n  ",
+    "_base_original": "  <p>Bad actors don't stand a chance against our behavioral analysis engines, which have been trained on every known attack pattern, plus several we invented just to be thorough.</p>\n  "
+  },
+  "index:2:1:eyebrowText": {
+    "original": "  We've got this.  ",
+    "value": "  Nosotros nos encargamos.  ",
+    "_base_original": "  We've got this.  "
+  },
+  "index:2:1:title": {
+    "original": " DDoS mitigation that never sleeps ",
+    "value": " Mitigación de DDoS que nunca duerme ",
+    "_base_original": " DDoS mitigation that never sleeps "
+  },
+  "index:2:2:description": {
+    "original": "  <p>We trust nothing and verify everything, twice. Sometimes three times if it's Tuesday. Our security team operates under the principle that paranoia isn't a bug — it's a feature we bill for.</p>\n  ",
+    "value": "  <p>No confiamos en nada y lo verificamos todo, dos veces. A veces tres si es martes. Nuestro equipo de seguridad opera bajo el principio de que la paranoia no es un error: es una función por la que facturamos.</p>\n  ",
+    "_base_original": "  <p>We trust nothing and verify everything, twice. Sometimes three times if it's Tuesday. Our security team operates under the principle that paranoia isn't a bug — it's a feature we bill for.</p>\n  "
+  },
+  "index:2:2:title": {
+    "original": " Zero-trust security framework ",
+    "value": " Marco de seguridad de confianza cero ",
+    "_base_original": " Zero-trust security framework "
+  },
+  "index:2:3:description": {
+    "original": "  <p>Our automated certificate lifecycle system renews your SSL certificates before they even think about expiring. We've eliminated the 3am renewal panic entirely.</p>\n  ",
+    "value": "  <p>Nuestro sistema automatizado de ciclo de vida de certificados renueva sus certificados SSL antes de que siquiera piensen en caducar. Hemos eliminado por completo el pánico de las renovaciones a las 3 de la madrugada.</p>\n  ",
+    "_base_original": "  <p>Our automated certificate lifecycle system renews your SSL certificates before they even think about expiring. We've eliminated the 3am renewal panic entirely.</p>\n  "
+  },
+  "index:2:3:title": {
+    "original": " Automated SSL / TLS management ",
+    "value": " Gestión automatizada de SSL / TLS ",
+    "_base_original": " Automated SSL / TLS management "
+  },
+  "index:2:4:description": {
+    "original": "  <p>Our global DNS infrastructure responds in fractions of milliseconds that require new units of measurement. Your domain names resolve before users finished typing them.</p>\n  ",
+    "value": "  <p>Nuestra infraestructura DNS global responde en fracciones de milisegundo que requieren nuevas unidades de medida. Sus nombres de dominio se resuelven antes de que los usuarios terminen de escribirlos.</p>\n  ",
+    "_base_original": "  <p>Our global DNS infrastructure responds in fractions of milliseconds that require new units of measurement. Your domain names resolve before users finished typing them.</p>\n  "
+  },
+  "index:2:4:title": {
+    "original": " DNS resolution bordering on prescient ",
+    "value": " Resolución de DNS que roza lo profético ",
+    "_base_original": " DNS resolution bordering on prescient "
+  },
+  "index:2:heading": {
+    "original": "  Jetstream protects what matters most: <br>your uptime percentage  ",
+    "value": "  Jetstream protege lo que más importa: <br>su porcentaje de tiempo activo  ",
+    "_base_original": "  Jetstream protects what matters most: <br>your uptime percentage  "
+  },
+  "index:2:subtext": {
+    "original": "  <p>Everything you need to scale from boutique team to a global enterprise without the operational friction —&nbsp;or the science fiction.</p>\n  ",
+    "value": "  <p>Todo lo que necesita para escalar de un equipo boutique a una empresa global sin la fricción operativa —&nbsp;ni la ciencia ficción.</p>\n  ",
+    "_base_original": "  <p>Everything you need to scale from boutique team to a global enterprise without the operational friction —&nbsp;or the science fiction.</p>\n  "
+  },
+  "index:3:0:0:text": {
+    "original": "  We implemented our low-latency routing protocol and deployed dedicated health sector edge nodes with HIPAA-compliant encryption that doesn't slow things down.<br>Doctors can read patient expressions in real-time, and medical care is delivered at the speed of actual conversation — which, our research indicates, is how medical care should work.  ",
+    "value": "  Implementamos nuestro protocolo de enrutamiento de baja latencia y desplegamos nodos perimetrales dedicados al sector sanitario con cifrado conforme a HIPAA que no ralentiza las cosas.<br>Los médicos pueden leer las expresiones de los pacientes en tiempo real, y la atención médica se presta a la velocidad de una conversación real — lo que, según indica nuestra investigación, es como debería funcionar la atención médica.  ",
+    "_base_original": "  We implemented our low-latency routing protocol and deployed dedicated health sector edge nodes with HIPAA-compliant encryption that doesn't slow things down.<br>Doctors can read patient expressions in real-time, and medical care is delivered at the speed of actual conversation — which, our research indicates, is how medical care should work.  "
+  },
+  "index:3:1:1:text": {
+    "original": "  <p><strong>Reduction in connection quality complaints</strong></p>\n  ",
+    "value": "  <p><strong>Reducción de las quejas sobre la calidad de la conexión</strong></p>\n  ",
+    "_base_original": "  <p><strong>Reduction in connection quality complaints</strong></p>\n  "
+  },
+  "index:3:1:3:text": {
+    "original": "  <p><strong>More numbers than other companies</strong></p>\n  ",
+    "value": "  <p><strong>Más cifras que otras empresas</strong></p>\n  ",
+    "_base_original": "  <p><strong>More numbers than other companies</strong></p>\n  "
+  },
+  "index:3:heading": {
+    "original": "  Customer solutions that solve themselves  ",
+    "value": "  Soluciones para clientes que se resuelven solas  ",
+    "_base_original": "  Customer solutions that solve themselves  "
+  },
+  "index:3:subtext": {
+    "original": " We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart. ",
+    "value": " No solo proporcionamos infraestructura — proporcionamos infraestructura que entiende su negocio. Y su corazón. ",
+    "_base_original": " We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart. "
+  },
+  "index:4:text": {
+    "original": "  <p>Downtime used to be a weekly crisis. Now it's a theoretical concept we vaguely remember.</p>\n  ",
+    "value": "  <p>El tiempo de inactividad solía ser una crisis semanal. Ahora es un concepto teórico que recordamos vagamente.</p>\n  ",
+    "_base_original": "  <p>Downtime used to be a weekly crisis. Now it's a theoretical concept we vaguely remember.</p>\n  "
+  },
+  "index:5:0:subtext": {
+    "original": "  <p>For organizations that need reliability</p>\n  ",
+    "value": "  <p>Para organizaciones que necesitan fiabilidad</p>\n  ",
+    "_base_original": "  <p>For organizations that need reliability</p>\n  "
+  },
+  "index:5:0:text": {
+    "original": " Global CDN with 800+ edge nodes ",
+    "value": " CDN global con más de 800 nodos perimetrales ",
+    "_base_original": " Global CDN with 800+ edge nodes "
+  },
+  "index:5:0:title": {
+    "original": " Standard ",
+    "value": " Estándar ",
+    "_base_original": " Standard "
+  },
+  "index:5:1:subtext": {
+    "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
+    "value": "  <p>Para organizaciones que se niegan a aceptar el concepto de tiempo de inactividad</p>\n  ",
+    "_base_original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  "
+  },
+  "index:5:1:text": {
+    "original": " Priority traffic routing ",
+    "value": " Enrutamiento de tráfico prioritario ",
+    "_base_original": " Priority traffic routing "
+  },
+  "index:5:1:title": {
+    "original": " Team ",
+    "value": " Equipo ",
+    "_base_original": " Team "
+  },
+  "index:5:heading": {
+    "original": "  Pricing that scales with your ambition  ",
+    "value": "  Precios que escalan con su ambición  ",
+    "_base_original": "  Pricing that scales with your ambition  "
+  },
+  "index:5:subtext": {
+    "original": "  <p>Choose the plan that matches your current infrastructure needs, then upgrade when your inevitable success makes it necessary. We'll be here, ready with congratulations and additional bandwidth.</p>\n  ",
+    "value": "  <p>Elija el plan que se ajuste a sus necesidades de infraestructura actuales y actualícelo cuando su éxito inevitable lo haga necesario. Estaremos aquí, listos con felicitaciones y ancho de banda adicional.</p>\n  ",
+    "_base_original": "  <p>Choose the plan that matches your current infrastructure needs, then upgrade when your inevitable success makes it necessary. We'll be here, ready with congratulations and additional bandwidth.</p>\n  "
+  },
+  "index:6:heading": {
+    "original": "  Ready for performance that defies conventional wisdom?  ",
+    "value": "  ¿Listo para un rendimiento que desafía la sabiduría convencional?  ",
+    "_base_original": "  Ready for performance that defies conventional wisdom?  "
+  },
+  "info-blocks": {
+    "original": "Info Blocks",
+    "value": "Bloques de información",
+    "_base_original": "Info Blocks"
+  },
+  "input": {
+    "original": "Input",
+    "value": "Entrada",
+    "_base_original": "Input"
+  },
+  "list": {
+    "original": "List",
+    "value": "Lista",
+    "_base_original": "List"
+  },
+  "logo-strip": {
+    "original": "Logo Strip",
+    "value": "Tira de logotipos",
+    "_base_original": "Logo Strip"
+  },
+  "main-nav": {
+    "original": "Main Nav",
+    "value": "Navegación principal",
+    "_base_original": "Main Nav"
+  },
+  "mobile": {
+    "original": "Mobile",
+    "value": "Móvil",
+    "_base_original": "Mobile"
+  },
+  "modal": {
+    "original": "Modal",
+    "value": "Modal",
+    "_base_original": "Modal"
+  },
+  "nav:about": {
+    "original": "About",
+    "value": "Acerca de",
+    "_base_original": "About"
+  },
+  "nav:blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "nav:contact": {
+    "original": "Contact",
+    "value": "Contacto",
+    "_base_original": "Contact"
+  },
+  "nav:features": {
+    "original": "Features",
+    "value": "Funciones",
+    "_base_original": "Features"
+  },
+  "nav:get-started": {
+    "original": "Get started",
+    "value": "Comenzar",
+    "_base_original": "Get started"
+  },
+  "nav:pricing": {
+    "original": "Pricing",
+    "value": "Precios",
+    "_base_original": "Pricing"
+  },
+  "nav:problems-we-ve-solved": {
+    "original": "Problems we've solved ↓",
+    "value": "Problemas que hemos resuelto ↓",
+    "_base_original": "Problems we've solved ↓"
+  },
+  "nav:search": {
+    "original": "Search",
+    "value": "Buscar",
+    "_base_original": "Search"
+  },
+  "nav:what-we-do-best": {
+    "original": "What we do best ↓",
+    "value": "Lo que mejor hacemos ↓",
+    "_base_original": "What we do best ↓"
+  },
+  "navigation": {
+    "original": "Navigation",
+    "value": "Navegación",
+    "_base_original": "Navigation"
+  },
+  "page-sections": {
+    "original": "Page Sections",
+    "value": "Secciones de página",
+    "_base_original": "Page Sections"
+  },
+  "pagination": {
+    "original": "Pagination",
+    "value": "Paginación",
+    "_base_original": "Pagination"
+  },
+  "people": {
+    "original": "People",
+    "value": "Personas",
+    "_base_original": "People"
+  },
+  "pricing:0:heading": {
+    "original": "  Pricing designed<br>by <span class=\"highlight-text\">engineers</span><br>who know value  ",
+    "value": "  Precios diseñados<br>por <span class=\"highlight-text\">ingenieros</span><br>que conocen el valor  ",
+    "_base_original": "  Pricing designed<br>by <span class=\"highlight-text\">engineers</span><br>who know value  "
+  },
+  "pricing:0:subtext": {
+    "original": "  <p>We’ve eliminated the confusion typically associated with infrastructure pricing <br>through a strategy we call \"being straightforward about what things cost.\"</p>\n  ",
+    "value": "  <p>Hemos eliminado la confusión que suele asociarse a los precios de infraestructura <br>mediante una estrategia que llamamos «ser claros sobre lo que cuestan las cosas».</p>\n  ",
+    "_base_original": "  <p>We’ve eliminated the confusion typically associated with infrastructure pricing <br>through a strategy we call \"being straightforward about what things cost.\"</p>\n  "
+  },
+  "pricing:1:0:subtext": {
+    "original": "  <p>For organizations that need reliability</p>\n  ",
+    "value": "  <p>Para organizaciones que necesitan fiabilidad</p>\n  ",
+    "_base_original": "  <p>For organizations that need reliability</p>\n  "
+  },
+  "pricing:1:0:text": {
+    "original": " Global CDN with 800+ edge nodes ",
+    "value": " CDN global con más de 800 nodos perimetrales ",
+    "_base_original": " Global CDN with 800+ edge nodes "
+  },
+  "pricing:1:0:title": {
+    "original": " Standard ",
+    "value": " Estándar ",
+    "_base_original": " Standard "
+  },
+  "pricing:1:1:subtext": {
+    "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
+    "value": "  <p>Para organizaciones que se niegan a aceptar el concepto de tiempo de inactividad</p>\n  ",
+    "_base_original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  "
+  },
+  "pricing:1:1:text": {
+    "original": " Priority traffic routing ",
+    "value": " Enrutamiento de tráfico prioritario ",
+    "_base_original": " Priority traffic routing "
+  },
+  "pricing:1:1:title": {
+    "original": " Team ",
+    "value": " Equipo ",
+    "_base_original": " Team "
+  },
+  "pricing:1:2:subtext": {
+    "original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  ",
+    "value": "  <p>Para organizaciones que consideran la infraestructura una ventaja competitiva</p>\n  ",
+    "_base_original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  "
+  },
+  "pricing:1:2:text": {
+    "original": " Custom API rate limits ",
+    "value": " Límites de tasa de API personalizados ",
+    "_base_original": " Custom API rate limits "
+  },
+  "pricing:1:2:title": {
+    "original": " Enterprise ",
+    "value": " Empresa ",
+    "_base_original": " Enterprise "
+  },
+  "pricing:2:heading": {
+    "original": "  Compare plan features  ",
+    "value": "  Compare las funciones de los planes  ",
+    "_base_original": "  Compare plan features  "
+  },
+  "pricing:3:0:0:text": {
+    "original": "  <p>Approximately seven minutes for basic setup, assuming you can type reasonably fast and don't get distracted.</p>\n<p>Our onboarding process involves pointing your DNS at our nameservers and letting our automation handle the rest.</p>\n<p>For more complex migrations requiring custom configurations, our team can have you operational within 24 hours.</p>\n<p>We've timed it. Multiple times. With stopwatches.</p>\n  ",
+    "value": "  <p>Aproximadamente siete minutos para la configuración básica, suponiendo que escriba razonablemente rápido y no se distraiga.</p>\n<p>Nuestro proceso de incorporación consiste en apuntar su DNS a nuestros servidores de nombres y dejar que nuestra automatización se encargue del resto.</p>\n<p>Para migraciones más complejas que requieran configuraciones personalizadas, nuestro equipo puede dejarle operativo en un plazo de 24 horas.</p>\n<p>Lo hemos cronometrado. Varias veces. Con cronómetros.</p>\n  ",
+    "_base_original": "  <p>Approximately seven minutes for basic setup, assuming you can type reasonably fast and don't get distracted.</p>\n<p>Our onboarding process involves pointing your DNS at our nameservers and letting our automation handle the rest.</p>\n<p>For more complex migrations requiring custom configurations, our team can have you operational within 24 hours.</p>\n<p>We've timed it. Multiple times. With stopwatches.</p>\n  "
+  },
+  "pricing:3:heading": {
+    "original": "  Common questions  ",
+    "value": "  Preguntas frecuentes  ",
+    "_base_original": "  Common questions  "
+  },
+  "pricing:4:heading": {
+    "original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  ",
+    "value": "  ¿Necesita más información?<br><span class=\"highlight-text\">Contáctenos</span>  ",
+    "_base_original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  "
+  },
+  "pricing:4:subtext": {
+    "original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  ",
+    "value": "  <p>Nuestro equipo de soluciones está listo con respuestas y un nivel de entusiasmo apropiado.</p>\n  ",
+    "_base_original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  "
+  },
+  "project-tour": {
+    "original": "Project Tour",
+    "value": "Recorrido por el proyecto",
+    "_base_original": "Project Tour"
+  },
+  "range": {
+    "original": "Range",
+    "value": "Rango",
+    "_base_original": "Range"
+  },
+  "search:0:heading": {
+    "original": "  How can we help?  ",
+    "value": "  ¿Cómo podemos ayudar?  ",
+    "_base_original": "  How can we help?  "
+  },
+  "search:0:subtext": {
+    "original": "  <p>We've indexed every page on our website with the kind of thoroughness that borders on excessive.</p>\n  ",
+    "value": "  <p>Hemos indexado cada página de nuestro sitio web con una minuciosidad que roza lo excesivo.</p>\n  ",
+    "_base_original": "  <p>We've indexed every page on our website with the kind of thoroughness that borders on excessive.</p>\n  "
+  },
+  "segments": {
+    "original": "Segments",
+    "value": "Segmentos",
+    "_base_original": "Segments"
+  },
+  "select": {
+    "original": "Select",
+    "value": "Selector",
+    "_base_original": "Select"
+  },
+  "side": {
+    "original": "Side",
+    "value": "Lateral",
+    "_base_original": "Side"
+  },
+  "simple-text": {
+    "original": "Simple Text",
+    "value": "Texto simple",
+    "_base_original": "Simple Text"
+  },
+  "spacer": {
+    "original": "Spacer",
+    "value": "Espaciador",
+    "_base_original": "Spacer"
+  },
+  "split": {
+    "original": "Split",
+    "value": "Dividido",
+    "_base_original": "Split"
+  },
+  "submit": {
+    "original": "Submit",
+    "value": "Enviar",
+    "_base_original": "Submit"
+  },
+  "tabbed-content": {
+    "original": "Tabbed Content",
+    "value": "Contenido en pestañas",
+    "_base_original": "Tabbed Content"
+  },
+  "table": {
+    "original": "Table",
+    "value": "Tabla",
+    "_base_original": "Table"
+  },
+  "team-grid": {
+    "original": "Team Grid",
+    "value": "Cuadrícula de equipo",
+    "_base_original": "Team Grid"
+  },
+  "testimonial": {
+    "original": "Testimonial",
+    "value": "Testimonio",
+    "_base_original": "Testimonial"
+  },
+  "testimonial-section": {
+    "original": "Testimonial Section",
+    "value": "Sección de testimonios",
+    "_base_original": "Testimonial Section"
+  },
+  "text": {
+    "original": "Text",
+    "value": "Texto",
+    "_base_original": "Text"
+  },
+  "textarea": {
+    "original": "Textarea",
+    "value": "Área de texto",
+    "_base_original": "Textarea"
+  },
+  "timeline": {
+    "original": "Timeline",
+    "value": "Cronología",
+    "_base_original": "Timeline"
+  },
+  "toggle": {
+    "original": "Toggle",
+    "value": "Interruptor",
+    "_base_original": "Toggle"
+  },
+  "video": {
+    "original": "Video",
+    "value": "Vídeo",
+    "_base_original": "Video"
+  },
+  "video-modal": {
+    "original": "Video Modal",
+    "value": "Modal de vídeo",
+    "_base_original": "Video Modal"
+  },
+  "wrappers": {
+    "original": "Wrappers",
+    "value": "Envoltorios",
+    "_base_original": "Wrappers"
+  }
+}

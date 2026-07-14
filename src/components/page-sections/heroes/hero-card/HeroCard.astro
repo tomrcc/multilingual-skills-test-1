@@ -252,6 +252,7 @@ const snakePath =
           finalCard.counters.map((counter: any, index: number) => (
             <div
               class="counter-container"
+              data-rosey-ns={counter._uuid ?? String(index)}
               {...(!card.usePost && { "data-editable": "array-item" })}
             >
               <Counter

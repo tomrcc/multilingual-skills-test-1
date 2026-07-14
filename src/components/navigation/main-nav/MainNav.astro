@@ -4,6 +4,7 @@ import Bar from "@components/navigation/bar/Bar.astro";
 import Mobile from "@components/navigation/mobile/Mobile.astro";
 import ThemeToggle from "@components/navigation/theme-toggle/ThemeToggle.astro";
 import Image from "@core-elements/image/Image.astro";
+import LocalePicker from "@navigation/locale-picker/LocalePicker.astro";
 import ButtonGroup from "@wrappers/button-group/ButtonGroup.astro";
 
 type NavButton = {
@@ -44,6 +45,7 @@ const mobileNavData = [
   colorScheme="light"
   backgroundColor=""
   class:list={["main-nav", className]}
+  data-rosey-ns="nav"
   {...htmlAttributes}
   useDefaultEditableBinding={false}
 >
@@ -65,6 +67,7 @@ const mobileNavData = [
       class="desktop-main-nav"
     />
 
+    <LocalePicker class="desktop-locale-picker" />
     {themeToggle && <ThemeToggle />}
     <ButtonGroup
       direction="row"

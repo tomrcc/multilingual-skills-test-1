@@ -59,8 +59,8 @@
     }
 
     blockquote {
-      border-left: 3px solid var(--color-border);
-      padding-left: var(--spacing-sm);
+      border-inline-start: 3px solid var(--color-border);
+      padding-inline-start: var(--spacing-sm);
     }
 
     .eyebrow {

@@ -1,0 +1,121 @@
+---
+_schema: default
+title: Por qué a nuestros ingenieros les entusiasman los cables de fibra óptica
+description: >-
+  There's something deeply satisfying about photons traveling at the speed of
+  light through glass, and we're here to explain why.
+date: 2026-02-04T00:00:00Z
+author: abd48cd0-7d1e-43e4-ba1c-5921e60cc87a
+image: /src/assets/images/blog-fiberoptic.png
+tag: Photons
+---
+
+El mes pasado, uno de nuestros ingenieros de redes sénior dedicó 45 minutos a explicar por qué una nueva ruta de cable de fibra óptica entre Singapore y Tokyo lo entusiasmaba de verdad. Su entusiasmo era contagioso y ligeramente preocupante.
+
+Pero tenía razón en estar entusiasmado. La infraestructura física importa más de lo que la mayoría de la gente cree.
+
+## La física de la luz en el vidrio
+
+Los cables de fibra óptica transmiten datos como pulsos de luz a través de vidrio extremadamente puro. La luz viaja por este vidrio a aproximadamente 200.000 kilómetros por segundo, cerca de dos tercios de la velocidad de la luz en el vacío.
+
+Esto suena rápido. Es rápido. También es el límite de velocidad fundamental para la transmisión de datos a distancia.
+
+Cuando solicitas un sitio web, tu solicitud viaja como pulsos de luz a través de cables de fibra óptica hasta un servidor, que procesa la solicitud y envía una respuesta que regresa a ti a través de los cables. El tiempo total depende principalmente de la distancia física que la luz debe recorrer.
+
+De Singapore a Tokyo hay aproximadamente 5.300 kilómetros. La luz que viaja a través de la fibra tarda unos 26 milisegundos en cubrir esta distancia. Súmale algo de sobrecarga por el enrutamiento y el procesamiento de la señal: aproximadamente 30 milisegundos de latencia mínima.
+
+Este es un límite físico rígido. No podemos hacer que la luz viaje más rápido a través del vidrio. La única forma de reducir la latencia es reducir la distancia.
+
+## Por qué importan las rutas de los cables
+
+No todos los cables de fibra siguen la ruta más directa. Los cables submarinos siguen las costas, evitan obstáculos geográficos y se conectan en las estaciones de aterrizaje disponibles. La ruta entre dos ciudades podría ser considerablemente más larga que la distancia en línea recta.
+
+La antigua ruta de fibra entre Singapore y Tokyo era de aproximadamente 6.800 kilómetros, un 28% más larga que la distancia en línea recta. Esto añadía cerca de 8 milisegundos de latencia únicamente debido a la longitud adicional del cable.
+
+La nueva ruta de cable que entusiasmaba a nuestro ingeniero es de 5.500 kilómetros, mucho más cercana a la distancia en línea recta. Esto reduce la latencia en aproximadamente 6-7 milisegundos.
+
+Siete milisegundos podrían no parecer significativos. Para las aplicaciones que realizan decenas de solicitudes de ida y vuelta para renderizar una página, esos milisegundos se acumulan. Siete milisegundos por solicitud, cincuenta solicitudes por carga de página: 350 milisegundos de reducción de latencia solo gracias a un mejor enrutamiento de los cables.
+
+El entusiasmo de nuestro ingeniero estaba justificado.
+
+## La economía de la fibra oscura
+
+La "fibra oscura" se refiere a los cables de fibra óptica instalados que actualmente no transportan tráfico. Las empresas de telecomunicaciones instalan más capacidad de fibra de la que necesitan de inmediato y luego arriendan la capacidad no utilizada a otras organizaciones.
+
+La compra de derechos sobre fibra oscura nos otorga capacidad dedicada en rutas de cable específicas. Esto ofrece varias ventajas:
+
+- **Menor latencia:** La fibra dedicada significa que controlamos las decisiones de enrutamiento. Nuestro tráfico toma la ruta disponible más corta en lugar de la que seleccione el operador.
+- **Mayor ancho de banda:** La capacidad dedicada significa que no competimos con otro tráfico por el ancho de banda. Podemos utilizar toda la capacidad del cable cuando sea necesario.
+- **Mejor fiabilidad:** Si controlamos la fibra, controlamos las decisiones de conmutación por error. Cuando surgen problemas, redirigimos el tráfico de inmediato en lugar de esperar la intervención del operador.
+- **Previsibilidad de costos:** La compra de derechos de fibra a largo plazo cuesta más por adelantado, pero menos con el tiempo que el arriendo de ancho de banda. Para las rutas de alto tráfico, esto tiene sentido económico.
+
+Hemos invertido mucho en asociaciones de fibra oscura durante los últimos años. Nuestra red ahora incluye fibra dedicada en las principales rutas entre centros de datos. Esta inversión mejora directamente la latencia y la fiabilidad del tráfico de los clientes.
+
+## La luz y la multiplexación por división de longitud de onda
+
+Una sola hebra de fibra óptica puede transportar múltiples longitudes de onda de luz de forma simultánea. Las distintas longitudes de onda no interfieren entre sí: puedes enviar diferentes flujos de datos en diferentes longitudes de onda a través de la misma fibra.
+
+Esta técnica, denominada multiplexación por división de longitud de onda, aumenta drásticamente la capacidad sin necesidad de instalar cables adicionales.
+
+Los sistemas de fibra modernos admiten más de 80 longitudes de onda por fibra. Cada longitud de onda puede transportar más de 100 gigabits por segundo. Una sola hebra de fibra puede, en teoría, transmitir más de 8 terabits por segundo.
+
+Nuestros nodos periféricos utilizan WDM de forma extensiva. Transmitimos el tráfico de distintos clientes en diferentes longitudes de onda, manteniendo la separación y la calidad del servicio sin necesitar cables físicos separados para cada tipo de tráfico.
+
+Por eso nuestros ingenieros se entusiasman con los avances de la tecnología de fibra. Las mejoras en la tecnología WDM aumentan directamente la capacidad de nuestra red sin requerir nuevas instalaciones de cable.
+
+## El problema de la última milla
+
+Nuestra infraestructura de fibra conecta los centros de datos y los nodos periféricos de manera eficiente. Pero la "última milla" —la conexión desde nuestros nodos periféricos hasta los usuarios finales— suele ser más lenta y menos fiable.
+
+La mayoría de los usuarios se conectan a través de internet residencial mediante conexiones de cable, DSL o inalámbricas, con mayor latencia y menor fiabilidad que la fibra. Podemos optimizar nuestra red troncal a la perfección, pero la experiencia del usuario aún depende de su conexión a internet local.
+
+Por eso la ubicación de los nodos periféricos importa tanto. No podemos mejorar las conexiones de última milla de los usuarios, pero sí podemos ubicar los nodos periféricos geográficamente más cerca de ellos, reduciendo la distancia que el tráfico debe recorrer en esa última milla.
+
+Un usuario en Bangkok con 10ms de latencia hacia su ISP experimentará un rendimiento mucho mejor al acceder a un nodo periférico en Bangkok (15ms de latencia total) que al acceder a uno en Singapore (40ms de latencia total).
+
+La expansión geográfica de nuestra red periférica consiste fundamentalmente en reducir la distancia física entre los usuarios y nuestra infraestructura. Las mejores rutas de fibra entre nodos periféricos ayudan, pero la proximidad importa más.
+
+## Por qué esto importa para las aplicaciones
+
+Distintas aplicaciones tienen distinta sensibilidad a la latencia:
+
+- **Transmisión de video:** Relativamente tolerante a la latencia. Unos pocos cientos de milisegundos de retraso son imperceptibles. El ancho de banda importa más que la latencia.
+- **Navegación web:** Moderadamente sensible a la latencia. Cada carga de página implica múltiples viajes de ida y vuelta. 50ms de latencia es aceptable, 200ms se nota y 500ms resulta frustrante.
+- **Videojuegos:** Muy sensibles a la latencia. Cada milisegundo cuenta. 30ms se siente ágil, 100ms se siente lento y 200ms es casi injugable.
+- **Operaciones financieras:** Extremadamente sensibles a la latencia. Los microsegundos cuentan. Existen industrias enteras dedicadas a recortar milisegundos de los tiempos de ejecución de las operaciones.
+
+La optimización de nuestra infraestructura de fibra beneficia principalmente a las aplicaciones sensibles a la latencia. Hemos reducido la latencia entre Singapore y Tokyo en 7ms no porque la transmisión de video lo necesite, sino porque los videojuegos y las aplicaciones financieras sin duda lo requieren.
+
+## El futuro de la fibra
+
+La tecnología de fibra actual utiliza longitudes de onda de luz en el espectro infrarrojo. La investigación sobre el uso de longitudes de onda adicionales podría multiplicar la capacidad de nuevo.
+
+La fibra de núcleo hueco, en la que la luz viaja a través de espacios de aire en lugar de vidrio sólido, podría reducir la latencia en otro 30% al permitir que la luz viaje más cerca de su velocidad en el vacío.
+
+La fibra multinúcleo, con múltiples núcleos transmisores de luz en un solo cable, podría aumentar la capacidad sin requerir más instalaciones de cable.
+
+Estas tecnologías son experimentales pero prometedoras. Cuando se vuelvan comercialmente viables, nuestra red se beneficiará de inmediato.
+
+## La perspectiva del ingeniero
+
+¿Por qué se entusiasman nuestros ingenieros con los cables de fibra óptica?
+
+Porque la fibra es la base sobre la que se construye todo lo demás. La optimización del software puede mejorar la eficiencia. Los mejores algoritmos pueden reducir la sobrecarga computacional. Un almacenamiento en caché más inteligente puede eliminar solicitudes redundantes.
+
+Pero, en última instancia, la velocidad de transmisión de datos está limitada por la física. La luz viaja a una velocidad finita a través del vidrio. La única forma de reducir la latencia son mejores rutas, cables más cortos y una ubicación estratégica de la infraestructura.
+
+Cada milisegundo que recortamos de la latencia mediante una mejor infraestructura de fibra aporta una mejora permanente. Las optimizaciones de software requieren un mantenimiento continuo. Las mejoras de la infraestructura física son duraderas.
+
+Esa nueva ruta de cable entre Singapore y Tokyo proporcionará beneficios de latencia durante décadas. La entusiasta explicación de 45 minutos de nuestro ingeniero estaba plenamente justificada.
+
+## La verdad sincera
+
+La mayoría de los usuarios nunca notará la mejora de 7 milisegundos gracias a un mejor enrutamiento de la fibra. La mayoría de las aplicaciones no se beneficiarán de forma apreciable. Pero para las aplicaciones y los casos de uso en los que los milisegundos importan, esas mejoras son significativas.
+
+Optimizamos la infraestructura para los casos de uso más exigentes porque esas optimizaciones benefician a todos. Una infraestructura lo suficientemente rápida para los videojuegos es más que suficiente para la transmisión de video. Una latencia lo suficientemente baja para las operaciones financieras hace que la navegación web se sienta instantánea.
+
+Nuestros ingenieros se entusiasman con la fibra porque entienden que el rendimiento de la infraestructura comienza con la realidad física. El vidrio, la luz, la distancia y la física importan más que cualquier optimización de software.
+
+Por eso invertimos en asociaciones de fibra oscura, celebramos las nuevas rutas de cable y empleamos a ingenieros que se entusiasman de verdad con los fotones que viajan a través del vidrio a 200.000 kilómetros por segundo.
+
+No es el aspecto más glamoroso de la ingeniería de infraestructura. Pero es fundamental para todo lo demás que hacemos.

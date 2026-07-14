@@ -1,0 +1,187 @@
+---
+_schema: default
+title: La reunión en la que decidimos que el tiempo de inactividad era opcional
+description: >-
+  A retrospective on the architectural decisions that made our 99.999% uptime
+  guarantee possible instead of aspirational.
+date: 2026-02-08T00:00:00Z
+author: 6c4b5141-d659-4153-b8f9-aa2f93feaa7c
+image: /src/assets/images/blog-downtime.png
+tag: Downtime
+---
+
+En marzo de 2019, tres ingenieros se sentaron en una oficina mal ventilada a discutir sobre tasas de fallo aceptables. La conversación duró siete horas y moldeó de forma fundamental todo lo que Jetstream llegaría a ser.
+
+La pregunta sobre la mesa: ¿qué nivel de disponibilidad deberíamos prometer a los clientes?
+
+## El argumento del estándar de la industria
+
+Uno de los cofundadores defendía una disponibilidad del 99,9 %. "Es el estándar de la industria", dijo. "Tres nueves es lo que los clientes esperan de los proveedores de infraestructura. Es alcanzable sin un esfuerzo de ingeniería heroico".
+
+Las matemáticas respaldaban esta postura. Una disponibilidad del 99,9 % permite aproximadamente 8,7 horas de inactividad al año. Mantenimiento planificado, fallos inesperados, algún que otro evento catastrófico: todo manejable dentro de ese presupuesto.
+
+La mayoría de los proveedores de CDN ofrecen SLA del 99,9 %. Algunos ofrecen el 99,95 %. Unos pocos proveedores ambiciosos prometen el 99,99 %.
+
+Nuestra segunda cofundadora sacó los documentos de SLA de la competencia y resaltó las cláusulas de exención. "Fijaos en las excepciones", dijo. "El mantenimiento programado no cuenta. Los errores de configuración del cliente no cuentan. Los ataques DDoS no cuentan. La fuerza mayor no cuenta. Están prometiendo una disponibilidad del 99,9 % para la fracción de problemas que realmente son culpa suya".
+
+No le faltaba razón. La mayoría de los SLA están cuidadosamente redactados para excluir la mayor parte de las posibles causas de inactividad.
+
+## La pregunta filosófica
+
+Nuestro CTO, que había permanecido callado durante la mayor parte de la conversación, planteó una pregunta distinta: "¿Y si diseñáramos un sistema en el que la inactividad fuera arquitectónicamente imposible?".
+
+Silencio.
+
+"No 'improbable'", continuó. "No 'poco frecuente'. Realmente imposible. ¿Qué aspecto tendría ese sistema?".
+
+Alguien señaló que nada es imposible. El hardware falla. Las redes se particionan. Los centros de datos se quedan sin energía. Teóricamente, un asteroide podría impactar en nuestras instalaciones.
+
+"De acuerdo", dijo el CTO. "¿Y si diseñáramos para que la inactividad fuera tan improbable que, en la práctica, se redondeara a imposible?".
+
+Esto replanteó por completo la conversación.
+
+## La discusión sobre la arquitectura
+
+Las cuatro horas siguientes implicaron pizarras, diagramas cada vez más complejos y la aparición gradual de una arquitectura que trataba el fallo como algo que debía preverse en el diseño, en lugar de gestionarse cuando ocurría.
+
+### **Principio uno: sin puntos únicos de fallo**
+
+Cada componente debe tener redundancia. No los "componentes importantes": cada componente. Si algo puede fallar y provocar inactividad, es un defecto de diseño.
+
+Esto significaba:
+
+- Múltiples nodos edge en cada región
+- Múltiples rutas de red entre toda la infraestructura
+- Múltiples fuentes de energía para cada instalación
+- Múltiples servidores DNS gestionando las consultas
+- Múltiples réplicas de base de datos manteniendo el estado
+
+Cuando alguien objetó que esto sería caro, nuestro CTO respondió: "La inactividad es más cara".
+
+### **Principio dos: conmutación por error automática en todas partes**
+
+La redundancia solo importa si la conmutación por error ocurre de forma automática. Esperar a que operadores humanos detecten los fallos y cambien manualmente a los sistemas de respaldo introduce un retraso inaceptable.
+
+Cada sistema debe detectar sus propios fallos y desviar el tráfico automáticamente para sortearlos. Los nodos edge deben monitorizar a sus vecinos y redistribuir el tráfico cuando se producen fallos. El DNS debe eliminar automáticamente los servidores caídos de la rotación. Las aplicaciones deben reintentar las solicitudes fallidas contra backends en buen estado.
+
+Los operadores humanos deberían enterarse de los fallos por las alertas de monitorización, no por las quejas de los clientes.
+
+### **Principio tres: validación continua**
+
+Los sistemas deben verificar constantemente que funcionan correctamente. No comprobaciones de estado periódicas: validación continua de que las solicitudes se gestionan correctamente, las respuestas son precisas y los servicios rinden dentro de parámetros aceptables.
+
+Esto introduce una sobrecarga. Cada sistema dedica recursos computacionales a comprobarse a sí mismo en lugar de únicamente a atender el tráfico de los clientes. Pero la sobrecarga merece la pena si detecta los fallos antes de que los clientes se den cuenta.
+
+### **Principio cuatro: planificación de capacidad defensiva**
+
+Planificar para el tráfico máximo más un 50 %. Mantener siempre capacidad de reserva para picos de carga inesperados, migraciones de tráfico desde nodos caídos o ese día en que un país entero decide reproducir algo en streaming de forma simultánea.
+
+Operar de forma sostenida al 90 % de capacidad es económicamente eficiente, pero operativamente peligroso. Operar al 60 % de capacidad parece un desperdicio, pero ofrece margen para lo inesperado.
+
+Elegimos la seguridad frente a la eficiencia.
+
+## La decisión del objetivo
+
+Tras una extensa discusión sobre qué era teóricamente alcanzable con suficiente esfuerzo de ingeniería, nos decantamos por un objetivo: una disponibilidad del 99,999 %.
+
+Esto permite aproximadamente 5,26 minutos de inactividad al año. No horas. Minutos.
+
+Alguien señaló que era una meta descabellada. Nadie alcanza los cinco nueves de disponibilidad a escala. Requiere una ejecución perfecta en cada sistema, cada día, para siempre.
+
+Nuestro CTO estuvo de acuerdo. "Sí", dijo. "Por eso precisamente deberíamos aspirar a ello. Si apuntamos al 99,9 %, alcanzaremos el 99,8 %. Si apuntamos al 99,999 %, quizá alcancemos el 99,99 %, que sigue siendo mejor que nuestros competidores".
+
+La lógica era sólida, aunque la confianza fuera discutible.
+
+## Los retos de la implementación
+
+Decidir aspirar a los cinco nueves de disponibilidad es la parte fácil. Alcanzarlo de verdad requirió años de ingeniería meticulosa.
+
+### **Reto uno: gestión del estado**
+
+Los sistemas sin estado son fáciles de hacer fiables: si un servidor falla, se enruta el tráfico a otro servidor. Los sistemas con estado son más difíciles, porque el estado debe preservarse a través de los fallos.
+
+Lo resolvimos mediante una replicación agresiva. La configuración de los clientes reside en múltiples bases de datos repartidas por múltiples centros de datos. El estado de la caché se distribuye entre los nodos edge, con redistribución automática cuando los nodos fallan. El estado de las sesiones se replica en tiempo real entre regiones.
+
+Si un centro de datos entero desaparece, el estado del cliente sigue disponible desde otras ubicaciones.
+
+### **Reto dos: seguridad en los despliegues**
+
+Todo despliegue de código conlleva un riesgo. Los errores en el código nuevo pueden provocar caídas. Incluso si el código es perfecto, los fallos en el proceso de despliegue pueden interrumpir el servicio.
+
+Implementamos un despliegue gradual para todos los cambios. El código nuevo se despliega primero en el 1 % de los nodos edge. Si las métricas se mantienen en buen estado durante una hora, el despliegue se amplía al 10 %, luego al 50 % y después al 100 % a lo largo de varias horas.
+
+Cualquier regresión activa una reversión automática. El código que causa problemas en el 1 % de la infraestructura nunca llega al 99 % restante.
+
+### **Reto tres: gestión de dependencias**
+
+Dependemos de servicios de terceros: proveedores de DNS, autoridades de certificación, proveedores de infraestructura en la nube, operadores de red. Sus fallos pueden provocar los nuestros.
+
+Lo mitigamos mediante la diversidad de proveedores. Múltiples proveedores de DNS, múltiples autoridades de certificación, múltiples operadores de red. Si un proveedor tiene problemas, lo sorteamos automáticamente.
+
+Esto es caro. Mantener relaciones e integraciones con múltiples proveedores para cada dependencia cuesta dinero y tiempo de ingeniería. También es necesario.
+
+### **Reto cuatro: monitorizarlo todo**
+
+No se puede mantener la disponibilidad de sistemas que no se pueden observar. Instrumentamos todo.
+
+Cada solicitud genera métricas. Cada nodo edge informa de su estado de forma continua. Cada sistema registra los cambios de estado. Nuestra infraestructura de monitorización procesa miles de millones de puntos de datos al día para mantener una visibilidad en tiempo real del estado del sistema.
+
+Cuando algo falla, lo sabemos en cuestión de segundos. Por lo general, nuestros sistemas automatizados lo solucionan antes de que los humanos vean las alertas.
+
+## Los resultados reales
+
+Jetstream se lanzó en agosto de 2019. Nuestra arquitectura soportaba el objetivo de disponibilidad, pero aún no lo habíamos demostrado en producción.
+
+Durante el primer año, experimentamos:
+
+- Tres fallos de nodos edge (problemas de hardware, sorteados automáticamente)
+- Una partición de red (duró 47 segundos, afectó a una región, el tráfico se reenrutó automáticamente)
+- Dos fallos de réplicas de base de datos (conmutación por error automática a réplicas en buen estado)
+- Múltiples intentos de ataques DDoS (mitigados automáticamente)
+
+Inactividad total visible para el cliente: cero.
+
+Nuestra monitorización mostró una breve degradación durante la partición de red: la latencia aumentó 40 ms en una región durante 47 segundos. Pero los servicios siguieron disponibles. No contamos la degradación como inactividad, a menos que las solicitudes fallen realmente.
+
+Según las definiciones de SLA de la industria, alcanzamos una disponibilidad del 100 % en nuestro primer año.
+
+## La comprobación de la realidad
+
+Mantener una disponibilidad del 99,999 % exige una vigilancia constante. Llevamos ya seis años operando. Nuestra disponibilidad real: 99,998 %.
+
+Hemos tenido dos incidentes que causaron breves caídas:
+
+**Incidente uno (junio de 2021):** un error de configuración de DNS provocó 3 minutos de fallos de resolución en Europa. Nuestra culpa, nuestro fallo, nuestra oportunidad de aprendizaje. Implementamos una validación adicional de la configuración de DNS para prevenir errores similares.
+
+**Incidente dos (marzo de 2024):** un error en la replicación de la base de datos provocó 2 minutos de incapacidad para actualizar las configuraciones de los clientes a nivel global. Los servicios siguieron operando, pero los cambios de configuración quedaron brevemente no disponibles. El error era sutil, solo surgía bajo patrones de carga específicos y se corrigió de inmediato tras su detección.
+
+Inactividad total en seis años: 5 minutos. Estamos dentro de nuestro objetivo, por muy poco.
+
+## Lo que aprendimos
+
+Construir para los cinco nueves de disponibilidad nos enseñó varias verdades:
+
+**La fiabilidad es cara:** la infraestructura y la ingeniería necesarias para mantener este nivel de disponibilidad cuestan bastante más que aceptar fallos ocasionales. Hemos decidido que merece la pena.
+
+**La automatización no es negociable:** los humanos no pueden mantener los cinco nueves de disponibilidad mediante operaciones manuales. Los sistemas deben detectar y corregir los fallos automáticamente.
+
+**La monitorización es tan importante como la infraestructura:** no se puede mantener lo que no se puede medir. Para lograr una alta fiabilidad se requiere una observabilidad integral.
+
+**La perfección es imposible, pero vale la pena perseguirla:** no hemos logrado una disponibilidad perfecta. Nos hemos acercado mucho. La disciplina de ingeniería necesaria para aproximarse a la perfección nos hace bastante más fiables que los competidores que aspiran a lo "suficientemente bueno".
+
+## El legado de aquella reunión
+
+Aquella conversación de siete horas en 2019 estableció principios que aún guían nuestra ingeniería:
+
+- La inactividad es un defecto de diseño, no una realidad operativa
+- Redundancia en todas partes, conmutación por error automática
+- Planificar para los fallos, diseñar para sortearlos
+- Aspirar a lo imposible, conformarse con lo meramente excepcional
+
+Hemos construido una empresa en torno a la idea de que la inactividad de la infraestructura es opcional. Mantener esta postura es caro. Requiere un esfuerzo de ingeniería constante. Significa que a veces sobreingeniamos soluciones para problemas que quizá nunca ocurran.
+
+Pero nuestros clientes no sufren caídas. Sus servicios siguen disponibles incluso cuando los nuestros experimentan fallos. Ese es el objetivo.
+
+La inactividad no es realmente opcional (la física existe, el hardware falla, el software tiene errores). Pero la hemos hecho tan poco frecuente que, en la práctica, se redondea a opcional.
+
+Aquella reunión decidió que este sería nuestro estándar. Todo lo que ha venido después han sido detalles de implementación.

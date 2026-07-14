@@ -1,0 +1,145 @@
+---
+_schema: default
+title: Qué pasa cuando haces ping a nuestra red 10 000 millones de veces
+description: >-
+  A security researcher tested our rate limiting, and we learned some
+  interesting things about our own infrastructure.
+date: 2026-02-11T00:00:00Z
+author: abd48cd0-7d1e-43e4-ba1c-5921e60cc87a
+image: /src/assets/images/blog-ping.png
+tag: Performance
+---
+
+El mes pasado, un investigador de seguridad nos envió un correo electrónico pidiendo permiso para someter a prueba de estrés nuestra limitación de tasa. En concreto, querían enviar 10 mil millones de solicitudes de eco ICMP —pings— a nuestros nodos de borde para ver qué sucedería.
+
+Dijimos que sí. Los resultados fueron educativos para todos los implicados.
+
+## La propuesta
+
+El investigador explicó su objetivo: comprobar si nuestra limitación de tasa podía distinguir entre tráfico legítimo de gran volumen y posibles abusos. Querían entender cómo respondían nuestros sistemas a patrones de tráfico sostenidos y extremos que se asemejaban a ataques, pero que provenían de una fuente conocida y no maliciosa.
+
+Diez mil millones de pings a lo largo de 48 horas. Distribuidos entre múltiples direcciones de origen. Dirigidos a diferentes nodos de borde. Con tasas de solicitud variables, desde cientos por segundo hasta decenas de miles por segundo.
+
+Nuestro equipo de seguridad revisó la propuesta. Nuestro equipo de operaciones verificó que nuestra monitorización podía manejar el volumen de datos. Nuestro CTO lo aprobó como una oportunidad de aprendizaje.
+
+Programamos la prueba para un fin de semana con poco tráfico y advertimos a nuestros ingenieros de guardia que aparecería algo inusual en los registros.
+
+## Lo que esperábamos
+
+Nuestra limitación de tasa opera en múltiples capas. Esperábamos:
+
+- **Capa uno:** La limitación de tasa de los nodos de borde reduciría las tasas extremas de ping provenientes de IPs individuales
+- **Capa dos:** Nuestra detección de DDoS identificaría el patrón como anómalo
+- **Capa tres:** La mitigación automatizada se activaría tras superar los umbrales de amenaza
+- **Capa cuatro:** El tráfico del investigador sería filtrado en gran medida, pero no bloqueado por completo
+
+Acertamos en su mayor parte.
+
+## Lo que realmente sucedió
+
+La prueba comenzó el sábado a las 06:00 UTC. En un plazo de 30 segundos, nuestros paneles de monitorización se iluminaron con alertas.
+
+**06:00:30** — Los nodos de borde registraron un volumen inusual de pings. Se activó la limitación de tasa por IP, limitando cada fuente a 1000 pings por segundo. De todos modos, la mayoría de las fuentes se mantuvieron por debajo de este límite.
+
+**06:01:15** — Nuestro sistema de detección de DDoS marcó el tráfico como anómalo. La puntuación de amenaza se elevó, pero no cruzó el umbral de mitigación automática porque el patrón de tráfico era inusual, pero no abiertamente malicioso.
+
+**06:03:00** — Nuestro ingeniero de guardia recibió una alerta: "Patrón de tráfico ICMP inusual detectado en 40 nodos de borde". Revisó el calendario, vio la nota "prueba de seguridad autorizada" y continuó con la monitorización.
+
+**06:15:00** — El tráfico continuó de forma constante. Nuestros sistemas se adaptaron, tratando los pings como tráfico de gran volumen pero legítimo. La limitación de tasa impidió que una sola fuente saturara los nodos de borde.
+
+A lo largo de las siguientes 48 horas, nuestra red procesó 10,347,392,847 solicitudes de ping. Aproximadamente 10,3 mil millones.
+
+## El cuello de botella inesperado
+
+Los pings en sí no eran problemáticos. Nuestros nodos de borde los manejaron con facilidad. El cuello de botella inesperado fue el registro de datos.
+
+Registramos cada decisión de limitación de tasa para su análisis de seguridad. Diez mil millones de pings generaron aproximadamente 800 millones de eventos de limitación de tasa, que nuestra infraestructura de registro anotó diligentemente.
+
+Esto creó 47 terabytes de registros a lo largo de 48 horas.
+
+Nuestros sistemas de agregación de registros, diseñados para manejar cargas de tráfico típicas, tuvieron dificultades. La latencia de procesamiento aumentó de milisegundos a segundos. Algunas consultas de análisis de registros que normalmente se completaban al instante tardaron minutos.
+
+La prueba del investigador sometió con éxito nuestros sistemas a estrés, solo que no donde lo esperábamos. Nuestra infraestructura de red manejó el tráfico extremo sin problemas. Nuestra infraestructura de observabilidad sufrió una indigestión.
+
+## Lo que reveló nuestra limitación de tasa
+
+Al analizar los datos de la prueba después, aprendimos varias cosas sobre la implementación de nuestra limitación de tasa:
+
+### **La limitación de tasa geográfica varía más de lo que creíamos**
+
+Nuestras políticas de limitación de tasa se adaptan en función de los patrones de tráfico típicos por región. Los nodos de borde en regiones de alto tráfico tienen umbrales predeterminados más altos que los nodos en zonas de bajo tráfico.
+
+Durante la prueba, los nodos de borde en Norteamérica y Europa toleraron tasas de ping más altas antes de aplicar la limitación que los nodos en regiones con menos tráfico. Este era un diseño intencional, pero verlo demostrado a gran escala nos hizo cuestionar si los umbrales estaban configurados correctamente.
+
+Ajustamos varios umbrales regionales tras la prueba, basándonos en el comportamiento observado.
+
+### **La limitación de tasa específica por protocolo necesita perfeccionamiento**
+
+El tráfico ICMP (ping) se maneja de manera diferente que el tráfico HTTP o DNS. Nuestros sistemas eran más agresivos al limitar los pings que volúmenes equivalentes de solicitudes HTTP, porque las inundaciones de ping son vectores de ataque comunes, mientras que los servicios legítimos rara vez generan un volumen extremo de pings.
+
+La prueba reveló que nuestra limitación de tasa de ICMP era quizás demasiado agresiva para ciertos casos de uso de monitorización legítimos. Estamos considerando políticas más matizadas.
+
+### **El registro de la limitación de tasa es costoso**
+
+Este fue el hallazgo más accionable. Registrar cada decisión de limitación de tasa tenía sentido cuando la limitación de tasa era relativamente poco frecuente. A gran escala, genera enormes volúmenes de datos.
+
+Desde entonces hemos implementado el muestreo: registramos el 100 % de los eventos de limitación de tasa que realmente bloquean el tráfico, pero solo el 1 % de los eventos que aplican limitación sin bloquear. Esto mantiene la visibilidad sobre las decisiones de bloqueo, a la vez que reduce el volumen de registros en aproximadamente un 90 %.
+
+## La respuesta adaptativa
+
+Un comportamiento fascinante: nuestros sistemas se adaptaron al tráfico de la prueba con el tiempo.
+
+Inicialmente, nuestra detección de amenazas clasificó el volumen inusual de pings como moderadamente sospechoso. Tras seis horas de tráfico constante y sin escalada, nuestros modelos de aprendizaje automático ajustaron sus expectativas de referencia.
+
+Para la hora 12, el tráfico de pings ya no se marcaba como anómalo. Nuestros sistemas habían aprendido que esta era la nueva normalidad para este período de prueba. Cuando la prueba terminó y el volumen de pings cayó a niveles típicos, la disminución repentina activó una breve alerta antes de que los sistemas se reajustaran.
+
+Este comportamiento adaptativo es intencional: nuestra detección de amenazas debe manejar tanto los picos repentinos como los cambios graduales de tendencia sin intervención manual constante. Verlo funcionar durante una prueba controlada validó que la lógica de adaptación se desempeña según lo diseñado.
+
+## Lo que aprendió el investigador
+
+El investigador de seguridad publicó sus hallazgos con nuestro permiso. Conclusiones clave desde su perspectiva:
+
+**Nuestra limitación de tasa es consistente:** Se observó el mismo comportamiento en todos los nodos de borde. Sin variaciones regionales en la aplicación de políticas, sin nodos configurados de forma diferente. Esto tiene sentido —usamos configuración centralizada— pero es una buena validación.
+
+**La limitación es progresiva:** Nuestros sistemas no bloquean de inmediato el tráfico que supera los umbrales. Aplican la limitación de forma gradual, permitiendo ráfagas legítimas a la vez que previenen el abuso sostenido. El investigador valoró este matiz.
+
+**El tiempo de respuesta es rápido:** La limitación de tasa se activó en cuestión de segundos tras el inicio del tráfico. Sin período de calentamiento, sin retraso mientras los sistemas detectaban patrones. Los nodos de borde responden de inmediato a las violaciones de umbral.
+
+**El sistema es difícil de engañar:** El investigador intentó diversas técnicas para eludir la limitación de tasa: fuentes distribuidas, tasas de solicitud variables, tráfico intermitente. Nada logró evadir la detección. Nuestros sistemas identificaron y limitaron el abuso de forma consistente, sin importar cómo estuviera distribuido.
+
+## La resolución de la crisis de registros
+
+Los 47 terabytes de registros crearon un problema real. Nuestra infraestructura de almacenamiento de registros no es infinita, y de repente consumimos un mes de capacidad en un solo fin de semana.
+
+Nuestra solución involucró tres cambios:
+
+**Inmediato:** Implementamos una compresión agresiva de registros en los datos de la prueba. Los registros se comprimieron a aproximadamente 12 TB. Sigue siendo mucho, pero es manejable.
+
+**A corto plazo:** Desplegamos capacidad adicional de almacenamiento de registros para prevenir futuras crisis de capacidad. De todos modos, ya teníamos planeada esta expansión; la prueba aceleró nuestro cronograma.
+
+**A largo plazo:** Implementamos la estrategia de muestreo mencionada anteriormente. Esto previene explosiones similares de registros en el futuro sin perder visibilidad sobre los eventos de bloqueo reales.
+
+## ¿Lo volveríamos a hacer?
+
+Sí. Las pruebas de seguridad controladas proporcionan información valiosa imposible de obtener con las operaciones normales.
+
+Aprendimos:
+
+- Nuestra limitación de tasa funciona según lo diseñado bajo carga extrema
+- Nuestra infraestructura de registro necesitaba mejoras
+- Nuestra detección de amenazas se adapta adecuadamente a los cambios en los patrones de tráfico
+- Los umbrales de limitación de tasa regionales necesitaban ajustes
+
+Ninguno de estos hallazgos habría surgido sin pruebas del mundo real a esta escala.
+
+Ahora estamos animando activamente a los investigadores de seguridad a poner a prueba nuestros sistemas. Hemos publicado una política de investigación de seguridad que permite explícitamente la generación de tráfico con fines de prueba, con un aviso previo razonable y la debida coordinación.
+
+Si quieres enviar 10 mil millones de solicitudes a nuestra infraestructura, escríbenos primero. Probablemente diremos que sí, y ambos aprenderemos algo.
+
+## La lección más amplia
+
+El rendimiento de la infraestructura en condiciones extremas revela verdades ocultas durante las operaciones normales. En teoría, puedes modelar cómo se comportan los sistemas bajo estrés, pero las pruebas reales encuentran las brechas entre la teoría y la práctica.
+
+Nuestra limitación de tasa funcionó bien. Nuestro registro no. Ambos son hallazgos valiosos.
+
+Construir una infraestructura resiliente significa buscar activamente estas lecciones en lugar de esperar a que los incidentes en producción las revelen. Las pruebas controladas, aunque generen 47 TB de registros, son más baratas que aprender las mismas lecciones durante un ataque real.

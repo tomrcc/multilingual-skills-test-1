@@ -1,0 +1,91 @@
+---
+_schema: default
+title: Por qué reconstruimos nuestro resolvedor DNS desde cero (otra vez)
+description: >-
+  Sometimes good enough isn't good enough, especially when our engineers have
+  strong opinions about query optimization.
+date: 2026-02-19T00:00:00Z
+author: 470d9a38-a9ab-4112-b222-8e10e7d5ac7d
+image: /src/assets/images/blog-dns-resolver.png
+tag: Performance
+---
+
+Nuestro resolutor de DNS funcionaba a la perfección. Los tiempos de respuesta promediaban 47 milisegundos a nivel global. Las tasas de aciertos de caché rondaban el 94%. Las quejas de los clientes eran inexistentes. Según cualquier métrica razonable, habíamos construido un sistema sólido y confiable que hacía exactamente lo que se supone que deben hacer los resolutores de DNS.
+
+Nuestro equipo de ingeniería no estaba de acuerdo con la palabra "razonable".
+
+## El problema que nadie más veía
+
+Se supone que las consultas DNS deben ser rápidas. Son el primer paso en casi todas las interacciones en internet: antes de que tu navegador pueda cargar un sitio web, antes de que una llamada a una API pueda completarse, antes de que ocurra cualquier cosa útil, hay una búsqueda de DNS. La mayoría de los proveedores consideran aceptables 50 milisegundos. Los estándares de la industria sugieren que cualquier valor por debajo de 100 milisegundos está bien.
+
+Nosotros considerábamos esto filosóficamente inaceptable.
+
+Cuando procesas 400.000 millones de consultas DNS diarias en 847 nodos periféricos, incluso las pequeñas optimizaciones se acumulan de forma drástica. Una mejora de 10 milisegundos por consulta se traduce en 46 días de tiempo acumulado ahorrado para nuestros clientes cada día. Nuestro ingeniero sénior de DNS presentó este cálculo durante una revisión trimestral y lo remató con una única pregunta: "¿Por qué estamos dejando 46 días sobre la mesa?".
+
+Nadie tenía una buena respuesta.
+
+## La fase de diseño de seis meses
+
+No escribimos código durante seis meses. Esto volvió levemente loco a nuestro equipo de producto, pero nuestro CTO insistió en ello. Necesitábamos entender exactamente por qué nuestro resolutor actual rendía como lo hacía antes de poder construir algo mejor.
+
+Nuestro equipo analizó los patrones de consulta, midió la eficiencia de la caché bajo distintas condiciones de carga y estudió cómo se propagaban las solicitudes a través de nuestra red. Descubrimos que nuestro resolutor estaba optimizado para el rendimiento promedio, lo que significaba que manejaba las consultas típicas de forma brillante y los casos límite de forma adecuada.
+
+Los casos límite, nos dimos cuenta, no eran en realidad límites. Eran el 18% de nuestro tráfico.
+
+El gran avance llegó durante una sesión de pizarra particularmente larga, cuando alguien sugirió que dejáramos de pensar en el DNS como un servicio de búsqueda y empezáramos a tratarlo como un problema de predicción.
+
+¿Y si nuestro resolutor pudiera anticipar las consultas antes de que llegaran?
+
+La sala quedó en silencio durante aproximadamente 30 segundos. Luego alguien dijo: "Eso es brillante o imposible", y pasamos los siguientes cuatro meses demostrando que era lo primero.
+
+## Construir un resolutor que predice el futuro
+
+Nuestra nueva arquitectura se centra en lo que llamamos "resolución especulativa". El sistema analiza los patrones de tráfico en toda nuestra red y precalcula las respuestas para las consultas que espera recibir. Cuando una consulta llega efectivamente, la respuesta ya está esperando en memoria.
+
+Esto requirió reconstruir nuestra capa de caché desde cero. Las cachés de DNS tradicionales almacenan respuestas a consultas que ya se han hecho. Nuestra caché almacena respuestas a consultas que probablemente se harán, basándose en patrones temporales, correlación geográfica y en lo que nuestros modelos de aprendizaje automático han determinado sobre el comportamiento normal del tráfico.
+
+También paralelizamos todo. Nuestro antiguo resolutor procesaba las consultas de forma secuencial: búsqueda, validación, caché, respuesta. La nueva versión hace todo esto simultáneamente a través de múltiples núcleos, con distintos hilos manejando distintas partes del proceso de resolución. La validación de la consulta ocurre mientras ya estamos preparando la respuesta.
+
+¿El resultado? Los tiempos de respuesta promedio bajaron de 47 milisegundos a 1,2 milisegundos.
+
+## Las 840.000 líneas de código eliminadas
+
+Escribimos mucho código durante la fase de implementación. La mayor parte era pésimo.
+
+Nuestro primer prototipo funcional logró tiempos de respuesta de 8 milisegundos, lo que era mejor que el sistema antiguo pero no lo suficientemente bueno. Lo descartamos. La segunda versión alcanzó los 3 milisegundos pero se caía bajo alta carga. También la descartamos.
+
+La versión tres estuvo cerca. La versión cuatro estuvo más cerca. La versión cinco introdujo un error de caché que tardamos tres días en rastrear. Para la versión siete, teníamos algo que funcionaba de forma consistente, rendía brillantemente y contenía aproximadamente 840.000 líneas de código que habíamos escrito y luego eliminado por el camino.
+
+Nuestro historial de control de versiones de este periodo es un monumento a la iteración. Cada enfoque fallido nos enseñó algo sobre lo que no funcionaría, lo que reducía el espacio de lo que sí funcionaría. Para cuando lo desplegamos en producción, habíamos eliminado la mayoría de los errores posibles mediante el simple recurso de cometerlos todos primero.
+
+## Convencer a la dirección de que esto era necesario
+
+Celebramos tres reuniones generales para explicar por qué necesitábamos reemplazar un resolutor de DNS perfectamente funcional. La primera reunión no salió bien. Nuestro CFO preguntó por qué estábamos gastando recursos de ingeniería en algo de lo que los clientes no se quejaban.
+
+Nuestro CTO mostró el análisis de costos. La mejora de rendimiento reduciría los costos de servidores en un 23% anual. Las mayores tasas de aciertos de caché reducirían los gastos de ancho de banda. La fiabilidad mejorada evitaría el tipo de caídas de DNS que generan correos electrónicos de clientes en pánico y llamadas de respuesta de emergencia.
+
+El CFO dejó de objetar y empezó a preguntar sobre el cronograma.
+
+La segunda reunión abordó el riesgo técnico. Reemplazar la infraestructura central es peligroso. El DNS es crítico. Si la migración salía mal, cada cliente lo notaría de inmediato. Nuestro VP de Ingeniería presentó el plan de despliegue: implementación gradual a través de los nodos periféricos, activadores de reversión automática, paneles de monitoreo en tiempo real y un interruptor de emergencia que podía volver al sistema antiguo en menos de 10 segundos.
+
+La tercera reunión fue más breve. La dirección aprobó el proyecto y nuestro equipo de ingeniería comenzó el despliegue.
+
+## Lo que aprendimos
+
+Construir un resolutor de DNS dos veces te enseña cosas que no aprendes la primera vez. Aprendimos que la optimización del rendimiento tiene tanto que ver con predecir el comportamiento como con medirlo. Aprendimos que la eficiencia de la caché importa más que su tamaño. Aprendimos que el procesamiento paralelo es difícil de implementar correctamente, pero vale el esfuerzo.
+
+Y lo más importante, aprendimos que "suficientemente bueno" es el enemigo de "realmente bueno".
+
+Nuestro nuevo resolutor ahora maneja el 99\.99% de las consultas en menos de 2 milisegundos. Las tasas de aciertos de caché alcanzaron el 99\.97%. Las quejas de los clientes siguen siendo inexistentes, pero ahora nuestras métricas internas también nos hacen felices.
+
+¿Volveríamos a reconstruirlo? Probablemente. Nuestro equipo ya está discutiendo la versión tres, aunque la dirección ha solicitado que esperemos al menos un año antes de proponerla. A eso lo llamamos "moderación agresiva" y lo consideramos un compromiso razonable.
+
+## Especificaciones técnicas para los curiosos:
+
+- 47ms de tiempo de consulta promedio (resolutor antiguo)
+- 1\.2ms de tiempo de consulta promedio (resolutor nuevo)
+- 6 meses dedicados al diseño antes de programar
+- 840.000 líneas de código escritas y luego eliminadas
+- 3 reuniones generales necesarias para la aprobación
+- 99\.99% de las consultas resueltas en menos de 2ms
+- 99\.97% de tasa de aciertos de caché alcanzada

@@ -3,6 +3,8 @@ import Button from "@core-elements/button/Button.astro";
 import Icon from "@core-elements/icon/Icon.astro";
 import Image from "@core-elements/image/Image.astro";
 import { itemHasSplitNavLink } from "@component-utils/navSplitLink";
+import { slugifyLabel } from "@components/utils/slugify";
+import LocalePicker from "@navigation/locale-picker/LocalePicker.astro";
 
 const {
   logoSource,
@@ -119,7 +121,7 @@ function createNavItemData(item, level, parentGroupId) {
                   href={itemData.path}
                   aria-current={itemData.isCurrent ? "page" : undefined}
                 >
-                  {itemData.name}
+                  <span data-rosey={slugifyLabel(itemData.name)}>{itemData.name}</span>
                 </a>
               </li>
             );
@@ -144,7 +146,7 @@ function createNavItemData(item, level, parentGroupId) {
                     class="nav-item-link"
                     aria-current={itemData.isCurrent ? "page" : undefined}
                   >
-                    {itemData.name}
+                    <span data-rosey={slugifyLabel(itemData.name)}>{itemData.name}</span>
                   </a>
                   <label
                     for={itemData.dropdownId}
@@ -170,7 +172,7 @@ function createNavItemData(item, level, parentGroupId) {
                   tabindex="0"
                   aria-current={itemData.isCurrent ? "page" : undefined}
                 >
-                  {itemData.name}
+                  <span data-rosey={slugifyLabel(itemData.name)}>{itemData.name}</span>
                   <span class="nav-item-icon">
                     <Icon
                       name="chevron-right"
@@ -198,7 +200,7 @@ function createNavItemData(item, level, parentGroupId) {
                             href={childData.path}
                             aria-current={childData.isCurrent ? "page" : undefined}
                           >
-                            {childData.name}
+                            <span data-rosey={slugifyLabel(childData.name)}>{childData.name}</span>
                           </a>
                         </li>
                       );
@@ -223,7 +225,7 @@ function createNavItemData(item, level, parentGroupId) {
                               class="nav-item-link"
                               aria-current={childData.isCurrent ? "page" : undefined}
                             >
-                              {childData.name}
+                              <span data-rosey={slugifyLabel(childData.name)}>{childData.name}</span>
                             </a>
                             <label
                               for={childData.dropdownId}
@@ -249,7 +251,7 @@ function createNavItemData(item, level, parentGroupId) {
                             tabindex="0"
                             aria-current={childData.isCurrent ? "page" : undefined}
                           >
-                            {childData.name}
+                            <span data-rosey={slugifyLabel(childData.name)}>{childData.name}</span>
                             <span class="nav-item-icon">
                               <Icon
                                 name="chevron-right"
@@ -280,7 +282,7 @@ function createNavItemData(item, level, parentGroupId) {
                                     href={grandChildData.path}
                                     aria-current={grandChildData.isCurrent ? "page" : undefined}
                                   >
-                                    {grandChildData.name}
+                                    <span data-rosey={slugifyLabel(grandChildData.name)}>{grandChildData.name}</span>
                                   </a>
                                 </li>
                               );
@@ -297,6 +299,7 @@ function createNavItemData(item, level, parentGroupId) {
         })
       }
     </ul>
+    <LocalePicker class="mobile-locale-picker" />
   </div>
 </nav>
 
@@ -631,7 +634,7 @@ function createNavItemData(item, level, parentGroupId) {
           aspect-ratio: 1;
           background: transparent;
           border: none;
-          border-left: 1px solid transparent;
+          border-inline-start: 1px solid transparent;
           border-radius: var(--radius-xs);
           box-sizing: border-box;
           color: var(--color-text-muted);
@@ -650,7 +653,7 @@ function createNavItemData(item, level, parentGroupId) {
 
           &:hover {
             background: color-mix(in srgb, var(--color-state-hover), var(--color-text) 8%);
-            border-left-color: var(--color-border);
+            border-inline-start-color: var(--color-border);
             color: var(--color-text-strong);
           }
 

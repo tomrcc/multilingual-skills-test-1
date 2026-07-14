@@ -38,7 +38,7 @@ const { contentSections, useDefaultEditableBinding = true } = Astro.props;
 {
   // Array-level editable attributes are owned by the caller's container element.
   // This utility only resolves blocks and marks each rendered block as an array item.
-  contentSections?.map((block) => {
+  contentSections?.map((block, index) => {
     const Component = components[block._component];
 
     if (!Component && block._component) {
@@ -48,11 +48,20 @@ const { contentSections, useDefaultEditableBinding = true } = Astro.props;
       );
     }
 
+    // Namespace each array item for Rosey so auto-derived data-rosey keys don't
+    // collide between siblings (e.g. two buttons both keyed "text"). Prefer the
+    // stable per-item _uuid (CloudCannon instance_value: UUID); fall back to the
+    // index so non-seeded content still gets unique keys. Nested data-rosey-ns
+    // values stack, giving each item a unique key path.
+    const { _uuid, ...blockProps } = block;
+    const roseyNs = _uuid ?? String(index);
+
     return Component ? (
       <Component
         data-editable={useDefaultEditableBinding ? "array-item" : undefined}
         data-id={block._component}
-        {...block}
+        data-rosey-ns={roseyNs}
+        {...blockProps}
         useDefaultEditableBinding={useDefaultEditableBinding}
       />
     ) : null;

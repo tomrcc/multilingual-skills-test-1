@@ -1,0 +1,176 @@
+---
+_schema: default
+title: "\"Certificados SSL: una historia de amor sobre automatización y confianza\""
+description: >-
+  How we eliminated certificate expiration anxiety through aggressive automation
+  and a healthy disrespect for manual processes.
+date: 2026-02-13T00:00:00Z
+author: c63acdd1-33d5-4366-a000-34f0c17ca88b
+image: /src/assets/images/blog-ssl.png
+tag: Security
+---
+
+Antes de noviembre de 2022, nuestro equipo de soporte al cliente recibía aproximadamente 40 tickets diarios relacionados con certificados SSL. "Mi certificado caducó." "¿Por qué no funciona mi HTTPS?" "Olvidé renovarlo y ahora mi sitio muestra advertencias de seguridad."
+
+Hoy recibimos aproximadamente cero tickets de certificados al mes.
+
+Esta es una historia sobre automatización, cadenas de confianza criptográficas y la eliminación de toda una categoría de problemas de los clientes mediante ingeniería agresiva.
+
+## El problema de la gestión manual de certificados
+
+Los certificados SSL/TLS son molestos. Caducan con regularidad—normalmente cada 90 días con las autoridades de certificación modernas. Requieren renovación manual. El proceso de renovación implica generar solicitudes de firma de certificado, verificar la propiedad del dominio, instalar el nuevo certificado y comprobar que todo funciona.
+
+Los seres humanos son pésimos recordando hacer cosas cada 90 días.
+
+Incluso las organizaciones con procedimientos adecuados y recordatorios en el calendario experimentan caducidades de certificados. Alguien se va de vacaciones. Un correo de renovación llega a una dirección antigua. Un proceso falla en silencio y nadie se da cuenta hasta que el certificado caduca y los sitios web empiezan a mostrar advertencias del navegador.
+
+La caducidad de certificados es uno de los problemas de infraestructura más evitables y también uno de los más comunes.
+
+Después del ticket número 10.000 de "ayuda, mi certificado caducó" de nuestro equipo de soporte, nuestro VP de Éxito del Cliente entró en ingeniería y preguntó: "¿Por qué seguimos obligando a los clientes a gestionar esto manualmente?"
+
+Nadie tenía una buena respuesta.
+
+## Qué significa realmente la automatización
+
+"Gestión automatizada de certificados" suena sencillo. La implementación no lo es.
+
+Necesitábamos un sistema capaz de:
+
+- Detectar cuándo caducarían los certificados
+- Solicitar renovaciones automáticamente
+- Verificar la propiedad del dominio sin intervención del cliente
+- Instalar nuevos certificados en todos los nodos de borde relevantes
+- Validar que los nuevos certificados funcionaran correctamente
+- Revertir cambios si algo salía mal
+- Gestionar millones de certificados simultáneamente
+- Nunca, jamás, dejar que un certificado caduque
+
+Esto requería construir una infraestructura que entendiera los ciclos de vida de los certificados, se integrara con múltiples autoridades de certificación, realizara la verificación de dominios automáticamente y coordinara el despliegue de certificados a través de nuestra red de borde distribuida.
+
+Dedicamos ocho meses a construirla.
+
+## El reto criptográfico
+
+Los certificados no son solo archivos—forman parte de una cadena de confianza criptográfica. Los navegadores confían en los certificados porque están firmados por autoridades de certificación en las que los navegadores confían. Todo el sistema depende de mantener correctamente estas relaciones de confianza.
+
+Nuestra automatización necesitaba manejar varias complicaciones criptográficas:
+
+**Las autoridades de certificación tienen sus propias caducidades:** Los certificados intermedios que las CA utilizan para firmar los certificados de entidad final también caducan. Nuestro sistema debe rastrear las caducidades de los certificados de las CA y actualizar las cadenas de confianza automáticamente.
+
+**Diferentes dominios requieren diferentes métodos de validación:** Algunos dominios utilizan validación DNS, otros utilizan validación HTTP. Nuestro sistema debe saber qué método funciona para el dominio de cada cliente y ejecutarlo automáticamente.
+
+**La revocación de certificados importa:** Si un certificado se ve comprometido, debe revocarse y reemplazarse de inmediato. Nuestro sistema monitorea las listas de revocación de certificados y reemplaza los certificados revocados automáticamente.
+
+**La agilidad criptográfica es necesaria:** Cuando las autoridades de certificación cambian sus algoritmos de firma o los navegadores actualizan sus requisitos de confianza, nuestro sistema debe adaptarse sin requerir la acción del cliente.
+
+Estas no son preocupaciones teóricas. Hemos manejado todas estas situaciones en producción.
+
+## Construyendo la automatización
+
+Nuestro sistema de automatización SSL opera por capas:
+
+### **Capa uno: monitoreo predictivo**
+
+Rastreamos cada certificado en nuestra red. 60 días antes de la caducidad, nuestro sistema solicita una renovación. No 10 días, no 5 días—60 días. Esto nos da un enorme margen para gestionar problemas.
+
+Si el primer intento de renovación falla, lo intentamos de nuevo al día siguiente. Y al siguiente. Y cada día hasta que la renovación tenga éxito o alguien de nuestro equipo investigue por qué está fallando.
+
+### **Capa dos: validación automatizada de dominios**
+
+Las autoridades de certificación necesitan pruebas de que controlas un dominio antes de emitir certificados. Automatizamos esta verificación mediante:
+
+- La creación automática de registros DNS para los desafíos DNS-01
+- El servicio de archivos de validación HTTP para los desafíos HTTP-01
+- El mantenimiento de credenciales de cuenta ACME con múltiples CA
+- El reintento de validaciones fallidas con retroceso exponencial
+
+Participación del cliente: cero. Nuestros sistemas se encargan de todo.
+
+### **Capa tres: despliegue sin tiempo de inactividad**
+
+Los nuevos certificados deben instalarse en potencialmente cientos de nodos de borde que sirven el tráfico de un cliente. Esto debe ocurrir sin interrupción del servicio.
+
+Nuestro proceso de despliegue:
+
+1. Generar el nuevo certificado
+2. Desplegar en el entorno de staging y verificar
+3. Desplegar gradualmente en los nodos de borde de producción
+4. Monitorear cualquier fallo en el handshake TLS
+5. Revertir automáticamente si los errores superan el umbral
+6. Completar el despliegue solo después de la verificación
+
+Tiempo total: aproximadamente 15 minutos. Tiempo de inactividad: ninguno.
+
+### **Capa cuatro: validación y monitoreo**
+
+Tras el despliegue, nuestros sistemas verifican continuamente que los certificados funcionen correctamente:
+
+- Probar conexiones TLS desde múltiples ubicaciones geográficas
+- Verificar que las cadenas de certificados estén completas y sean válidas
+- Comprobar que el certificado coincida con los dominios solicitados
+- Monitorear tasas inusuales de error TLS
+
+Si algo parece incorrecto, lo investigamos de inmediato.
+
+## La primera crisis de renovación
+
+Nuestra automatización se lanzó en noviembre de 2022. Para enero de 2023, gestionaba 100.000 certificados. Todo funcionaba a la perfección.
+
+Entonces Let's Encrypt, una importante autoridad de certificación, cambió los límites de tasa de su API.
+
+Nuestro sistema, configurado para renovar certificados 60 días antes de la caducidad, de repente alcanzó los límites de tasa al intentar renovar miles de certificados simultáneamente. Las renovaciones empezaron a fallar. Nuestro sistema reintentaba, alcanzando de nuevo los límites de tasa.
+
+Precisamente por esto incorporamos un margen de 60 días en el proceso.
+
+Nuestro equipo tuvo semanas para identificar el problema, implementar la limitación de tasa en nuestras solicitudes de renovación y migrar a un calendario de renovación escalonado que distribuyera las solicitudes a lo largo del tiempo en lugar de saturar la CA simultáneamente.
+
+Cero certificados de clientes caducaron durante esta crisis. La automatización funcionó según lo diseñado—cuando encontró problemas, tuvo tiempo suficiente para gestionarlos antes de que se convirtieran en emergencias.
+
+## Qué significa la confianza
+
+Los certificados SSL tratan fundamentalmente sobre la confianza. Los usuarios confían en los certificados porque los navegadores confían en las autoridades de certificación. Las organizaciones confían en que las CDN gestionen los certificados correctamente.
+
+Nos tomamos esta confianza en serio.
+
+Nuestro sistema de gestión de certificados está monitoreado más intensamente que casi cualquier otra parte de nuestra infraestructura. Múltiples sistemas de verificación independientes comprueban continuamente que los certificados sean válidos y estén correctamente desplegados. Nuestro equipo de operaciones recibe alertas en múltiples umbrales: 60 días antes de la caducidad, 30 días, 14 días, 7 días, 3 días.
+
+Nunca hemos dejado caducar el certificado de un cliente bajo nuestra gestión. Ni una sola vez. Esto no es suerte—es el resultado de construir sistemas que tratan la caducidad de certificados como un modo de fallo inaceptable y luego eliminar mediante ingeniería cada camino hacia ese fallo.
+
+## El impacto en los tickets de soporte
+
+Tras desplegar la automatización de certificados, nuestro volumen de tickets de soporte por problemas relacionados con certificados se redujo en un 99,7%.
+
+El 0,3% restante de los tickets suele ser:
+
+- Clientes que preguntan cómo funciona la automatización (curiosos, no problemáticos)
+- Solicitudes de configuraciones de certificados específicas (certificados de validación extendida, CA específicas)
+- Preguntas sobre los registros de transparencia de certificados
+
+Cero tickets sobre certificados caducados. Cero tickets sobre renovaciones olvidadas. Cero tickets sobre pánicos de renovación de último minuto.
+
+Nuestro equipo de soporte sigue registrando los "tickets de certificados evitados" como una métrica. Durante el último año: aproximadamente 14.600 tickets que no recibimos porque la automatización se encargó de todo en silencio.
+
+## Lo que aprendimos
+
+La automatización no se trata de reducir el trabajo humano—se trata de eliminar categorías enteras de error humano.
+
+La caducidad de certificados es un problema resuelto si estás dispuesto a construir la infraestructura para resolverlo adecuadamente. La inversión requerida es significativa: ocho meses de tiempo de ingeniería, mantenimiento continuo, monitoreo constante. Pero la recompensa es la eliminación completa de un modo de fallo común y evitable.
+
+Podríamos haber construido un sencillo sistema de recordatorios de renovación. Podríamos haber ofrecido herramientas que facilitaran la renovación manual. En cambio, construimos una automatización que hace innecesaria la renovación manual.
+
+Esa es la diferencia entre ayudar a los clientes a gestionar problemas y eliminar los problemas por completo.
+
+## El principio más amplio
+
+La automatización de certificados es un ejemplo de una filosofía más amplia: la infraestructura debe encargarse de su propio mantenimiento.
+
+Aplicamos este pensamiento a:
+
+- La invalidación de caché (automatizada según la detección de cambios en el contenido)
+- La mitigación de DDoS (respuesta automatizada a amenazas)
+- El enrutamiento de tráfico (automatizado según el rendimiento y la capacidad)
+- El escalado de capacidad (automatizado según la predicción de la demanda)
+
+El objetivo es siempre el mismo: eliminar categorías de problemas mediante la automatización en lugar de ayudar a los clientes a gestionar esos problemas manualmente.
+
+La buena infraestructura opera sin requerir atención constante. La automatización de certificados es la forma en que hicimos que los certificados SSL/TLS fueran aburridos—que es exactamente lo que deberían ser.

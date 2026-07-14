@@ -1,3 +1,18 @@
 #!/bin/bash
+set -e
 
+# --- Rosey multilingual pipeline (all-languages-prefixed) ---
+# 1. Scan built HTML -> rosey/base.json (all data-rosey keys + source text).
+npx rosey generate --source dist
+
+# 2. Create/update rosey/locales/{code}.json from base.json, preserving existing
+#    translations and writing the RCC locale manifest to dist/_rcc/locales.json.
+npx rosey-cloudcannon-connector write-locales --source rosey --dest dist --locales es,ar
+
+# 3. Rebuild the site with translations injected. No --default-language-at-root:
+#    every language is prefixed (/en/, /es/, /ar/) and / becomes a locale redirect.
+mv ./dist ./_untranslated_site
+npx rosey build --source _untranslated_site --dest dist --default-language en --exclusions "\.(html?)$"
+
+# --- Search index (runs last so it indexes the translated output) ---
 npx pagefind --site dist

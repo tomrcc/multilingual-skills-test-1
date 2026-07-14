@@ -47,6 +47,7 @@ const {
           aria-label={`Slide ${index + 1} of ${slides.length}`}
           data-editable="array-item"
           data-id="page-sections/features/feature-slider/feature-slider-item"
+          data-rosey-ns={slide._uuid ?? String(index)}
           {...slide}
         />
       ))

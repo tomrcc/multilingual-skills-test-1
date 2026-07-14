@@ -1,0 +1,117 @@
+---
+_schema: default
+title: Añadimos 47 nodos perimetrales el mes pasado y nadie lo notó
+description: >-
+  That's exactly how infrastructure upgrades should work: invisible to users,
+  measurable in metrics.
+date: 2026-02-12T00:00:00Z
+author: c63acdd1-33d5-4366-a000-34f0c17ca88b
+image: /src/assets/images/blog-edge-nodes.png
+tag: Performance
+---
+
+Las mejoras de infraestructura deberían ser invisibles. Si los usuarios notan tus mejoras, probablemente hayas roto algo en el proceso.
+
+El mes pasado desplegamos 47 nuevos nodos perimetrales en 12 países. El tráfico de clientes aumentó un 18%. La latencia disminuyó un 12% en las regiones recién cubiertas. Ni un solo cliente contactó con soporte por el despliegue.
+
+Así es exactamente como debería funcionar la infraestructura.
+
+## Por qué importa la invisibilidad
+
+La buena infraestructura es aburrida. Funciona de forma fiable, gestiona el tráfico sin dramas y mejora sin causar interrupciones. En el momento en que la infraestructura se vuelve interesante —caídas, degradación del rendimiento, comportamiento inesperado— algo ha salido mal.
+
+Diseñamos los despliegues con este principio: si los clientes lo notan, hemos fracasado.
+
+Esto genera limitaciones de ingeniería interesantes. Los nuevos nodos deben integrarse sin problemas en la infraestructura existente. El enrutamiento del tráfico debe adaptarse automáticamente. La monitorización debe detectar y resolver los problemas antes de que afecten a los usuarios. Todo el despliegue debe realizarse sin requerir cambios de configuración por parte del cliente ni interrupciones del servicio.
+
+## Planificar un despliegue que no se note
+
+Añadir 47 nodos perimetrales suena sencillo. Instalar servidores, configurar la red, enrutar el tráfico, listo. En la práctica, requiere meses de planificación para garantizar la invisibilidad.
+
+### **Paso uno: selección de ubicaciones**
+
+Analizamos los patrones de tráfico para identificar regiones donde nodos perimetrales adicionales reducirían la latencia de forma significativa. Esto no es adivinar: nuestros sistemas rastrean el origen de cada solicitud y calculan la ubicación óptima de los nodos perimetrales en función de la geografía de los usuarios y el volumen de tráfico.
+
+El despliegue del mes pasado se centró en el Sudeste Asiático, Europa del Este y partes de Sudamérica, donde nuestra cobertura existente era adecuada pero no óptima. Los nuevos nodos redujeron la latencia media en estas regiones de 28ms a 16ms.
+
+### **Paso dos: planificación de capacidad**
+
+Los nuevos nodos deben soportar el tráfico actual más el crecimiento. Sobredimensionamos deliberadamente: es mejor tener capacidad excedente que desplegar nodos que se conviertan de inmediato en cuellos de botella.
+
+Cada nuevo nodo se configuró para gestionar 3 veces su volumen de tráfico previsto. Esto nos da margen para el crecimiento del tráfico y proporciona redundancia si los nodos cercanos experimentan problemas.
+
+### **Paso tres: migración del tráfico**
+
+El momento crítico: ¿cuándo empezamos a enrutar el tráfico de los clientes hacia los nuevos nodos?
+
+Lo hacemos de forma gradual. Los nuevos nodos gestionan inicialmente el 1% del tráfico regional mientras monitorizamos el rendimiento. Si todo se ve bien, aumentamos al 5%, luego al 10% y después a la carga de producción completa a lo largo de varios días.
+
+Este despliegue por etapas significa que cualquier problema afecta a un porcentaje mínimo del tráfico y puede revertirse al instante. Para cuando los nodos gestionan el tráfico de producción completo, ya hemos verificado que funcionan correctamente en condiciones del mundo real.
+
+## Qué podría salir mal (y cómo lo prevenimos)
+
+Los despliegues de infraestructura fallan de formas predecibles. Hemos experimentado la mayoría de ellas al menos una vez y hemos construido las salvaguardas correspondientes.
+
+**Deriva de configuración:** Nuevos nodos configurados de forma ligeramente distinta a la infraestructura existente. Incluso pequeñas diferencias —versiones de software desactualizadas, distintas políticas de caché, enrutamiento mal configurado— causan problemas sutiles que son difíciles de diagnosticar.
+
+_Nuestra solución:_ Gestión automatizada de la configuración. Cada nodo perimetral ejecuta software idéntico, usa configuraciones idénticas y se verifica automáticamente antes de recibir tráfico. La configuración manual está prohibida.
+
+**Problemas de enrutamiento de red:** Los nuevos nodos deben integrarse correctamente en nuestro enrutamiento anycast. Anuncios BGP mal configurados podrían agujerear el tráfico (blackhole) o enrutarlo por rutas subóptimas.
+
+_Nuestra solución:_ Verificación automatizada del enrutamiento. Nuestros sistemas prueban la accesibilidad desde múltiples puntos de observación globales antes de anunciar los nuevos nodos. Si el enrutamiento no funciona correctamente desde todas las regiones, el nodo no entra en servicio.
+
+**Sorpresas de capacidad:** Los nuevos nodos podrían recibir más tráfico del esperado si los patrones de tráfico regional han cambiado desde la planificación.
+
+_Nuestra solución:_ Monitorización de carga en tiempo real con reequilibrio automático del tráfico. Si un nuevo nodo se acerca a sus límites de capacidad, nuestros sistemas desplazan automáticamente el tráfico hacia nodos cercanos mientras investigamos.
+
+**Fallos silenciosos:** Los nuevos nodos podrían parecer operativos mientras gestionan mal ciertas solicitudes de forma sutil: corrompiendo el contenido en caché, cortando conexiones de forma intermitente o introduciendo picos de latencia.
+
+_Nuestra solución:_ Monitorización sintética. Nuestros sistemas prueban continuamente los nuevos nodos con solicitudes conocidas y verifican que las respuestas coincidan con los resultados esperados. Cualquier desviación activa alertas y una desviación automática del tráfico.
+
+## El cronograma del despliegue
+
+### **Semana uno: instalación y configuración**
+
+Despliegue de infraestructura física. Servidores instalados en centros de datos, red configurada, software inicial desplegado. Todavía no hay tráfico de clientes involucrado: estos nodos están completamente aislados de producción.
+
+### **Semana dos: pruebas de integración**
+
+Los nuevos nodos se integran en nuestro entorno de staging y se someten a tráfico simulado. Probamos escenarios de fallo: ¿qué pasa si un nodo pierde conectividad de red, se queda sin espacio en disco o experimenta saturación de CPU? Nuestra monitorización debe detectar y responder correctamente.
+
+### **Semana tres: tráfico de producción inicial**
+
+Los nuevos nodos comienzan a recibir el 1% del tráfico regional. Nuestro equipo de operaciones monitoriza de forma obsesiva, atento a cualquier anomalía en la latencia, las tasas de aciertos de caché o las tasas de error. Todo se ve normal.
+
+### **Semana cuatro: carga de producción completa**
+
+El porcentaje de tráfico aumenta gradualmente: 5%, 10%, 25%, 50%, carga de producción completa. Para el final de la semana cuatro, los nuevos nodos gestionan su parte completa del tráfico regional sin problemas.
+
+### **Impacto total en el cliente: ninguno**
+
+Ni un solo ticket de soporte. Ninguna queja de rendimiento. Ninguna pregunta sobre por qué la latencia mejoró de repente. El despliegue fue perfecta y hermosamente aburrido.
+
+## Cómo se ve el éxito
+
+Nuestro panel de operaciones mostró el despliegue con claridad: 47 nuevos nodos apareciendo en el mapa de nuestra red, el tráfico desplazándose gradualmente, mejoras de latencia visibles en las métricas regionales. Internamente, rastreamos cada detalle.
+
+¿Externamente? Silencio. Los clientes siguieron usando nuestros servicios exactamente igual que antes, salvo un poco más rápido en ciertas regiones.
+
+Un cliente sí nos escribió, tres días después de completarse el despliegue. Habían notado que el búfer de su servicio de streaming de vídeo había disminuido en los mercados del Sudeste Asiático y querían saber si habíamos realizado mejoras de infraestructura.
+
+Confirmamos que sí. Nos lo agradecieron. Ese fue el alcance del impacto visible para el usuario.
+
+## El triunfo aburrido
+
+La ingeniería de infraestructura a gran escala implica realizar cambios complejos de forma invisible. Coordinamos despliegues entre centros de datos, configuramos cientos de servidores, migramos terabits de tráfico y verificamos que todo funcione correctamente, todo ello sin interrumpir el servicio.
+
+Esto es más difícil de lo que parece. Cada despliegue conlleva un riesgo. Los equipos fallan, el software tiene errores, las configuraciones contienen erratas, los humanos cometen errores. El reto es construir procesos y automatización que detecten los problemas antes de que lleguen a los usuarios.
+
+El despliegue del mes pasado salió a la perfección porque hemos aprendido de años de despliegues que no lo hicieron. Cada fallo del pasado nos enseñó algo sobre los modos de fallo y su prevención. Nuestro proceso de despliegue actual representa el conocimiento acumulado de incontables intentos previos.
+
+## Qué viene ahora
+
+Estamos planeando desplegar 60 nodos adicionales el próximo trimestre. Los clientes tampoco los notarán.
+
+Ese es el objetivo: una mejora continua de la infraestructura que solo sea visible en mejores métricas de rendimiento, nunca en interrupciones del servicio ni en quejas de los usuarios.
+
+La buena infraestructura es aburrida. Nos hemos vuelto muy buenos siendo aburridos.

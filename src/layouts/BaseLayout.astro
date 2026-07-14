@@ -33,6 +33,13 @@ const props = Astro.props;
   data-theme="light"
 >
   <head>
+    <script is:inline>
+      // Set text direction before first paint for RTL locales (e.g. Arabic).
+      // Rosey sets <html lang> on translated pages; this reads it to flip dir.
+      const rtl = new Set(["ar", "he", "fa", "ur", "ps", "sd", "yi", "ku", "ckb", "dv", "ug"]);
+      const lang = document.documentElement.lang?.split("-")[0];
+      if (rtl.has(lang)) document.documentElement.dir = "rtl";
+    </script>
     <meta charset="UTF-8" />
     <meta
       name="viewport"
@@ -110,9 +117,21 @@ const props = Astro.props;
     <ClientRouter />
   </head>
   <body>
-    <div transition:animate={fade({ duration: "0.2s" })}>
+    <!-- data-rcc marks the snapshot boundary the RCC clones when switching locales
+         in CloudCannon's Visual Editor. It wraps nav + main + footer (all rendered
+         into the slot) so their translatable text switches too. -->
+    <div
+      data-rcc
+      transition:animate={fade({ duration: "0.2s" })}
+    >
       <slot />
     </div>
     <VideoElements />
+    <!-- Lazy-load the Rosey CloudCannon Connector only inside the editor. -->
+    <script>
+      if (window?.inEditorMode) {
+        import("rosey-cloudcannon-connector");
+      }
+    </script>
   </body>
 </html>

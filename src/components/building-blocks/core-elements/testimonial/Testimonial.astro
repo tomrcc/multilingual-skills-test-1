@@ -10,6 +10,7 @@ const {
   class: className,
   useDefaultEditableBinding = false,
   "data-prop": customDataProp,
+  "data-rosey": roseyProp,
   "data-prop-author-name": customDataPropAuthorName,
   "data-prop-author-description": customDataPropAuthorDescription,
   _component,
@@ -23,6 +24,11 @@ const effectiveDataProp = customDataProp ?? (useDefaultEditableBinding ? "text" 
 const textDataAttributes = effectiveDataProp
   ? { "data-editable": "text", "data-prop": effectiveDataProp }
   : {};
+
+// Translate only the quote body. Author name/designation are identity values
+// (proper nouns) — left untagged per the Rosey guidance.
+const effectiveDataRosey = roseyProp === false ? null : (roseyProp ?? effectiveDataProp ?? null);
+const roseyAttributes = effectiveDataRosey ? { "data-rosey": effectiveDataRosey } : {};
 
 const effectiveAuthorNameProp =
   customDataPropAuthorName ?? (useDefaultEditableBinding ? "authorName" : null);
@@ -44,6 +50,7 @@ const authorDescriptionDataAttributes = effectiveAuthorDescProp
   <div
     class="quote"
     {...textDataAttributes}
+    {...roseyAttributes}
   >
     <slot>
       {text && <Fragment set:html={MarkdownText} />}

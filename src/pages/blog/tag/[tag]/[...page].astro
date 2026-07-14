@@ -89,6 +89,7 @@ const team = await getCollection("team");
                 variant={selectedTag === "all" ? "secondary" : "base"}
                 text="All"
                 editable={false}
+                data-rosey="filter_all"
               />
               {allTags.map((tag: string) => (
                 <Button
@@ -195,6 +196,7 @@ const team = await getCollection("team");
           alignmentHorizontal="center"
           style="margin-top: var(--spacing-2xl);"
           editable={false}
+          data-rosey="no_posts"
         >
           No blog posts found for this tag.
         </SimpleText>

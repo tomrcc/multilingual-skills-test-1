@@ -445,7 +445,7 @@ function hasCurrentChild(item) {
           align-self: stretch;
           background: transparent;
           border: none;
-          border-left: 1px solid transparent;
+          border-inline-start: 1px solid transparent;
           border-radius: var(--radius-xs);
           cursor: pointer;
           display: inline-flex;
@@ -460,7 +460,7 @@ function hasCurrentChild(item) {
 
           &:hover {
             background-color: color-mix(in srgb, var(--color-state-hover), var(--color-text) 8%);
-            border-left-color: var(--color-border);
+            border-inline-start-color: var(--color-border);
           }
 
           &:focus-visible {

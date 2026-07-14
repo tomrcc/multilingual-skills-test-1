@@ -1,0 +1,101 @@
+---
+import { localeConfig, localeCodes, defaultLocale } from "@utils/locales";
+
+const { class: className } = Astro.props;
+
+// All-languages-prefixed mode: every language (including the default) lives under
+// its own /{locale}/ prefix. Detect the active locale from the first path segment
+// and strip it to get the shared base path.
+const pathname = Astro.url.pathname;
+const segments = pathname.split("/").filter(Boolean);
+const firstIsLocale = localeCodes.includes(segments[0] as (typeof localeCodes)[number]);
+const basePath = firstIsLocale
+  ? "/" + segments.slice(1).join("/") + (segments.slice(1).length ? "/" : "")
+  : pathname;
+
+// Every locale link is prefixed, including the default — its home is /en/, not /.
+function buildPath(locale: string, base: string) {
+  const clean = base.startsWith("/") ? base : `/${base}`;
+  return `/${locale}${clean === "/" ? "/" : clean}`;
+}
+---
+
+<nav
+  aria-label="Language"
+  class:list={["locale-picker", className]}
+>
+  <ul>
+    {
+      localeCodes.map((code) => (
+        <li>
+          <a
+            href={buildPath(code, basePath)}
+            hreflang={code}
+            lang={code}
+            data-rosey-ignore
+            data-locale={code}
+          >
+            {localeConfig[code].label}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>
+
+<script>
+  // Build-time HTML always reflects the default-language perspective, so fix the
+  // active state on the client. Also hide this picker inside CloudCannon's Visual
+  // Editor — the RCC injects its own floating locale switcher there.
+  function initLocalePicker() {
+    if ((window as any).inEditorMode) {
+      document
+        .querySelectorAll("nav[aria-label='Language']")
+        .forEach((nav) => ((nav as HTMLElement).style.display = "none"));
+      return;
+    }
+    const segments = window.location.pathname.split("/").filter(Boolean);
+    const active = segments[0];
+    document.querySelectorAll("nav[aria-label='Language'] a").forEach((link) => {
+      const code = (link as HTMLElement).dataset.locale;
+      link.classList.toggle("active", code === active);
+    });
+  }
+  initLocalePicker();
+  document.addEventListener("astro:page-load", initLocalePicker);
+</script>
+
+<style is:global>
+  @layer components {
+    .locale-picker {
+      ul {
+        display: flex;
+        gap: var(--spacing-xs);
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        display: inline-block;
+        padding: var(--spacing-xs) var(--spacing-sm);
+        border-radius: var(--radius-xs);
+        color: var(--color-text-muted);
+        font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-bold);
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: color var(--animation-extra-fast) ease-in-out;
+
+        &:hover {
+          color: var(--color-text-strong);
+        }
+
+        &.active {
+          color: var(--color-text-brand);
+        }
+      }
+    }
+  }
+</style>

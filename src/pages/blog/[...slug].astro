@@ -112,6 +112,7 @@ const article = {
           alignmentHorizontal="start"
           class="heading"
           data-prop="title"
+          data-rosey={false}
         >
           {post.data.title}
         </Heading>
@@ -119,7 +120,7 @@ const article = {
           <a
             href="/blog/"
             class="blog-link"
-            >Blog</a
+            ><span data-rosey="breadcrumb_blog">Blog</span></a
           > / <a
             href={`/blog/tag/${post.data.tag}`}
             class="tag"
@@ -136,6 +137,7 @@ const article = {
           alignmentHorizontal="start"
           class="description"
           data-prop="description"
+          data-rosey={false}
         >
           {post.data.description}
         </SimpleText>
@@ -279,6 +281,7 @@ const article = {
             data-editable="source"
             data-path="/src/pages/blog/[...slug].astro"
             data-key="share-section-heading"
+            data-rosey="share_article"
           >
             Share this article:
           </SimpleText>
@@ -315,6 +318,7 @@ const article = {
           data-editable="source"
           data-path="/src/pages/blog/[...slug].astro"
           data-key="sidebar-heading"
+          data-rosey="sidebar_latest"
           >Latest News</SimpleText
         >
         {

@@ -1,0 +1,108 @@
+---
+_schema: default
+title: Cinco señales de que tu CDN te está mintiendo sobre las tasas de aciertos de caché
+description: >-
+  Not all content delivery networks are created equal, and some are
+  significantly more creative with their statistics than others.
+date: 2026-02-16T00:00:00Z
+author: 470d9a38-a9ab-4112-b222-8e10e7d5ac7d
+image: /src/assets/images/blog-cdn.png
+tag: Caching
+---
+
+Las tasas de aciertos de caché son la métrica más importante del rendimiento de una CDN. También son la métrica más fácil de manipular, tergiversar o presentar de formas que suenan impresionantes pero no significan nada.
+
+Llevamos años analizando las afirmaciones de rendimiento de las CDN de la competencia. Las cifras suelen ser muy creativas. Aquí te explicamos cómo saber si tu CDN está siendo honesta contigo.
+
+## Señal uno: reportan una única tasa de aciertos de caché global
+
+"¡Nuestra CDN alcanza tasas de aciertos de caché del 95%!" suena excelente hasta que preguntas: ¿el 95% de qué, dónde y cuándo?
+
+Una única cifra global esconde una enorme variación regional. Tu CDN podría alcanzar tasas de aciertos del 98% en Norteamérica mientras apenas llega al 70% en el Sudeste Asiático. El promedio global luce bien, pero la mitad de tus usuarios está experimentando un rendimiento pésimo.
+
+**Cómo se ve un reporte honesto:** tasas de aciertos de caché desglosadas por región, tipo de contenido y hora del día. En Jetstream, nuestro panel muestra las tasas de aciertos de cada nodo perimetral de forma individual. Algunos nodos rinden mejor que otros; no ocultamos eso promediándolo todo.
+
+**Por qué esto importa:** los fallos de caché significan que las solicitudes viajan hasta tu servidor de origen, lo que añade latencia y aumenta tus costes de ancho de banda. Una CDN con un rendimiento regional inconsistente te cuesta dinero y frustra a los usuarios de las regiones mal atendidas.
+
+## Señal dos: cuentan los "aciertos parciales" como aciertos completos
+
+Algunas CDN sirven el contenido en fragmentos. Si tienen el 80% de un archivo en caché y obtienen el 20% restante desde el origen, lo reportan como un "acierto de caché" porque, técnicamente, sirvieron la mayor parte desde la caché.
+
+Esto es matemáticamente creativo y prácticamente deshonesto.
+
+**Cómo se ve un reporte honesto:** definiciones claras de qué cuenta como un acierto. En Jetstream, un acierto de caché significa que el recurso completo se sirvió desde los nodos perimetrales sin tocar el origen. Los aciertos parciales se reportan por separado como lo que realmente son: fallos de caché parciales que siguen requiriendo tráfico hacia el origen.
+
+**Por qué esto importa:** los aciertos parciales siguen generando solicitudes al origen, lo que significa que tus servidores de origen gestionan más tráfico del que sugiere la tasa de aciertos reportada. Estás pagando por ancho de banda e infraestructura que no deberían ser necesarios si el rendimiento de la caché coincidiera con las cifras reportadas.
+
+## Señal tres: sus tasas de aciertos mejoran misteriosamente después de que firmas el contrato
+
+Durante las conversaciones de venta, las CDN suelen demostrar su rendimiento en sus propios sitios de demostración o en contenido de prueba cuidadosamente optimizado. Estas demostraciones muestran tasas de aciertos de caché impresionantes, baja latencia y un rendimiento perfecto.
+
+Luego migras tu contenido real y descubres que las tasas de aciertos son entre un 15% y un 20% más bajas de lo prometido.
+
+**Cómo se ve un reporte honesto:** garantías de rendimiento en tu contrato, no solo promesas verbales durante las llamadas de venta. En Jetstream, nuestros SLA incluyen compromisos de tasa mínima de aciertos de caché. Si no los cumplimos, recibes créditos de servicio. A nuestro equipo de ventas no se le permite prometer un rendimiento que nuestros contratos no garanticen.
+
+**Por qué esto importa:** el rendimiento de una demostración rara vez coincide con la realidad de producción. El contenido varía en su capacidad de almacenamiento en caché. Los patrones de tráfico son distintos. Si tu CDN no puede mantener el rendimiento prometido en condiciones del mundo real, estás pagando por capacidades que no estás recibiendo.
+
+## Señal cuatro: no explican qué están midiendo
+
+"Tasa de aciertos de caché" suena sencillo hasta que preguntas qué se está contando. Algunas CDN miden:
+
+- **Tasa de aciertos por solicitud** — porcentaje de solicitudes servidas desde la caché
+- **Tasa de aciertos por bytes** — porcentaje de bytes servidos desde la caché
+- **Tasa de aciertos por objeto** — porcentaje de objetos únicos servidos desde la caché
+
+Estas producen cifras drásticamente diferentes para el mismo tráfico.
+
+Considera un escenario: tu CDN sirve 1000 solicitudes. 950 son para archivos HTML pequeños (10KB cada uno), servidos desde la caché. 50 son para archivos de vídeo grandes (100MB cada uno), que fallan en la caché y se obtienen desde el origen.
+
+- Tasa de aciertos por solicitud: 95% (950 de 1000 solicitudes aciertan en la caché)
+- Tasa de aciertos por bytes: 16% (la mayoría de los bytes provinieron del origen debido al tamaño del vídeo)
+
+El mismo tráfico, un rendimiento reportado radicalmente distinto.
+
+**Cómo se ve un reporte honesto:** definiciones claras de la metodología de medición. En Jetstream, reportamos tanto las tasas de aciertos por solicitud como las tasas de aciertos por bytes, porque cuentan historias diferentes sobre el rendimiento. Las tasas por solicitud importan para la latencia. Las tasas por bytes importan para los costes de ancho de banda. Ambas son importantes.
+
+**Por qué esto importa:** una CDN que reporta altas tasas de aciertos por solicitud podría seguir generando un ancho de banda de origen enorme si los fallos de caché se concentran en archivos grandes. Necesitas ambas métricas para entender el rendimiento y el coste reales.
+
+## Señal cinco: culpan a tu contenido cuando las tasas de aciertos son bajas
+
+Cuando se les confronta con un rendimiento de caché deficiente, algunas CDN señalan de inmediato la configuración de tu contenido. "Tus cabeceras de caché están mal." "Tu contenido no está optimizado para el almacenamiento en caché." "Necesitas reestructurar toda tu aplicación."
+
+A veces esto es cierto. A menudo es una evasiva.
+
+**Cómo se ve un reporte honesto:** CDN que identifican de forma proactiva los problemas de capacidad de almacenamiento en caché y sugieren mejoras concretas. En Jetstream, nuestro panel marca el contenido que es difícil de almacenar en caché y explica por qué. Si tus cabeceras de caché impiden el almacenamiento en caché, te lo decimos. Si nuestros sistemas pudieran almacenar algo en caché pero no lo están haciendo, investigamos por qué nuestros sistemas están rindiendo por debajo de lo esperado.
+
+**Por qué esto importa:** la optimización del contenido es importante, pero las CDN deberían maximizar la eficiencia de la caché para el contenido que realmente tienes, no para el contenido idealizado que desearían que tuvieras. Una CDN que culpa de inmediato a tu contenido de cada problema de rendimiento no está esforzándose lo suficiente por optimizar sus propios sistemas.
+
+## Cómo verificar la honestidad de tu CDN
+
+Solicita acceso a analíticas detalladas. Las buenas CDN proporcionan datos de rendimiento granulares:
+
+- Desgloses de la tasa de aciertos de caché por región
+- Tasas de aciertos por tipo de contenido y tamaño de archivo
+- Volumen de solicitudes al origen y ancho de banda
+- Motivos de los fallos de caché (caducado, no almacenable en caché, primera solicitud)
+- Datos de series temporales que muestren las tendencias de rendimiento
+
+Si tu CDN no puede o no quiere proporcionar estos datos, pregunta por qué. La transparencia sobre el rendimiento indica confianza en los sistemas. La opacidad sugiere que las cifras no van a contar una historia halagadora.
+
+## Qué hacemos de forma diferente
+
+En Jetstream, nuestras tasas de aciertos de caché promedian el 99,97% porque hemos invertido con fuerza en algoritmos de predicción que almacenan el contenido en caché de forma anticipada, antes de que se solicite. Nuestros sistemas analizan los patrones de tráfico y las tendencias de acceso geográfico para anticipar qué solicitarán los usuarios a continuación.
+
+Reportamos el rendimiento de la caché con una honestidad incómoda porque confiamos en nuestros sistemas. Nuestro panel muestra:
+
+- Tasas de aciertos de caché por nodo actualizadas en tiempo real
+- Variaciones de rendimiento regionales con explicaciones para los valores atípicos
+- Métricas separadas de tasa de aciertos por solicitud y por bytes
+- Categorización de los fallos de caché (por qué un contenido concreto falló en la caché)
+- Tendencias de rendimiento mes a mes
+
+Cuando el rendimiento de nuestra caché cae, investigamos internamente antes de mencionar la configuración de tu contenido. Normalmente el problema está de nuestro lado: una política de expulsión de caché demasiado agresiva, un modelo de predicción que necesita reentrenamiento o nodos perimetrales que necesitan una ampliación de capacidad.
+
+## La conclusión
+
+Tu CDN debería hacer que tu infraestructura sea más rápida y fiable. Si no puedes confiar en sus reportes de rendimiento, no puedes confiar en que estás obteniendo valor por tu dinero.
+
+Haz preguntas difíciles. Exige métricas transparentes. Insiste en garantías contractuales de rendimiento. Las buenas CDN dan la bienvenida al escrutinio porque sus sistemas rinden como se anuncia.
