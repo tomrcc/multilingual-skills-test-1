@@ -3,6 +3,7 @@ icon: dashboard
 description: A grid layout where items can span multiple columns and rows.
 value:
   _component: building-blocks/wrappers/bento-box
+  _uuid:
   label: ""
   columns: "3"
   minRowHeight: 150

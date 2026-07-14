@@ -28,12 +28,16 @@ const {
   ...htmlAttributes
 } = Astro.props;
 
-// Create mobile slides: flatten all non-decorative cards from all slides
+// Create mobile slides: flatten all non-decorative cards from all slides.
+// Each mobile slide wraps a single card, so inherit that card's _uuid as the
+// slide's Rosey namespace — otherwise the synthetic slides fall back to their
+// index and translation keys shift when cards are reordered.
 const mobileSlides = slides.flatMap(
   (slide: any) =>
     slide.cards
       ?.filter((card: any) => !card.decorative)
       .map((card: any) => ({
+        _uuid: card._uuid,
         cards: [card],
       })) || []
 );

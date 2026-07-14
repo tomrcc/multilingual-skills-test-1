@@ -32,6 +32,7 @@ pageSections:
       size: nav-height
       direction: back
     rounded: false
+    _uuid: af2165c4-b03e-4de3-aa99-bc7c26ae9f1d
   - _component: page-sections/features/feature-carousel-grid
     eyebrowIcon:
       _component: building-blocks/core-elements/icon
@@ -66,6 +67,7 @@ pageSections:
               misconfigured router away.
             columnSpan: 4
             rowSpan: 1
+            _uuid: 47d73db9-ef1b-4077-98e3-27c0ae73df89
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: true
             style: surface-linear-gradient
@@ -75,6 +77,7 @@ pageSections:
             text: Feature Carousel Card Description
             columnSpan: 4
             rowSpan: 1
+            _uuid: dcb73a0f-9b63-41e0-800c-5c6cd337cfda
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: false
             style: surface-linear-gradient
@@ -94,6 +97,7 @@ pageSections:
               better decisions faster than people can.
             columnSpan: 4
             rowSpan: 1
+            _uuid: bebd3f4c-2c0a-4218-8d14-893a65d8cffa
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: true
             style: surface-linear-gradient
@@ -103,6 +107,7 @@ pageSections:
             text: Feature Carousel Card Description
             columnSpan: 4
             rowSpan: 1
+            _uuid: a03aaf3c-0bc3-41a3-82d9-b0af5bc4cece
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: false
             style: surface-linear-gradient
@@ -122,6 +127,7 @@ pageSections:
               ago.
             columnSpan: 8
             rowSpan: 1
+            _uuid: c657b0ca-b6da-4d30-86d6-5caf4d6660f7
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: false
             style: surface-linear-gradient
@@ -141,6 +147,7 @@ pageSections:
               tired or complacent.
             columnSpan: 8
             rowSpan: 1
+            _uuid: 1820f719-0881-4b70-9ce9-073b764eaaae
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: true
             style: surface-linear-gradient
@@ -150,6 +157,8 @@ pageSections:
             text: Feature Carousel Card Description
             columnSpan: 4
             rowSpan: 1
+            _uuid: 474cd74a-894c-41e1-829d-fd1ce27db103
+        _uuid: a1f2290e-8550-452f-8dd3-89237541fcbd
       - _component: page-sections/features/feature-carousel-grid/feature-carousel-slide
         cards:
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
@@ -161,6 +170,7 @@ pageSections:
             text: Feature Carousel Card Description
             columnSpan: 4
             rowSpan: 1
+            _uuid: 4b2b6c78-aaab-46c1-96d8-82e5c1e1d1d6
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: false
             style: surface-linear-gradient
@@ -180,6 +190,7 @@ pageSections:
               paranoia.
             columnSpan: 4
             rowSpan: 1
+            _uuid: a5757e34-58a4-42f7-bbc0-bb821f521e1d
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: true
             style: surface-linear-gradient
@@ -189,6 +200,7 @@ pageSections:
             text: Feature Carousel Card Description
             columnSpan: 4
             rowSpan: 1
+            _uuid: 489310f4-1716-41d8-948a-e066f08c360d
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: false
             style: surface-linear-gradient
@@ -207,6 +219,7 @@ pageSections:
               stopped counting after layer five but they're definitely there.
             columnSpan: 4
             rowSpan: 1
+            _uuid: d75c13fe-0189-4b58-970d-90a6999fe7c2
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: true
             style: surface-linear-gradient
@@ -216,6 +229,7 @@ pageSections:
             text: Feature Carousel Card Description
             columnSpan: 8
             rowSpan: 1
+            _uuid: c74e5a61-0f1e-4826-baaf-bbcd9ad5f6ec
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: true
             style: surface-linear-gradient
@@ -225,6 +239,7 @@ pageSections:
             text: Feature Carousel Card Description
             columnSpan: 6
             rowSpan: 1
+            _uuid: 9f8d9ae3-21e6-4ea4-93ba-db6ce0164ec7
           - _component: page-sections/features/feature-carousel-grid/feature-carousel-card
             decorative: false
             style: surface-linear-gradient
@@ -244,6 +259,8 @@ pageSections:
               misconfiguration away from happening.
             columnSpan: 6
             rowSpan: 1
+            _uuid: b7eada6a-2d8f-4003-893a-86ac07206d55
+        _uuid: f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3
     maxContentWidth: 3xl
     paddingVertical: 4xl
     colorScheme: inherit
@@ -254,6 +271,7 @@ pageSections:
       size: xl
       direction: front
     rounded: true
+    _uuid: 01dd1003-5b8a-47e5-89bc-ea9e797e7e8a
   - _component: page-sections/info-blocks/timeline
     eyebrowIcon: {}
     eyebrowText: ''
@@ -273,6 +291,7 @@ pageSections:
           We founded Jetstream after a particularly frustrating 3am incident
           response call convinced our co-founders that existing solutions lacked
           sufficient ambition.
+        _uuid: 994eb0c0-fd12-453a-9d43-ea0d7851de05
       - _component: page-sections/info-blocks/timeline/timeline-item
         icon:
           name: light-bulb
@@ -282,6 +301,7 @@ pageSections:
         text: >-
           Our first edge node deployed in Singapore. We then monitored it
           obsessively for three weeks straight.
+        _uuid: 28467ecf-4473-4510-8106-2243676ffb17
       - _component: page-sections/info-blocks/timeline/timeline-item
         icon:
           name: light-bulb
@@ -292,6 +312,7 @@ pageSections:
           We successfully mitigated our first major DDoS attack (4.2Tbps); our
           engineering team celebrated with a
           pizza-and-additional-monitoring-party.
+        _uuid: 14a30543-5fd9-45f7-bbcc-6b12d07f9b04
       - _component: page-sections/info-blocks/timeline/timeline-item
         icon:
           name: light-bulb
@@ -301,6 +322,7 @@ pageSections:
         text: >-
           We launched automated SSL certificate management after customer
           support received their 10,000th "help, my certificate expired" ticket.
+        _uuid: a9ef9de6-a2d0-46bc-940a-d27d4d1be8bb
       - _component: page-sections/info-blocks/timeline/timeline-item
         icon:
           name: light-bulb
@@ -310,6 +332,7 @@ pageSections:
         text: >-
           Our original three-person engineering team now leads a department of
           200 who share their pathological intolerance for downtime.
+        _uuid: 2409b77e-aa56-49d1-87ca-d3fb06d3c24f
     maxContentWidth: 2xl
     paddingVertical: 4xl
     colorScheme: inherit
@@ -319,6 +342,7 @@ pageSections:
       size: xl
       direction: front
     rounded: false
+    _uuid: 07aed762-5b68-4b4e-9f03-3e97963d049d
   - _component: page-sections/people/team-grid
     eyebrowIcon: {}
     eyebrowText:
@@ -341,6 +365,7 @@ pageSections:
           delights her engineering team.
         imageSource: /src/assets/images/staff-1.png
         imageAlt: Jen Lauren profile image
+        _uuid: 4c235783-b29f-465d-b3aa-d8d23349ca6e
       - _component: page-sections/people/team-grid/team-item
         name: Rowan Anneaux
         role: Co-founder &amp; Chief Technology Officer
@@ -353,6 +378,7 @@ pageSections:
           engineers frame on their walls.
         imageSource: /src/assets/images/staff-2-1.png
         imageAlt: Rowan Anneaux profile image
+        _uuid: 1266cf7c-7182-4829-9642-91f57f973ee1
       - _component: page-sections/people/team-grid/team-item
         name: Oscar Edwards
         role: Vice President of Network Operations
@@ -366,6 +392,7 @@ pageSections:
           doesn't plan to start.
         imageSource: /src/assets/images/staff-3-1.png
         imageAlt: Oscar Edwards profile image
+        _uuid: 167b1771-1797-4862-8474-c088a632f3e3
       - _component: page-sections/people/team-grid/team-item
         name: James Douglas
         role: Chief Security Officer
@@ -379,6 +406,7 @@ pageSections:
           proof the system works.
         imageSource: /src/assets/images/staff-4.png
         imageAlt: James Douglas profile image
+        _uuid: b616cd2b-4df8-44c0-a355-34f17a79cba0
       - _component: page-sections/people/team-grid/team-item
         name: Janet Murray
         role: VP of Engineering
@@ -391,6 +419,7 @@ pageSections:
           infrastructure should be boring — in the best possible way.
         imageSource: /src/assets/images/staff-5.png
         imageAlt: Janet Murray profile image
+        _uuid: dddda5ae-65da-4949-9dfc-8bd4d7ac5484
       - _component: page-sections/people/team-grid/team-item
         name: Jack Walters
         role: VP of Customer Success
@@ -404,6 +433,7 @@ pageSections:
           brought an unsettling level of enthusiasm for operational excellence.
         imageSource: /src/assets/images/staff-6.png
         imageAlt: Jack Walters profile image
+        _uuid: 7955700b-7805-4b70-a91f-2f812dd90d92
     maxContentWidth: 2xl
     paddingVertical: 4xl
     colorScheme: inherit
@@ -413,6 +443,7 @@ pageSections:
       size: xl
       direction: front
     rounded: true
+    _uuid: a6c6ed24-4874-4d57-a1aa-564677051015
   - _component: page-sections/ctas/cta-center
     eyebrowIcon: {}
     eyebrowText:
@@ -427,11 +458,13 @@ pageSections:
         iconPosition: before
         variant: primary
         size: md
+        _uuid: 08effa21-d9a4-4192-a090-22cb9f5d7f19
     maxContentWidth: xl
     paddingVertical: 4xl
     colorScheme: dark
     backgroundColor: highlight-radial-gradient
     contentBackground: false
     rounded: true
+    _uuid: c9bafd43-dd4a-40e1-a909-3bf4634346cf
 description: ''
 ---

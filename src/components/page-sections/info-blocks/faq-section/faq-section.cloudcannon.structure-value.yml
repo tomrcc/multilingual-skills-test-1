@@ -3,6 +3,7 @@ icon: help_outline
 description: Section displaying frequently asked questions in an accordion format.
 value:
   _component: page-sections/info-blocks/faq-section
+  _uuid:
   sectionLabel: ""
   heading: Frequently Asked Questions
   items: []
@@ -225,6 +226,7 @@ _structures:
           title: Question text
           contentSections:
             - _component: building-blocks/core-elements/text
+              _uuid:
               text: Answer text goes here.
               size: md
         preview:

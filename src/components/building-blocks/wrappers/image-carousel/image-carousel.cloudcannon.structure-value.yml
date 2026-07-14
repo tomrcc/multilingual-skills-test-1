@@ -3,6 +3,7 @@ icon: gallery_thumbnail
 description: Displays images in a carousel with a thumbnail strip for navigation.
 value:
   _component: building-blocks/wrappers/image-carousel
+  _uuid:
   label: ""
   images: []
   showArrows: true

@@ -1,310 +1,565 @@
 {
-  "about:0:heading": {
-    "original": "  <p><span class=\"highlight-text\">We exist to make the internet work</span> the way people assume it already does.</p>  ",
-    "value": "  <p><span class=\"highlight-text\">Existimos para hacer que internet funcione</span> como la gente da por sentado que ya funciona.</p>  ",
-    "_base_original": "  <p><span class=\"highlight-text\">We exist to make the internet work</span> the way people assume it already does.</p>  "
+  "0:0:heading": {
+    "original": " Real-time Collaboration ",
+    "value": "",
+    "_base_original": " Real-time Collaboration "
   },
-  "about:0:title": {
-    "original": " Our mission ",
-    "value": " Nuestra misión ",
-    "_base_original": " Our mission "
+  "0:0:text": {
+    "original": "  <p>Work together with your team in real-time with instant updates and seamless synchronization.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Work together with your team in real-time with instant updates and seamless synchronization.</p>\n  "
   },
-  "about:1:0:0:eyebrowText": {
+  "0:1:heading": {
+    "original": " Advanced Analytics ",
+    "value": "",
+    "_base_original": " Advanced Analytics "
+  },
+  "0:1:text": {
+    "original": "  <p>Get deep insights into your data with customizable dashboards and reports.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Get deep insights into your data with customizable dashboards and reports.</p>\n  "
+  },
+  "0:2:heading": {
+    "original": " Secure by Default ",
+    "value": "",
+    "_base_original": " Secure by Default "
+  },
+  "0:2:text": {
+    "original": "  <p>Enterprise-grade security with end-to-end encryption and compliance certifications.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Enterprise-grade security with end-to-end encryption and compliance certifications.</p>\n  "
+  },
+  "0:description": {
+    "original": "  <p>Trigger downstream tools when tasks close so work keeps moving without manual pings.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Trigger downstream tools when tasks close so work keeps moving without manual pings.</p>\n  "
+  },
+  "0:eyebrow": {
+    "original": "  Automation  ",
+    "value": "",
+    "_base_original": "  Automation  "
+  },
+  "0:name": {
+    "original": " Michael Chen ",
+    "value": "",
+    "_base_original": " Michael Chen "
+  },
+  "0:role": {
+    "original": " CEO &amp; Founder ",
+    "value": "",
+    "_base_original": " CEO &amp; Founder "
+  },
+  "0:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "0:text": {
+    "original": "  <p>The free plan gives you access to basic features including project creation, limited storage, and community support. You can upgrade at any time for more functionality.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>The free plan gives you access to basic features including project creation, limited storage, and community support. You can upgrade at any time for more functionality.</p>\n  "
+  },
+  "0:title": {
+    "original": " Automated handoffs ",
+    "value": "",
+    "_base_original": " Automated handoffs "
+  },
+  "1:0:heading": {
+    "original": " API Integration ",
+    "value": "",
+    "_base_original": " API Integration "
+  },
+  "1:0:text": {
+    "original": "  <p>Connect with your favorite tools through our robust API and webhook system.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Connect with your favorite tools through our robust API and webhook system.</p>\n  "
+  },
+  "1:1:heading": {
+    "original": " Custom Workflows ",
+    "value": "",
+    "_base_original": " Custom Workflows "
+  },
+  "1:1:text": {
+    "original": "  <p>Design workflows that match your process with flexible automation rules.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Design workflows that match your process with flexible automation rules.</p>\n  "
+  },
+  "1:2:heading": {
+    "original": " 24/7 Support ",
+    "value": "",
+    "_base_original": " 24/7 Support "
+  },
+  "1:2:text": {
+    "original": "  <p>Get help whenever you need it with our dedicated support team.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Get help whenever you need it with our dedicated support team.</p>\n  "
+  },
+  "1:3:text": {
+    "original": "  <p><strong>More numbers than other companies</strong></p>\n  ",
+    "value": "  <p><strong>Más cifras que otras empresas</strong></p>\n  ",
+    "_base_original": "  <p><strong>More numbers than other companies</strong></p>\n  "
+  },
+  "1:description": {
+    "original": "  <p>Pull status from every project into a single adaptive view for leadership.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Pull status from every project into a single adaptive view for leadership.</p>\n  "
+  },
+  "1:eyebrow": {
+    "original": "  Visibility  ",
+    "value": "",
+    "_base_original": "  Visibility  "
+  },
+  "1:name": {
+    "original": " Sarah Johnson ",
+    "value": "",
+    "_base_original": " Sarah Johnson "
+  },
+  "1:role": {
+    "original": " Lead Developer ",
+    "value": "",
+    "_base_original": " Lead Developer "
+  },
+  "1:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "1:title": {
+    "original": " Insight dashboards ",
+    "value": "",
+    "_base_original": " Insight dashboards "
+  },
+  "2:0:heading": {
+    "original": " Secure by Default ",
+    "value": "",
+    "_base_original": " Secure by Default "
+  },
+  "2:0:text": {
+    "original": "  <p>Enterprise-grade security with end-to-end encryption and compliance certifications.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Enterprise-grade security with end-to-end encryption and compliance certifications.</p>\n  "
+  },
+  "2:description": {
+    "original": "  <p>Use roles to decide exactly who can edit briefs, roadmaps, and approvals.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Use roles to decide exactly who can edit briefs, roadmaps, and approvals.</p>\n  "
+  },
+  "2:eyebrow": {
+    "original": "  Control  ",
+    "value": "",
+    "_base_original": "  Control  "
+  },
+  "2:name": {
+    "original": " David Kim ",
+    "value": "",
+    "_base_original": " David Kim "
+  },
+  "2:role": {
+    "original": " Design Director ",
+    "value": "",
+    "_base_original": " Design Director "
+  },
+  "2:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "2:title": {
+    "original": " Granular permissions ",
+    "value": "",
+    "_base_original": " Granular permissions "
+  },
+  "3:0:heading": {
+    "original": " API Integration ",
+    "value": "",
+    "_base_original": " API Integration "
+  },
+  "3:0:text": {
+    "original": "  <p>Connect with your favorite tools through our robust API and webhook system.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Connect with your favorite tools through our robust API and webhook system.</p>\n  "
+  },
+  "3:name": {
+    "original": " Emily Rodriguez ",
+    "value": "",
+    "_base_original": " Emily Rodriguez "
+  },
+  "3:role": {
+    "original": " Product Manager ",
+    "value": "",
+    "_base_original": " Product Manager "
+  },
+  "3:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "4:0:heading": {
+    "original": " Custom Workflows ",
+    "value": "",
+    "_base_original": " Custom Workflows "
+  },
+  "4:0:text": {
+    "original": "  <p>Design workflows that match your process with flexible automation rules.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Design workflows that match your process with flexible automation rules.</p>\n  "
+  },
+  "4:name": {
+    "original": " Alex Thompson ",
+    "value": "",
+    "_base_original": " Alex Thompson "
+  },
+  "4:role": {
+    "original": " Marketing Director ",
+    "value": "",
+    "_base_original": " Marketing Director "
+  },
+  "5:0:heading": {
+    "original": " 24/7 Support ",
+    "value": "",
+    "_base_original": " 24/7 Support "
+  },
+  "5:0:text": {
+    "original": "  <p>Get help whenever you need it with our dedicated support team.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Get help whenever you need it with our dedicated support team.</p>\n  "
+  },
+  "5:name": {
+    "original": " Jordan Martinez ",
+    "value": "",
+    "_base_original": " Jordan Martinez "
+  },
+  "5:role": {
+    "original": " UX Researcher ",
+    "value": "",
+    "_base_original": " UX Researcher "
+  },
+  "about": {
+    "original": "About",
+    "value": "Acerca de",
+    "_base_original": "About"
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:1820f719-0881-4b70-9ce9-073b764eaaae:1820f719-0881-4b70-9ce9-073b764eaaae:eyebrowText": {
+    "original": " Zero-trust security ",
+    "value": " Seguridad de confianza cero ",
+    "_base_original": " Zero-trust security "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:1820f719-0881-4b70-9ce9-073b764eaaae:1820f719-0881-4b70-9ce9-073b764eaaae:heading": {
+    "original": " Assume everything is a threat ",
+    "value": " Asuma que todo es una amenaza ",
+    "_base_original": " Assume everything is a threat "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:1820f719-0881-4b70-9ce9-073b764eaaae:1820f719-0881-4b70-9ce9-073b764eaaae:text": {
+    "original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  ",
+    "value": "  <p>Cada solicitud se verifica, cada conexión se cifra y cada intento de inicio de sesión es examinado por sistemas que nunca se cansan ni se confían.</p>\n  ",
+    "_base_original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:47d73db9-ef1b-4077-98e3-27c0ae73df89:47d73db9-ef1b-4077-98e3-27c0ae73df89:eyebrowText": {
     "original": " Global reach ",
     "value": " Alcance global ",
     "_base_original": " Global reach "
   },
-  "about:1:0:0:heading": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:47d73db9-ef1b-4077-98e3-27c0ae73df89:47d73db9-ef1b-4077-98e3-27c0ae73df89:heading": {
     "original": " 847 edge nodes, six continents ",
     "value": " 847 nodos perimetrales, seis continentes ",
     "_base_original": " 847 edge nodes, six continents "
   },
-  "about:1:0:0:text": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:47d73db9-ef1b-4077-98e3-27c0ae73df89:47d73db9-ef1b-4077-98e3-27c0ae73df89:text": {
     "original": "  <p>Your content lives closer to your users than their nearest coffee shop, with redundant routing that assumes failure is always one misconfigured router away.</p>\n  ",
     "value": "  <p>Su contenido reside más cerca de sus usuarios que su cafetería más próxima, con enrutamiento redundante que asume que un fallo siempre está a un router mal configurado de distancia.</p>\n  ",
     "_base_original": "  <p>Your content lives closer to your users than their nearest coffee shop, with redundant routing that assumes failure is always one misconfigured router away.</p>\n  "
   },
-  "about:1:0:2:eyebrowText": {
-    "original": " Automatic everything ",
-    "value": " Todo automático ",
-    "_base_original": " Automatic everything "
-  },
-  "about:1:0:2:heading": {
-    "original": " Infrastructure that manages itself ",
-    "value": " Infraestructura que se gestiona sola ",
-    "_base_original": " Infrastructure that manages itself "
-  },
-  "about:1:0:2:text": {
-    "original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  ",
-    "value": "  <p>Las renovaciones SSL, el enrutamiento del tráfico, la detección de amenazas y el escalado de capacidad ocurren sin intervención humana: nuestros sistemas toman mejores decisiones y más rápido de lo que las personas pueden.</p>\n  ",
-    "_base_original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  "
-  },
-  "about:1:0:4:eyebrowText": {
-    "original": " Real-time visibility ",
-    "value": " Visibilidad en tiempo real ",
-    "_base_original": " Real-time visibility "
-  },
-  "about:1:0:4:heading": {
-    "original": " Analytics that update in a snap ",
-    "value": " Analíticas que se actualizan en un abrir y cerrar de ojos ",
-    "_base_original": " Analytics that update in a snap "
-  },
-  "about:1:0:4:text": {
-    "original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  ",
-    "value": "  <p>Supervise cada solicitud y cada posible amenaza mediante paneles que le muestran lo que ocurre ahora, no hace cinco minutos.</p>\n  ",
-    "_base_original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  "
-  },
-  "about:1:0:5:eyebrowText": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:1820f719-0881-4b70-9ce9-073b764eaaae:eyebrowText": {
     "original": " Zero-trust security ",
     "value": " Seguridad de confianza cero ",
     "_base_original": " Zero-trust security "
   },
-  "about:1:0:5:heading": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:1820f719-0881-4b70-9ce9-073b764eaaae:heading": {
     "original": " Assume everything is a threat ",
     "value": " Asuma que todo es una amenaza ",
     "_base_original": " Assume everything is a threat "
   },
-  "about:1:0:5:text": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:1820f719-0881-4b70-9ce9-073b764eaaae:text": {
     "original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  ",
     "value": "  <p>Cada solicitud se verifica, cada conexión se cifra y cada intento de inicio de sesión es examinado por sistemas que nunca se cansan ni se confían.</p>\n  ",
     "_base_original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  "
   },
-  "about:1:1:0:eyebrowText": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:47d73db9-ef1b-4077-98e3-27c0ae73df89:eyebrowText": {
+    "original": " Global reach ",
+    "value": " Alcance global ",
+    "_base_original": " Global reach "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:47d73db9-ef1b-4077-98e3-27c0ae73df89:heading": {
+    "original": " 847 edge nodes, six continents ",
+    "value": " 847 nodos perimetrales, seis continentes ",
+    "_base_original": " 847 edge nodes, six continents "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:47d73db9-ef1b-4077-98e3-27c0ae73df89:text": {
+    "original": "  <p>Your content lives closer to your users than their nearest coffee shop, with redundant routing that assumes failure is always one misconfigured router away.</p>\n  ",
+    "value": "  <p>Su contenido reside más cerca de sus usuarios que su cafetería más próxima, con enrutamiento redundante que asume que un fallo siempre está a un router mal configurado de distancia.</p>\n  ",
+    "_base_original": "  <p>Your content lives closer to your users than their nearest coffee shop, with redundant routing that assumes failure is always one misconfigured router away.</p>\n  "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:eyebrowText": {
     "original": " Automatic everything ",
     "value": " Todo automático ",
     "_base_original": " Automatic everything "
   },
-  "about:1:1:0:heading": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:heading": {
     "original": " Infrastructure that manages itself ",
     "value": " Infraestructura que se gestiona sola ",
     "_base_original": " Infrastructure that manages itself "
   },
-  "about:1:1:0:text": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:text": {
     "original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  ",
     "value": "  <p>Las renovaciones SSL, el enrutamiento del tráfico, la detección de amenazas y el escalado de capacidad ocurren sin intervención humana: nuestros sistemas toman mejores decisiones y más rápido de lo que las personas pueden.</p>\n  ",
     "_base_original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  "
   },
-  "about:1:1:1:eyebrowText": {
-    "original": " Obsessive redundancy ",
-    "value": " Redundancia obsesiva ",
-    "_base_original": " Obsessive redundancy "
-  },
-  "about:1:1:1:heading": {
-    "original": " Multiple backups for our backups ",
-    "value": " Múltiples copias de seguridad de nuestras copias de seguridad ",
-    "_base_original": " Multiple backups for our backups "
-  },
-  "about:1:1:1:text": {
-    "original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  ",
-    "value": "  <p>Los puntos únicos de fallo son defectos de diseño que hemos eliminado por completo mediante sistemas redundantes, enrutamiento diverso y una dosis sana de paranoia.</p>\n  ",
-    "_base_original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  "
-  },
-  "about:1:1:3:eyebrowText": {
-    "original": " Obsessive redundancy ",
-    "value": " Redundancia obsesiva ",
-    "_base_original": " Obsessive redundancy "
-  },
-  "about:1:1:3:heading": {
-    "original": " Redundancy layers all the way down ",
-    "value": " Capas de redundancia hasta el fondo ",
-    "_base_original": " Redundancy layers all the way down "
-  },
-  "about:1:1:3:text": {
-    "original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  ",
-    "value": "  <p>Cada sistema crítico tiene una copia de seguridad. Cada copia de seguridad tiene otra copia de seguridad. Dejamos de contar después de la quinta capa, pero sin duda están ahí.</p>\n  ",
-    "_base_original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  "
-  },
-  "about:1:1:6:eyebrowText": {
-    "original": " Obsessive redundancy ",
-    "value": " Redundancia obsesiva ",
-    "_base_original": " Obsessive redundancy "
-  },
-  "about:1:1:6:heading": {
-    "original": " Trust nothing, backup everything ",
-    "value": " No confíe en nada, respalde todo ",
-    "_base_original": " Trust nothing, backup everything "
-  },
-  "about:1:1:6:text": {
-    "original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  ",
-    "value": "  <p>Si es crítico, es redundante. Si es redundante, tiene una copia de seguridad. Nuestra infraestructura asume que un fallo siempre está a una mala configuración de producirse.</p>\n  ",
-    "_base_original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  "
-  },
-  "about:1:2:0:eyebrowText": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:eyebrowText": {
     "original": " Real-time visibility ",
     "value": " Visibilidad en tiempo real ",
     "_base_original": " Real-time visibility "
   },
-  "about:1:2:0:heading": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:heading": {
     "original": " Analytics that update in a snap ",
     "value": " Analíticas que se actualizan en un abrir y cerrar de ojos ",
     "_base_original": " Analytics that update in a snap "
   },
-  "about:1:2:0:text": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a1f2290e-8550-452f-8dd3-89237541fcbd:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:text": {
     "original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  ",
     "value": "  <p>Supervise cada solicitud y cada posible amenaza mediante paneles que le muestran lo que ocurre ahora, no hace cinco minutos.</p>\n  ",
     "_base_original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  "
   },
-  "about:1:3:0:eyebrowText": {
-    "original": " Zero-trust security ",
-    "value": " Seguridad de confianza cero ",
-    "_base_original": " Zero-trust security "
-  },
-  "about:1:3:0:heading": {
-    "original": " Assume everything is a threat ",
-    "value": " Asuma que todo es una amenaza ",
-    "_base_original": " Assume everything is a threat "
-  },
-  "about:1:3:0:text": {
-    "original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  ",
-    "value": "  <p>Cada solicitud se verifica, cada conexión se cifra y cada intento de inicio de sesión es examinado por sistemas que nunca se cansan ni se confían.</p>\n  ",
-    "_base_original": "  <p>Every request gets verified, every connection gets encrypted, every login attempt gets scrutinized by systems that never get tired or complacent.</p>\n  "
-  },
-  "about:1:4:0:eyebrowText": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a5757e34-58a4-42f7-bbc0-bb821f521e1d:a5757e34-58a4-42f7-bbc0-bb821f521e1d:eyebrowText": {
     "original": " Obsessive redundancy ",
     "value": " Redundancia obsesiva ",
     "_base_original": " Obsessive redundancy "
   },
-  "about:1:4:0:heading": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a5757e34-58a4-42f7-bbc0-bb821f521e1d:a5757e34-58a4-42f7-bbc0-bb821f521e1d:heading": {
     "original": " Multiple backups for our backups ",
     "value": " Múltiples copias de seguridad de nuestras copias de seguridad ",
     "_base_original": " Multiple backups for our backups "
   },
-  "about:1:4:0:text": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:a5757e34-58a4-42f7-bbc0-bb821f521e1d:a5757e34-58a4-42f7-bbc0-bb821f521e1d:text": {
     "original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  ",
     "value": "  <p>Los puntos únicos de fallo son defectos de diseño que hemos eliminado por completo mediante sistemas redundantes, enrutamiento diverso y una dosis sana de paranoia.</p>\n  ",
     "_base_original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  "
   },
-  "about:1:5:0:eyebrowText": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:b7eada6a-2d8f-4003-893a-86ac07206d55:b7eada6a-2d8f-4003-893a-86ac07206d55:eyebrowText": {
     "original": " Obsessive redundancy ",
     "value": " Redundancia obsesiva ",
     "_base_original": " Obsessive redundancy "
   },
-  "about:1:5:0:heading": {
-    "original": " Redundancy layers all the way down ",
-    "value": " Capas de redundancia hasta el fondo ",
-    "_base_original": " Redundancy layers all the way down "
-  },
-  "about:1:5:0:text": {
-    "original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  ",
-    "value": "  <p>Cada sistema crítico tiene una copia de seguridad. Cada copia de seguridad tiene otra copia de seguridad. Dejamos de contar después de la quinta capa, pero sin duda están ahí.</p>\n  ",
-    "_base_original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  "
-  },
-  "about:1:6:0:eyebrowText": {
-    "original": " Obsessive redundancy ",
-    "value": " Redundancia obsesiva ",
-    "_base_original": " Obsessive redundancy "
-  },
-  "about:1:6:0:heading": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:b7eada6a-2d8f-4003-893a-86ac07206d55:b7eada6a-2d8f-4003-893a-86ac07206d55:heading": {
     "original": " Trust nothing, backup everything ",
     "value": " No confíe en nada, respalde todo ",
     "_base_original": " Trust nothing, backup everything "
   },
-  "about:1:6:0:text": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:b7eada6a-2d8f-4003-893a-86ac07206d55:b7eada6a-2d8f-4003-893a-86ac07206d55:text": {
     "original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  ",
     "value": "  <p>Si es crítico, es redundante. Si es redundante, tiene una copia de seguridad. Nuestra infraestructura asume que un fallo siempre está a una mala configuración de producirse.</p>\n  ",
     "_base_original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  "
   },
-  "about:1:heading": {
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:eyebrowText": {
+    "original": " Automatic everything ",
+    "value": " Todo automático ",
+    "_base_original": " Automatic everything "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:heading": {
+    "original": " Infrastructure that manages itself ",
+    "value": " Infraestructura que se gestiona sola ",
+    "_base_original": " Infrastructure that manages itself "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:bebd3f4c-2c0a-4218-8d14-893a65d8cffa:text": {
+    "original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  ",
+    "value": "  <p>Las renovaciones SSL, el enrutamiento del tráfico, la detección de amenazas y el escalado de capacidad ocurren sin intervención humana: nuestros sistemas toman mejores decisiones y más rápido de lo que las personas pueden.</p>\n  ",
+    "_base_original": "  <p>SSL renewals, traffic routing, threat detection, and capacity scaling happen without human intervention — our systems make better decisions faster than people can.</p>\n  "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:eyebrowText": {
+    "original": " Real-time visibility ",
+    "value": " Visibilidad en tiempo real ",
+    "_base_original": " Real-time visibility "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:heading": {
+    "original": " Analytics that update in a snap ",
+    "value": " Analíticas que se actualizan en un abrir y cerrar de ojos ",
+    "_base_original": " Analytics that update in a snap "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:c657b0ca-b6da-4d30-86d6-5caf4d6660f7:text": {
+    "original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  ",
+    "value": "  <p>Supervise cada solicitud y cada posible amenaza mediante paneles que le muestran lo que ocurre ahora, no hace cinco minutos.</p>\n  ",
+    "_base_original": "  <p>Monitor every request and every potential threat through dashboards that show you what's happening now, not five minutes ago.</p>\n  "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:d75c13fe-0189-4b58-970d-90a6999fe7c2:d75c13fe-0189-4b58-970d-90a6999fe7c2:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:d75c13fe-0189-4b58-970d-90a6999fe7c2:d75c13fe-0189-4b58-970d-90a6999fe7c2:heading": {
+    "original": " Redundancy layers all the way down ",
+    "value": " Capas de redundancia hasta el fondo ",
+    "_base_original": " Redundancy layers all the way down "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:d75c13fe-0189-4b58-970d-90a6999fe7c2:d75c13fe-0189-4b58-970d-90a6999fe7c2:text": {
+    "original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  ",
+    "value": "  <p>Cada sistema crítico tiene una copia de seguridad. Cada copia de seguridad tiene otra copia de seguridad. Dejamos de contar después de la quinta capa, pero sin duda están ahí.</p>\n  ",
+    "_base_original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:a5757e34-58a4-42f7-bbc0-bb821f521e1d:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:a5757e34-58a4-42f7-bbc0-bb821f521e1d:heading": {
+    "original": " Multiple backups for our backups ",
+    "value": " Múltiples copias de seguridad de nuestras copias de seguridad ",
+    "_base_original": " Multiple backups for our backups "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:a5757e34-58a4-42f7-bbc0-bb821f521e1d:text": {
+    "original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  ",
+    "value": "  <p>Los puntos únicos de fallo son defectos de diseño que hemos eliminado por completo mediante sistemas redundantes, enrutamiento diverso y una dosis sana de paranoia.</p>\n  ",
+    "_base_original": "  <p>Single points of failure are design flaws we've engineered out of existence through redundant systems, diverse routing, and healthy paranoia.</p>\n  "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:b7eada6a-2d8f-4003-893a-86ac07206d55:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:b7eada6a-2d8f-4003-893a-86ac07206d55:heading": {
+    "original": " Trust nothing, backup everything ",
+    "value": " No confíe en nada, respalde todo ",
+    "_base_original": " Trust nothing, backup everything "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:b7eada6a-2d8f-4003-893a-86ac07206d55:text": {
+    "original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  ",
+    "value": "  <p>Si es crítico, es redundante. Si es redundante, tiene una copia de seguridad. Nuestra infraestructura asume que un fallo siempre está a una mala configuración de producirse.</p>\n  ",
+    "_base_original": "  <p>If it's critical, it's redundant. If it's redundant, it has a backup. Our infrastructure assumes failure is always one misconfiguration away from happening.</p>\n  "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:d75c13fe-0189-4b58-970d-90a6999fe7c2:eyebrowText": {
+    "original": " Obsessive redundancy ",
+    "value": " Redundancia obsesiva ",
+    "_base_original": " Obsessive redundancy "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:d75c13fe-0189-4b58-970d-90a6999fe7c2:heading": {
+    "original": " Redundancy layers all the way down ",
+    "value": " Capas de redundancia hasta el fondo ",
+    "_base_original": " Redundancy layers all the way down "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:f8e0f47e-a4f0-4e9e-b82e-e3a97313faf3:d75c13fe-0189-4b58-970d-90a6999fe7c2:text": {
+    "original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  ",
+    "value": "  <p>Cada sistema crítico tiene una copia de seguridad. Cada copia de seguridad tiene otra copia de seguridad. Dejamos de contar después de la quinta capa, pero sin duda están ahí.</p>\n  ",
+    "_base_original": "  <p>Every critical system has a backup. Every backup has a backup. We stopped counting after layer five but they're definitely there.</p>\n  "
+  },
+  "about:01dd1003-5b8a-47e5-89bc-ea9e797e7e8a:heading": {
     "original": "  Our core commitments  ",
     "value": "  Nuestros compromisos fundamentales  ",
     "_base_original": "  Our core commitments  "
   },
-  "about:2:heading": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:heading": {
     "original": "  How it all began  ",
     "value": "  Cómo empezó todo  ",
     "_base_original": "  How it all began  "
   },
-  "about:2:items.0.date": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.0.date": {
     "original": " March 2019 ",
     "value": " Marzo de 2019 ",
     "_base_original": " March 2019 "
   },
-  "about:2:items.0.heading": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.0.heading": {
     "original": " The 3am decision ",
     "value": " La decisión de las 3 de la madrugada ",
     "_base_original": " The 3am decision "
   },
-  "about:2:items.0.text": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.0.text": {
     "original": "  <p>We founded Jetstream after a particularly frustrating 3am incident response call convinced our co-founders that existing solutions lacked sufficient ambition.</p>\n  ",
     "value": "  <p>Fundamos Jetstream después de que una llamada de respuesta a incidentes especialmente frustrante, a las 3 de la madrugada, convenciera a nuestros cofundadores de que las soluciones existentes carecían de suficiente ambición.</p>\n  ",
     "_base_original": "  <p>We founded Jetstream after a particularly frustrating 3am incident response call convinced our co-founders that existing solutions lacked sufficient ambition.</p>\n  "
   },
-  "about:2:items.1.date": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.1.date": {
     "original": " August 2019 ",
     "value": " Agosto de 2019 ",
     "_base_original": " August 2019 "
   },
-  "about:2:items.1.heading": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.1.heading": {
     "original": " First node goes live ",
     "value": " El primer nodo entra en funcionamiento ",
     "_base_original": " First node goes live "
   },
-  "about:2:items.1.text": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.1.text": {
     "original": "  <p>Our first edge node deployed in Singapore. We then monitored it obsessively for three weeks straight.</p>\n  ",
     "value": "  <p>Nuestro primer nodo perimetral se desplegó en Singapur. Después lo supervisamos obsesivamente durante tres semanas seguidas.</p>\n  ",
     "_base_original": "  <p>Our first edge node deployed in Singapore. We then monitored it obsessively for three weeks straight.</p>\n  "
   },
-  "about:2:items.2.date": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.2.date": {
     "original": " February 2020 ",
     "value": " Febrero de 2020 ",
     "_base_original": " February 2020 "
   },
-  "about:2:items.2.heading": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.2.heading": {
     "original": " Trial by traffic ",
     "value": " Prueba de fuego por tráfico ",
     "_base_original": " Trial by traffic "
   },
-  "about:2:items.2.text": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.2.text": {
     "original": "  <p>We successfully mitigated our first major DDoS attack (4.2Tbps); our engineering team celebrated with a pizza-and-additional-monitoring-party.</p>\n  ",
     "value": "  <p>Mitigamos con éxito nuestro primer gran ataque DDoS (4.2Tbps); nuestro equipo de ingeniería lo celebró con una fiesta de pizza y monitorización adicional.</p>\n  ",
     "_base_original": "  <p>We successfully mitigated our first major DDoS attack (4.2Tbps); our engineering team celebrated with a pizza-and-additional-monitoring-party.</p>\n  "
   },
-  "about:2:items.3.date": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.3.date": {
     "original": " November 2022 ",
     "value": " Noviembre de 2022 ",
     "_base_original": " November 2022 "
   },
-  "about:2:items.3.heading": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.3.heading": {
     "original": " Certificates that renew themselves ",
     "value": " Certificados que se renuevan solos ",
     "_base_original": " Certificates that renew themselves "
   },
-  "about:2:items.3.text": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.3.text": {
     "original": "  <p>We launched automated SSL certificate management after customer support received their 10,000th \"help, my certificate expired\" ticket.</p>\n  ",
     "value": "  <p>Lanzamos la gestión automatizada de certificados SSL después de que el equipo de soporte recibiera su ticket número 10 000 de «ayuda, mi certificado ha caducado».</p>\n  ",
     "_base_original": "  <p>We launched automated SSL certificate management after customer support received their 10,000th \"help, my certificate expired\" ticket.</p>\n  "
   },
-  "about:2:items.4.date": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.4.date": {
     "original": " September 2025 ",
     "value": " Septiembre de 2025 ",
     "_base_original": " September 2025 "
   },
-  "about:2:items.4.heading": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.4.heading": {
     "original": " Achieved 847 global edge nodes ",
     "value": " Alcanzamos 847 nodos perimetrales globales ",
     "_base_original": " Achieved 847 global edge nodes "
   },
-  "about:2:items.4.text": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:items.4.text": {
     "original": "  <p>Our original three-person engineering team now leads a department of 200 who share their pathological intolerance for downtime.</p>\n  ",
     "value": "  <p>Nuestro equipo de ingeniería original de tres personas ahora dirige un departamento de 200 que comparten su intolerancia patológica al tiempo de inactividad.</p>\n  ",
     "_base_original": "  <p>Our original three-person engineering team now leads a department of 200 who share their pathological intolerance for downtime.</p>\n  "
   },
-  "about:2:subtext": {
+  "about:07aed762-5b68-4b4e-9f03-3e97963d049d:subtext": {
     "original": "  <p>Architecture discussions in a poorly-ventilated office became a working prototype, then a functioning network, then a company that takes global internet infrastructure perhaps more seriously than is strictly necessary.</p>\n  ",
     "value": "  <p>Las discusiones sobre arquitectura en una oficina mal ventilada se convirtieron en un prototipo funcional, luego en una red operativa y después en una empresa que se toma la infraestructura global de internet quizá más en serio de lo estrictamente necesario.</p>\n  ",
     "_base_original": "  <p>Architecture discussions in a poorly-ventilated office became a working prototype, then a functioning network, then a company that takes global internet infrastructure perhaps more seriously than is strictly necessary.</p>\n  "
   },
-  "about:3:heading": {
+  "about:a6c6ed24-4874-4d57-a1aa-564677051015:heading": {
     "original": "  The team behind the network  ",
     "value": "  El equipo detrás de la red  ",
     "_base_original": "  The team behind the network  "
   },
-  "about:3:subtext": {
+  "about:a6c6ed24-4874-4d57-a1aa-564677051015:subtext": {
     "original": " Engineers, optimists, and people who refuse to accept that anything is impossible until proven otherwise. ",
     "value": " Ingenieros, optimistas y personas que se niegan a aceptar que algo sea imposible hasta que se demuestre lo contrario. ",
     "_base_original": " Engineers, optimists, and people who refuse to accept that anything is impossible until proven otherwise. "
   },
-  "about:4:heading": {
+  "about:af2165c4-b03e-4de3-aa99-bc7c26ae9f1d:heading": {
+    "original": "  <p><span class=\"highlight-text\">We exist to make the internet work</span> the way people assume it already does.</p>  ",
+    "value": "  <p><span class=\"highlight-text\">Existimos para hacer que internet funcione</span> como la gente da por sentado que ya funciona.</p>  ",
+    "_base_original": "  <p><span class=\"highlight-text\">We exist to make the internet work</span> the way people assume it already does.</p>  "
+  },
+  "about:af2165c4-b03e-4de3-aa99-bc7c26ae9f1d:title": {
+    "original": " Our mission ",
+    "value": " Nuestra misión ",
+    "_base_original": " Our mission "
+  },
+  "about:c9bafd43-dd4a-40e1-a909-3bf4634346cf:heading": {
     "original": "  Join the team that takes infrastructure personally  ",
     "value": "  Únase al equipo que se toma la infraestructura como algo personal  ",
     "_base_original": "  Join the team that takes infrastructure personally  "
@@ -313,6 +568,16 @@
     "original": "Accordion",
     "value": "Acordeón",
     "_base_original": "Accordion"
+  },
+  "all-products": {
+    "original": "All Products",
+    "value": "",
+    "_base_original": "All Products"
+  },
+  "another-link": {
+    "original": "Another link",
+    "value": "",
+    "_base_original": "Another link"
   },
   "back-to-site": {
     "original": "← Back to site",
@@ -334,85 +599,115 @@
     "value": "Cuadrícula Bento Box",
     "_base_original": "Bento Box Grid"
   },
-  "blog:0:0:subtext": {
-    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
-    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  "best-sellers": {
+    "original": "Best Sellers",
+    "value": "",
+    "_base_original": "Best Sellers"
   },
-  "blog:0:1:subtext": {
+  "blog": {
+    "original": "Blog",
+    "value": "Blog",
+    "_base_original": "Blog"
+  },
+  "blog-listing": {
+    "original": "Blog listing",
+    "value": "",
+    "_base_original": "Blog listing"
+  },
+  "blog-post": {
+    "original": "Blog Post",
+    "value": "",
+    "_base_original": "Blog Post"
+  },
+  "blog:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
     "original": "  <p>New resolver response time (acceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
     "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
   },
-  "blog:0:2:subtext": {
+  "blog:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
     "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
     "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
     "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
   },
-  "blog:0:3:subtext": {
-    "original": "  <p>All-hands meetings to convince management</p>\n  ",
-    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
-    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
-  },
-  "blog:0:card.heading": {
-    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
-    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
-    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
-  },
-  "blog:0:card.subtext": {
-    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
-    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
-    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
-  },
-  "blog:0:heading": {
-    "original": "  The engineering journal  ",
-    "value": "  El diario de ingeniería  ",
-    "_base_original": "  The engineering journal  "
-  },
-  "blog:0:subtext": {
-    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
-    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
-    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
-  },
-  "blog/2:0:0:subtext": {
+  "blog:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/2:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/2:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/2:0:3:subtext": {
+  "blog:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/2:0:card.heading": {
+  "blog:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/2:0:card.subtext": {
+  "blog:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/2:0:heading": {
+  "blog:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/2:0:subtext": {
+  "blog:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/2:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/2:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/2:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/2:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/2:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/2:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/2:06f802b3-6306-4a22-8108-91a73840a313:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/2:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/2:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
   },
   "blog/five-signs-your-cdn-is-lying-to-you-about-cache-hit-rates:breadcrumb_blog": {
     "original": "Blog",
@@ -599,365 +894,410 @@
     "value": " Últimas noticias ",
     "_base_original": " Latest News "
   },
-  "blog/tag/Caching:0:0:subtext": {
-    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
-    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
-  },
-  "blog/tag/Caching:0:1:subtext": {
+  "blog/tag/Caching:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
     "original": "  <p>New resolver response time (acceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
     "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
   },
-  "blog/tag/Caching:0:2:subtext": {
+  "blog/tag/Caching:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
     "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
     "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
     "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
   },
-  "blog/tag/Caching:0:3:subtext": {
-    "original": "  <p>All-hands meetings to convince management</p>\n  ",
-    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
-    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
-  },
-  "blog/tag/Caching:0:card.heading": {
-    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
-    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
-    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
-  },
-  "blog/tag/Caching:0:card.subtext": {
-    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
-    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
-    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
-  },
-  "blog/tag/Caching:0:heading": {
-    "original": "  The engineering journal  ",
-    "value": "  El diario de ingeniería  ",
-    "_base_original": "  The engineering journal  "
-  },
-  "blog/tag/Caching:0:subtext": {
-    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
-    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
-    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
-  },
-  "blog/tag/CDN:0:0:subtext": {
+  "blog/tag/Caching:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/tag/CDN:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/tag/CDN:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/tag/CDN:0:3:subtext": {
+  "blog/tag/Caching:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/tag/CDN:0:card.heading": {
+  "blog/tag/Caching:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/tag/CDN:0:card.subtext": {
+  "blog/tag/Caching:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/tag/CDN:0:heading": {
+  "blog/tag/Caching:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/tag/CDN:0:subtext": {
+  "blog/tag/Caching:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
   },
-  "blog/tag/Downtime:0:0:subtext": {
+  "blog/tag/Caching:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/tag/CDN:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/CDN:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/CDN:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/tag/Downtime:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/tag/Downtime:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/tag/Downtime:0:3:subtext": {
+  "blog/tag/CDN:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/tag/Downtime:0:card.heading": {
+  "blog/tag/CDN:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/tag/Downtime:0:card.subtext": {
+  "blog/tag/CDN:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/tag/Downtime:0:heading": {
+  "blog/tag/CDN:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/tag/Downtime:0:subtext": {
+  "blog/tag/CDN:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
   },
-  "blog/tag/Example:0:0:subtext": {
+  "blog/tag/CDN:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/tag/Downtime:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Downtime:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Downtime:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/tag/Example:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/tag/Example:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/tag/Example:0:3:subtext": {
+  "blog/tag/Downtime:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/tag/Example:0:card.heading": {
+  "blog/tag/Downtime:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/tag/Example:0:card.subtext": {
+  "blog/tag/Downtime:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/tag/Example:0:heading": {
+  "blog/tag/Downtime:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/tag/Example:0:subtext": {
+  "blog/tag/Downtime:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
   },
-  "blog/tag/Performance:0:0:subtext": {
+  "blog/tag/Downtime:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/tag/Example:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Example:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Example:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/tag/Performance:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/tag/Performance:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/tag/Performance:0:3:subtext": {
+  "blog/tag/Example:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/tag/Performance:0:card.heading": {
+  "blog/tag/Example:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/tag/Performance:0:card.subtext": {
+  "blog/tag/Example:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/tag/Performance:0:heading": {
+  "blog/tag/Example:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/tag/Performance:0:subtext": {
+  "blog/tag/Example:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
   },
-  "blog/tag/Photons:0:0:subtext": {
+  "blog/tag/Example:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/tag/Performance:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Performance:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Performance:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/tag/Photons:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/tag/Photons:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/tag/Photons:0:3:subtext": {
+  "blog/tag/Performance:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/tag/Photons:0:card.heading": {
+  "blog/tag/Performance:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/tag/Photons:0:card.subtext": {
+  "blog/tag/Performance:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/tag/Photons:0:heading": {
+  "blog/tag/Performance:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/tag/Photons:0:subtext": {
+  "blog/tag/Performance:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
   },
-  "blog/tag/Prediction:0:0:subtext": {
+  "blog/tag/Performance:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/tag/Photons:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Photons:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Photons:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/tag/Prediction:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/tag/Prediction:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/tag/Prediction:0:3:subtext": {
+  "blog/tag/Photons:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/tag/Prediction:0:card.heading": {
+  "blog/tag/Photons:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/tag/Prediction:0:card.subtext": {
+  "blog/tag/Photons:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/tag/Prediction:0:heading": {
+  "blog/tag/Photons:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/tag/Prediction:0:subtext": {
+  "blog/tag/Photons:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
   },
-  "blog/tag/Security:0:0:subtext": {
+  "blog/tag/Photons:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/tag/Prediction:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Prediction:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Prediction:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/tag/Security:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/tag/Security:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/tag/Security:0:3:subtext": {
+  "blog/tag/Prediction:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/tag/Security:0:card.heading": {
+  "blog/tag/Prediction:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/tag/Security:0:card.subtext": {
+  "blog/tag/Prediction:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/tag/Security:0:heading": {
+  "blog/tag/Prediction:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/tag/Security:0:subtext": {
+  "blog/tag/Prediction:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
   },
-  "blog/tag/Uptime:0:0:subtext": {
+  "blog/tag/Prediction:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/tag/Security:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Security:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Security:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
     "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
     "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
     "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
   },
-  "blog/tag/Uptime:0:1:subtext": {
-    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
-    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
-    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
-  },
-  "blog/tag/Uptime:0:2:subtext": {
-    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
-    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
-    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
-  },
-  "blog/tag/Uptime:0:3:subtext": {
+  "blog/tag/Security:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
     "original": "  <p>All-hands meetings to convince management</p>\n  ",
     "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
     "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
   },
-  "blog/tag/Uptime:0:card.heading": {
+  "blog/tag/Security:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
     "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
     "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
   },
-  "blog/tag/Uptime:0:card.subtext": {
+  "blog/tag/Security:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
     "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
     "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
     "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
   },
-  "blog/tag/Uptime:0:heading": {
+  "blog/tag/Security:06f802b3-6306-4a22-8108-91a73840a313:heading": {
     "original": "  The engineering journal  ",
     "value": "  El diario de ingeniería  ",
     "_base_original": "  The engineering journal  "
   },
-  "blog/tag/Uptime:0:subtext": {
+  "blog/tag/Security:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
     "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
     "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
     "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Security:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
+  },
+  "blog/tag/Uptime:06f802b3-6306-4a22-8108-91a73840a313:107a72b2-9bfa-4b8c-b468-cd742bdb3ecd:subtext": {
+    "original": "  <p>New resolver response time (acceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del nuevo resolvedor (aceptable)</p>\n  ",
+    "_base_original": "  <p>New resolver response time (acceptable)</p>\n  "
+  },
+  "blog/tag/Uptime:06f802b3-6306-4a22-8108-91a73840a313:4c08c11f-8c10-43eb-860d-357fc3882796:subtext": {
+    "original": "  <p>Lines of code written, deleted, rewritten</p>\n  ",
+    "value": "  <p>Líneas de código escritas, borradas, reescritas</p>\n  ",
+    "_base_original": "  <p>Lines of code written, deleted, rewritten</p>\n  "
+  },
+  "blog/tag/Uptime:06f802b3-6306-4a22-8108-91a73840a313:5ff4ea56-cede-41bb-92b0-b98c723a298e:subtext": {
+    "original": "  <p>Previous resolver response time (unacceptable)</p>\n  ",
+    "value": "  <p>Tiempo de respuesta del resolvedor anterior (inaceptable)</p>\n  ",
+    "_base_original": "  <p>Previous resolver response time (unacceptable)</p>\n  "
+  },
+  "blog/tag/Uptime:06f802b3-6306-4a22-8108-91a73840a313:708d7b87-95f0-4160-a3bb-e5cfb1b1f7e8:subtext": {
+    "original": "  <p>All-hands meetings to convince management</p>\n  ",
+    "value": "  <p>Reuniones generales para convencer a la dirección</p>\n  ",
+    "_base_original": "  <p>All-hands meetings to convince management</p>\n  "
+  },
+  "blog/tag/Uptime:06f802b3-6306-4a22-8108-91a73840a313:card.heading": {
+    "original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  ",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
+    "_base_original": "  Why we rebuilt our DNS resolver from scratch (<span class=\"highlight-text\">again</span>)  "
+  },
+  "blog/tag/Uptime:06f802b3-6306-4a22-8108-91a73840a313:card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "blog/tag/Uptime:06f802b3-6306-4a22-8108-91a73840a313:heading": {
+    "original": "  The engineering journal  ",
+    "value": "  El diario de ingeniería  ",
+    "_base_original": "  The engineering journal  "
+  },
+  "blog/tag/Uptime:06f802b3-6306-4a22-8108-91a73840a313:subtext": {
+    "original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  ",
+    "value": "  <p>Ideas, novedades y, de vez en cuando, análisis técnicos en profundidad del equipo que mantiene internet en funcionamiento.</p>\n  ",
+    "_base_original": "  <p>Insights, updates, and occasional technical deep-dives from the team that keeps the internet running.</p>\n  "
+  },
+  "blog/tag/Uptime:7ddf63d6-edb8-40d6-a2f3-4ad5e8e46fd2:heading": {
+    "original": "  Let's build your next tech breakthough together  ",
+    "value": "",
+    "_base_original": "  Let's build your next tech breakthough together  "
   },
   "blog/the-great-ddos-attack-of-last-tuesday-a-postmortem:breadcrumb_blog": {
     "original": "Blog",
@@ -1109,27 +1449,67 @@
     "value": "Tarjeta",
     "_base_original": "Card"
   },
+  "card.heading": {
+    "original": "  <h1><strong>Why we rebuilt our DNS resolver from scratch (</strong><span class=\"highlight-text\"><strong>again</strong></span><strong>)</strong> </h1>  ",
+    "value": "",
+    "_base_original": "  <h1><strong>Why we rebuilt our DNS resolver from scratch (</strong><span class=\"highlight-text\"><strong>again</strong></span><strong>)</strong> </h1>  "
+  },
+  "card.subtext": {
+    "original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  ",
+    "value": "  A veces lo suficientemente bueno no basta, sobre todo cuando nuestros ingenieros tienen opiniones firmes sobre la optimización de consultas.  ",
+    "_base_original": "  Sometimes good enough isn't good enough, especially when our engineers have strong opinions about query optimization.  "
+  },
+  "careers": {
+    "original": "Careers",
+    "value": "",
+    "_base_original": "Careers"
+  },
   "carousel": {
     "original": "Carousel",
     "value": "Carrusel",
     "_base_original": "Carousel"
+  },
+  "categories": {
+    "original": "Categories",
+    "value": "",
+    "_base_original": "Categories"
   },
   "choice-group": {
     "original": "Choice Group",
     "value": "Grupo de opciones",
     "_base_original": "Choice Group"
   },
+  "clothing": {
+    "original": "Clothing",
+    "value": "",
+    "_base_original": "Clothing"
+  },
   "component-builder": {
     "original": "Component Builder",
     "value": "Constructor de componentes",
     "_base_original": "Component Builder"
   },
-  "contact:0:heading": {
+  "component-library": {
+    "original": "Component library",
+    "value": "",
+    "_base_original": "Component library"
+  },
+  "consulting": {
+    "original": "Consulting",
+    "value": "",
+    "_base_original": "Consulting"
+  },
+  "contact": {
+    "original": "Contact",
+    "value": "Contacto",
+    "_base_original": "Contact"
+  },
+  "contact:a5275e7c-61fb-43ee-8fdd-3c655584d108:heading": {
     "original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  ",
     "value": "  ¿Necesita más información?<br><span class=\"highlight-text\">Contáctenos</span>  ",
     "_base_original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  "
   },
-  "contact:0:subtext": {
+  "contact:a5275e7c-61fb-43ee-8fdd-3c655584d108:subtext": {
     "original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  ",
     "value": "  <p>Nuestro equipo de soluciones está listo con respuestas y un nivel de entusiasmo apropiado.</p>\n  ",
     "_base_original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  "
@@ -1194,6 +1574,11 @@
     "value": "Divisor",
     "_base_original": "Divider"
   },
+  "documentation": {
+    "original": "Documentation",
+    "value": "",
+    "_base_original": "Documentation"
+  },
   "editing-a-page": {
     "original": "Editing a Page",
     "value": "Editar una página",
@@ -1204,10 +1589,20 @@
     "value": "Editar el blog",
     "_base_original": "Editing the Blog"
   },
+  "electronics": {
+    "original": "Electronics",
+    "value": "",
+    "_base_original": "Electronics"
+  },
   "embed": {
     "original": "Embed",
     "value": "Insertar",
     "_base_original": "Embed"
+  },
+  "eyebrow": {
+    "original": "  Launch playbook  ",
+    "value": "",
+    "_base_original": "  Launch playbook  "
   },
   "faq-section": {
     "original": "FAQ Section",
@@ -1279,6 +1674,11 @@
     "value": "Precios",
     "_base_original": "Pricing"
   },
+  "footer:resources": {
+    "original": "Resources",
+    "value": "",
+    "_base_original": "Resources"
+  },
   "form": {
     "original": "Form",
     "value": "Formulario",
@@ -1299,10 +1699,20 @@
     "value": "Cuadrícula",
     "_base_original": "Grid"
   },
+  "guides": {
+    "original": "Guides",
+    "value": "",
+    "_base_original": "Guides"
+  },
   "heading": {
     "original": "Heading",
     "value": "Encabezado",
     "_base_original": "Heading"
+  },
+  "help-center": {
+    "original": "Help Center",
+    "value": "",
+    "_base_original": "Help Center"
   },
   "hero-card": {
     "original": "Hero Card",
@@ -1334,6 +1744,11 @@
     "value": "Inicio",
     "_base_original": "Home"
   },
+  "home-garden": {
+    "original": "Home &amp; Garden",
+    "value": "",
+    "_base_original": "Home &amp; Garden"
+  },
   "how-visual-editing-works": {
     "original": "How Visual Editing Works",
     "value": "Cómo funciona la edición visual",
@@ -1354,160 +1769,175 @@
     "value": "Carrusel de imágenes",
     "_base_original": "Image Carousel"
   },
-  "index:0:heading": {
-    "original": "  Introducing<br><span class=\"highlight-text\">Jetstream</span>  ",
-    "value": "  Presentamos<br><span class=\"highlight-text\">Jetstream</span>  ",
-    "_base_original": "  Introducing<br><span class=\"highlight-text\">Jetstream</span>  "
-  },
-  "index:0:subtext": {
-    "original": "  <p>A new Astro template by CloudCannon, built with our <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> for top performance, true visual editing, and an ideal developer experience.</p>\n  ",
-    "value": "  <p>Una nueva plantilla de Astro de CloudCannon, creada con nuestro <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> para un rendimiento óptimo, edición visual real y una experiencia de desarrollo ideal.</p>\n  ",
-    "_base_original": "  <p>A new Astro template by CloudCannon, built with our <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> for top performance, true visual editing, and an ideal developer experience.</p>\n  "
-  },
-  "index:1:heading": {
+  "index:01785a66-7665-4602-95e6-eaff6d94d15a:heading": {
     "original": "  We’ve solved the internet for the world’s most ambitious engineering teams.  ",
     "value": "  Hemos resuelto internet para los equipos de ingeniería más ambiciosos del mundo.  ",
     "_base_original": "  We’ve solved the internet for the world’s most ambitious engineering teams.  "
   },
-  "index:2:0:description": {
-    "original": "  <p>Your websites will load faster than human perception allows. We're not saying we've broken the laws of physics, but our CDN operates at speeds that would make light jealous.</p>\n  ",
-    "value": "  <p>Sus sitios web se cargarán más rápido de lo que permite la percepción humana. No decimos que hayamos roto las leyes de la física, pero nuestra CDN funciona a velocidades que darían envidia a la luz.</p>\n  ",
-    "_base_original": "  <p>Your websites will load faster than human perception allows. We're not saying we've broken the laws of physics, but our CDN operates at speeds that would make light jealous.</p>\n  "
-  },
-  "index:2:0:title": {
-    "original": " Content delivery acceleration ",
-    "value": " Aceleración de entrega de contenido ",
-    "_base_original": " Content delivery acceleration "
-  },
-  "index:2:1:description": {
-    "original": "  <p>Bad actors don't stand a chance against our behavioral analysis engines, which have been trained on every known attack pattern, plus several we invented just to be thorough.</p>\n  ",
-    "value": "  <p>Los actores malintencionados no tienen ninguna oportunidad frente a nuestros motores de análisis de comportamiento, entrenados con todos los patrones de ataque conocidos, más varios que inventamos solo por ser minuciosos.</p>\n  ",
-    "_base_original": "  <p>Bad actors don't stand a chance against our behavioral analysis engines, which have been trained on every known attack pattern, plus several we invented just to be thorough.</p>\n  "
-  },
-  "index:2:1:eyebrowText": {
-    "original": "  We've got this.  ",
-    "value": "  Nosotros nos encargamos.  ",
-    "_base_original": "  We've got this.  "
-  },
-  "index:2:1:title": {
-    "original": " DDoS mitigation that never sleeps ",
-    "value": " Mitigación de DDoS que nunca duerme ",
-    "_base_original": " DDoS mitigation that never sleeps "
-  },
-  "index:2:2:description": {
-    "original": "  <p>We trust nothing and verify everything, twice. Sometimes three times if it's Tuesday. Our security team operates under the principle that paranoia isn't a bug — it's a feature we bill for.</p>\n  ",
-    "value": "  <p>No confiamos en nada y lo verificamos todo, dos veces. A veces tres si es martes. Nuestro equipo de seguridad opera bajo el principio de que la paranoia no es un error: es una función por la que facturamos.</p>\n  ",
-    "_base_original": "  <p>We trust nothing and verify everything, twice. Sometimes three times if it's Tuesday. Our security team operates under the principle that paranoia isn't a bug — it's a feature we bill for.</p>\n  "
-  },
-  "index:2:2:title": {
-    "original": " Zero-trust security framework ",
-    "value": " Marco de seguridad de confianza cero ",
-    "_base_original": " Zero-trust security framework "
-  },
-  "index:2:3:description": {
-    "original": "  <p>Our automated certificate lifecycle system renews your SSL certificates before they even think about expiring. We've eliminated the 3am renewal panic entirely.</p>\n  ",
-    "value": "  <p>Nuestro sistema automatizado de ciclo de vida de certificados renueva sus certificados SSL antes de que siquiera piensen en caducar. Hemos eliminado por completo el pánico de las renovaciones a las 3 de la madrugada.</p>\n  ",
-    "_base_original": "  <p>Our automated certificate lifecycle system renews your SSL certificates before they even think about expiring. We've eliminated the 3am renewal panic entirely.</p>\n  "
-  },
-  "index:2:3:title": {
-    "original": " Automated SSL / TLS management ",
-    "value": " Gestión automatizada de SSL / TLS ",
-    "_base_original": " Automated SSL / TLS management "
-  },
-  "index:2:4:description": {
-    "original": "  <p>Our global DNS infrastructure responds in fractions of milliseconds that require new units of measurement. Your domain names resolve before users finished typing them.</p>\n  ",
-    "value": "  <p>Nuestra infraestructura DNS global responde en fracciones de milisegundo que requieren nuevas unidades de medida. Sus nombres de dominio se resuelven antes de que los usuarios terminen de escribirlos.</p>\n  ",
-    "_base_original": "  <p>Our global DNS infrastructure responds in fractions of milliseconds that require new units of measurement. Your domain names resolve before users finished typing them.</p>\n  "
-  },
-  "index:2:4:title": {
-    "original": " DNS resolution bordering on prescient ",
-    "value": " Resolución de DNS que roza lo profético ",
-    "_base_original": " DNS resolution bordering on prescient "
-  },
-  "index:2:heading": {
-    "original": "  Jetstream protects what matters most: <br>your uptime percentage  ",
-    "value": "  Jetstream protege lo que más importa: <br>su porcentaje de tiempo activo  ",
-    "_base_original": "  Jetstream protects what matters most: <br>your uptime percentage  "
-  },
-  "index:2:subtext": {
-    "original": "  <p>Everything you need to scale from boutique team to a global enterprise without the operational friction —&nbsp;or the science fiction.</p>\n  ",
-    "value": "  <p>Todo lo que necesita para escalar de un equipo boutique a una empresa global sin la fricción operativa —&nbsp;ni la ciencia ficción.</p>\n  ",
-    "_base_original": "  <p>Everything you need to scale from boutique team to a global enterprise without the operational friction —&nbsp;or the science fiction.</p>\n  "
-  },
-  "index:3:0:0:text": {
-    "original": "  We implemented our low-latency routing protocol and deployed dedicated health sector edge nodes with HIPAA-compliant encryption that doesn't slow things down.<br>Doctors can read patient expressions in real-time, and medical care is delivered at the speed of actual conversation — which, our research indicates, is how medical care should work.  ",
-    "value": "  Implementamos nuestro protocolo de enrutamiento de baja latencia y desplegamos nodos perimetrales dedicados al sector sanitario con cifrado conforme a HIPAA que no ralentiza las cosas.<br>Los médicos pueden leer las expresiones de los pacientes en tiempo real, y la atención médica se presta a la velocidad de una conversación real — lo que, según indica nuestra investigación, es como debería funcionar la atención médica.  ",
-    "_base_original": "  We implemented our low-latency routing protocol and deployed dedicated health sector edge nodes with HIPAA-compliant encryption that doesn't slow things down.<br>Doctors can read patient expressions in real-time, and medical care is delivered at the speed of actual conversation — which, our research indicates, is how medical care should work.  "
-  },
-  "index:3:1:1:text": {
-    "original": "  <p><strong>Reduction in connection quality complaints</strong></p>\n  ",
-    "value": "  <p><strong>Reducción de las quejas sobre la calidad de la conexión</strong></p>\n  ",
-    "_base_original": "  <p><strong>Reduction in connection quality complaints</strong></p>\n  "
-  },
-  "index:3:1:3:text": {
+  "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:51b54545-7ada-4c3c-858d-1f0560e759d6:25a9178d-e813-46f7-84ed-ded2867050cc:text": {
     "original": "  <p><strong>More numbers than other companies</strong></p>\n  ",
     "value": "  <p><strong>Más cifras que otras empresas</strong></p>\n  ",
     "_base_original": "  <p><strong>More numbers than other companies</strong></p>\n  "
   },
-  "index:3:heading": {
+  "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:51b54545-7ada-4c3c-858d-1f0560e759d6:f90aee5e-53a2-4201-a0a2-53ce70761202:text": {
+    "original": "  <p><strong>Reduction in connection quality complaints</strong></p>\n  ",
+    "value": "  <p><strong>Reducción de las quejas sobre la calidad de la conexión</strong></p>\n  ",
+    "_base_original": "  <p><strong>Reduction in connection quality complaints</strong></p>\n  "
+  },
+  "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:a59a8b56-8220-40b8-8beb-b0cfa9a89a35:c9b8e441-695f-461e-8a4b-5a19deb765c6:text": {
+    "original": "  <p><strong>Mitigation rate against 12,000+ daily attack attempts</strong></p>\n  ",
+    "value": "",
+    "_base_original": "  <p><strong>Mitigation rate against 12,000+ daily attack attempts</strong></p>\n  "
+  },
+  "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:a59a8b56-8220-40b8-8beb-b0cfa9a89a35:eeb1103e-e54f-49f4-9214-3d5ab457e4e7:text": {
+    "original": "  <p><strong>Average transaction completion time</strong></p>\n  ",
+    "value": "",
+    "_base_original": "  <p><strong>Average transaction completion time</strong></p>\n  "
+  },
+  "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:b0fb4501-118f-49b8-8bd9-e1f6c6bac0b3:c0d6e383-ad20-43eb-9904-fd4b4fc449f3:text": {
+    "original": "  FinTrust needed transaction speeds that matched customer expectations and security that exceeded regulatory paranoia. Their customers now experience instantaneous transfers while attempted attacks are neutralized before they even realize they've failed. Banking infrastructure that's faster than fraud and more reliable than gravity.  ",
+    "value": "",
+    "_base_original": "  FinTrust needed transaction speeds that matched customer expectations and security that exceeded regulatory paranoia. Their customers now experience instantaneous transfers while attempted attacks are neutralized before they even realize they've failed. Banking infrastructure that's faster than fraud and more reliable than gravity.  "
+  },
+  "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:d247d429-99f9-44f7-aaea-7e1d636bfaaf:ae696aae-135f-4e85-8eca-e9db96e2609f:text": {
+    "original": "  We implemented our low-latency routing protocol and deployed dedicated health sector edge nodes with HIPAA-compliant encryption that doesn't slow things down.<br>Doctors can read patient expressions in real-time, and medical care is delivered at the speed of actual conversation — which, our research indicates, is how medical care should work.  ",
+    "value": "  Implementamos nuestro protocolo de enrutamiento de baja latencia y desplegamos nodos perimetrales dedicados al sector sanitario con cifrado conforme a HIPAA que no ralentiza las cosas.<br>Los médicos pueden leer las expresiones de los pacientes en tiempo real, y la atención médica se presta a la velocidad de una conversación real — lo que, según indica nuestra investigación, es como debería funcionar la atención médica.  ",
+    "_base_original": "  We implemented our low-latency routing protocol and deployed dedicated health sector edge nodes with HIPAA-compliant encryption that doesn't slow things down.<br>Doctors can read patient expressions in real-time, and medical care is delivered at the speed of actual conversation — which, our research indicates, is how medical care should work.  "
+  },
+  "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:heading": {
     "original": "  Customer solutions that solve themselves  ",
     "value": "  Soluciones para clientes que se resuelven solas  ",
     "_base_original": "  Customer solutions that solve themselves  "
   },
-  "index:3:subtext": {
+  "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:subtext": {
     "original": " We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart. ",
     "value": " No solo proporcionamos infraestructura — proporcionamos infraestructura que entiende su negocio. Y su corazón. ",
     "_base_original": " We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart. "
   },
-  "index:4:text": {
-    "original": "  <p>Downtime used to be a weekly crisis. Now it's a theoretical concept we vaguely remember.</p>\n  ",
-    "value": "  <p>El tiempo de inactividad solía ser una crisis semanal. Ahora es un concepto teórico que recordamos vagamente.</p>\n  ",
-    "_base_original": "  <p>Downtime used to be a weekly crisis. Now it's a theoretical concept we vaguely remember.</p>\n  "
-  },
-  "index:5:0:subtext": {
-    "original": "  <p>For organizations that need reliability</p>\n  ",
-    "value": "  <p>Para organizaciones que necesitan fiabilidad</p>\n  ",
-    "_base_original": "  <p>For organizations that need reliability</p>\n  "
-  },
-  "index:5:0:text": {
-    "original": " Global CDN with 800+ edge nodes ",
-    "value": " CDN global con más de 800 nodos perimetrales ",
-    "_base_original": " Global CDN with 800+ edge nodes "
-  },
-  "index:5:0:title": {
-    "original": " Standard ",
-    "value": " Estándar ",
-    "_base_original": " Standard "
-  },
-  "index:5:1:subtext": {
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:subtext": {
     "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
     "value": "  <p>Para organizaciones que se niegan a aceptar el concepto de tiempo de inactividad</p>\n  ",
     "_base_original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  "
   },
-  "index:5:1:text": {
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:text": {
     "original": " Priority traffic routing ",
     "value": " Enrutamiento de tráfico prioritario ",
     "_base_original": " Priority traffic routing "
   },
-  "index:5:1:title": {
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:title": {
     "original": " Team ",
     "value": " Equipo ",
     "_base_original": " Team "
   },
-  "index:5:heading": {
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:subtext": {
+    "original": "  <p>For organizations that need reliability</p>\n  ",
+    "value": "  <p>Para organizaciones que necesitan fiabilidad</p>\n  ",
+    "_base_original": "  <p>For organizations that need reliability</p>\n  "
+  },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:text": {
+    "original": " Global CDN with 800+ edge nodes ",
+    "value": " CDN global con más de 800 nodos perimetrales ",
+    "_base_original": " Global CDN with 800+ edge nodes "
+  },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:title": {
+    "original": " Standard ",
+    "value": " Estándar ",
+    "_base_original": " Standard "
+  },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:heading": {
     "original": "  Pricing that scales with your ambition  ",
     "value": "  Precios que escalan con su ambición  ",
     "_base_original": "  Pricing that scales with your ambition  "
   },
-  "index:5:subtext": {
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:subtext": {
     "original": "  <p>Choose the plan that matches your current infrastructure needs, then upgrade when your inevitable success makes it necessary. We'll be here, ready with congratulations and additional bandwidth.</p>\n  ",
     "value": "  <p>Elija el plan que se ajuste a sus necesidades de infraestructura actuales y actualícelo cuando su éxito inevitable lo haga necesario. Estaremos aquí, listos con felicitaciones y ancho de banda adicional.</p>\n  ",
     "_base_original": "  <p>Choose the plan that matches your current infrastructure needs, then upgrade when your inevitable success makes it necessary. We'll be here, ready with congratulations and additional bandwidth.</p>\n  "
   },
-  "index:6:heading": {
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:1b2af8f3-1918-4f5a-8f7a-fcede9868bca:description": {
+    "original": "  <p>Bad actors don't stand a chance against our behavioral analysis engines, which have been trained on every known attack pattern, plus several we invented just to be thorough.</p>\n  ",
+    "value": "  <p>Los actores malintencionados no tienen ninguna oportunidad frente a nuestros motores de análisis de comportamiento, entrenados con todos los patrones de ataque conocidos, más varios que inventamos solo por ser minuciosos.</p>\n  ",
+    "_base_original": "  <p>Bad actors don't stand a chance against our behavioral analysis engines, which have been trained on every known attack pattern, plus several we invented just to be thorough.</p>\n  "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:1b2af8f3-1918-4f5a-8f7a-fcede9868bca:eyebrowText": {
+    "original": "  We've got this.  ",
+    "value": "  Nosotros nos encargamos.  ",
+    "_base_original": "  We've got this.  "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:1b2af8f3-1918-4f5a-8f7a-fcede9868bca:title": {
+    "original": " DDoS mitigation that never sleeps ",
+    "value": " Mitigación de DDoS que nunca duerme ",
+    "_base_original": " DDoS mitigation that never sleeps "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:2817bd2e-9703-44a1-8f15-8f8c46a573f1:description": {
+    "original": "  <p>We trust nothing and verify everything, twice. Sometimes three times if it's Tuesday. Our security team operates under the principle that paranoia isn't a bug — it's a feature we bill for.</p>\n  ",
+    "value": "  <p>No confiamos en nada y lo verificamos todo, dos veces. A veces tres si es martes. Nuestro equipo de seguridad opera bajo el principio de que la paranoia no es un error: es una función por la que facturamos.</p>\n  ",
+    "_base_original": "  <p>We trust nothing and verify everything, twice. Sometimes three times if it's Tuesday. Our security team operates under the principle that paranoia isn't a bug — it's a feature we bill for.</p>\n  "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:2817bd2e-9703-44a1-8f15-8f8c46a573f1:title": {
+    "original": " Zero-trust security framework ",
+    "value": " Marco de seguridad de confianza cero ",
+    "_base_original": " Zero-trust security framework "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:626e6346-9291-4373-a37a-4a7e05c78ac1:description": {
+    "original": "  <p>Our automated certificate lifecycle system renews your SSL certificates before they even think about expiring. We've eliminated the 3am renewal panic entirely.</p>\n  ",
+    "value": "  <p>Nuestro sistema automatizado de ciclo de vida de certificados renueva sus certificados SSL antes de que siquiera piensen en caducar. Hemos eliminado por completo el pánico de las renovaciones a las 3 de la madrugada.</p>\n  ",
+    "_base_original": "  <p>Our automated certificate lifecycle system renews your SSL certificates before they even think about expiring. We've eliminated the 3am renewal panic entirely.</p>\n  "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:626e6346-9291-4373-a37a-4a7e05c78ac1:title": {
+    "original": " Automated SSL / TLS management ",
+    "value": " Gestión automatizada de SSL / TLS ",
+    "_base_original": " Automated SSL / TLS management "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:8da77023-9d03-4188-a1c4-a686f02ed5a7:description": {
+    "original": "  <p>Your websites will load faster than human perception allows. We're not saying we've broken the laws of physics, but our CDN operates at speeds that would make light jealous.</p>\n  ",
+    "value": "  <p>Sus sitios web se cargarán más rápido de lo que permite la percepción humana. No decimos que hayamos roto las leyes de la física, pero nuestra CDN funciona a velocidades que darían envidia a la luz.</p>\n  ",
+    "_base_original": "  <p>Your websites will load faster than human perception allows. We're not saying we've broken the laws of physics, but our CDN operates at speeds that would make light jealous.</p>\n  "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:8da77023-9d03-4188-a1c4-a686f02ed5a7:title": {
+    "original": " Content delivery acceleration ",
+    "value": " Aceleración de entrega de contenido ",
+    "_base_original": " Content delivery acceleration "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:d6a21258-a9dc-484f-a208-97ac613d0bad:description": {
+    "original": "  <p>Our global DNS infrastructure responds in fractions of milliseconds that require new units of measurement. Your domain names resolve before users finished typing them.</p>\n  ",
+    "value": "  <p>Nuestra infraestructura DNS global responde en fracciones de milisegundo que requieren nuevas unidades de medida. Sus nombres de dominio se resuelven antes de que los usuarios terminen de escribirlos.</p>\n  ",
+    "_base_original": "  <p>Our global DNS infrastructure responds in fractions of milliseconds that require new units of measurement. Your domain names resolve before users finished typing them.</p>\n  "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:d6a21258-a9dc-484f-a208-97ac613d0bad:title": {
+    "original": " DNS resolution bordering on prescient ",
+    "value": " Resolución de DNS que roza lo profético ",
+    "_base_original": " DNS resolution bordering on prescient "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:heading": {
+    "original": "  Jetstream protects what matters most: <br>your uptime percentage  ",
+    "value": "  Jetstream protege lo que más importa: <br>su porcentaje de tiempo activo  ",
+    "_base_original": "  Jetstream protects what matters most: <br>your uptime percentage  "
+  },
+  "index:52972a9d-a29b-4355-b225-23e6c0fa7109:subtext": {
+    "original": "  <p>Everything you need to scale from boutique team to a global enterprise without the operational friction —&nbsp;or the science fiction.</p>\n  ",
+    "value": "  <p>Todo lo que necesita para escalar de un equipo boutique a una empresa global sin la fricción operativa —&nbsp;ni la ciencia ficción.</p>\n  ",
+    "_base_original": "  <p>Everything you need to scale from boutique team to a global enterprise without the operational friction —&nbsp;or the science fiction.</p>\n  "
+  },
+  "index:a188913f-40da-43d0-87da-1d7fa35e4728:heading": {
+    "original": "  Introducing<br><span class=\"highlight-text\">Jetstream</span>  ",
+    "value": "  Presentamos<br><span class=\"highlight-text\">Jetstream</span>  ",
+    "_base_original": "  Introducing<br><span class=\"highlight-text\">Jetstream</span>  "
+  },
+  "index:a188913f-40da-43d0-87da-1d7fa35e4728:subtext": {
+    "original": "  <p>A new Astro template by CloudCannon, built with our <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> for top performance, true visual editing, and an ideal developer experience.</p>\n  ",
+    "value": "  <p>Una nueva plantilla de Astro de CloudCannon, creada con nuestro <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> para un rendimiento óptimo, edición visual real y una experiencia de desarrollo ideal.</p>\n  ",
+    "_base_original": "  <p>A new Astro template by CloudCannon, built with our <a href=\"https://lemon-pear.cloudvent.net/\">Astro Component Starter</a> for top performance, true visual editing, and an ideal developer experience.</p>\n  "
+  },
+  "index:d899ae6a-05e6-4f72-9508-1d66ebe09f82:heading": {
     "original": "  Ready for performance that defies conventional wisdom?  ",
     "value": "  ¿Listo para un rendimiento que desafía la sabiduría convencional?  ",
     "_base_original": "  Ready for performance that defies conventional wisdom?  "
+  },
+  "index:ddc84b43-2f6d-4df7-b841-cba92cccf067:text": {
+    "original": "  <p>Downtime used to be a weekly crisis. Now it's a theoretical concept we vaguely remember.</p>\n  ",
+    "value": "  <p>El tiempo de inactividad solía ser una crisis semanal. Ahora es un concepto teórico que recordamos vagamente.</p>\n  ",
+    "_base_original": "  <p>Downtime used to be a weekly crisis. Now it's a theoretical concept we vaguely remember.</p>\n  "
   },
   "info-blocks": {
     "original": "Info Blocks",
@@ -1518,6 +1948,101 @@
     "original": "Input",
     "value": "Entrada",
     "_base_original": "Input"
+  },
+  "items.0.date": {
+    "original": " January 2020 ",
+    "value": "",
+    "_base_original": " January 2020 "
+  },
+  "items.0.heading": {
+    "original": " Company Founded ",
+    "value": "",
+    "_base_original": " Company Founded "
+  },
+  "items.0.text": {
+    "original": "  <p>Started with a small team of passionate developers who wanted to revolutionize how teams collaborate.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Started with a small team of passionate developers who wanted to revolutionize how teams collaborate.</p>\n  "
+  },
+  "items.1.date": {
+    "original": " June 2020 ",
+    "value": "",
+    "_base_original": " June 2020 "
+  },
+  "items.1.heading": {
+    "original": " First Product Launch ",
+    "value": "",
+    "_base_original": " First Product Launch "
+  },
+  "items.1.text": {
+    "original": "  <p>Released our flagship product to the market, gaining our first 100 customers within the first month.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Released our flagship product to the market, gaining our first 100 customers within the first month.</p>\n  "
+  },
+  "items.2.date": {
+    "original": " December 2020 ",
+    "value": "",
+    "_base_original": " December 2020 "
+  },
+  "items.2.heading": {
+    "original": " Team Expansion ",
+    "value": "",
+    "_base_original": " Team Expansion "
+  },
+  "items.2.text": {
+    "original": "  <p>Grew our team to 25 employees and opened our first office in San Francisco.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Grew our team to 25 employees and opened our first office in San Francisco.</p>\n  "
+  },
+  "items.3.date": {
+    "original": " March 2021 ",
+    "value": "",
+    "_base_original": " March 2021 "
+  },
+  "items.3.heading": {
+    "original": " Industry Recognition ",
+    "value": "",
+    "_base_original": " Industry Recognition "
+  },
+  "items.3.text": {
+    "original": "  <p>Won Best Startup Award and featured in major tech publications worldwide.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Won Best Startup Award and featured in major tech publications worldwide.</p>\n  "
+  },
+  "items.4.date": {
+    "original": " September 2021 ",
+    "value": "",
+    "_base_original": " September 2021 "
+  },
+  "items.4.heading": {
+    "original": " 10,000 Customers ",
+    "value": "",
+    "_base_original": " 10,000 Customers "
+  },
+  "items.4.text": {
+    "original": "  <p>Reached a major milestone with over 10,000 active customers across 50 countries.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Reached a major milestone with over 10,000 active customers across 50 countries.</p>\n  "
+  },
+  "items.5.date": {
+    "original": " January 2022 ",
+    "value": "",
+    "_base_original": " January 2022 "
+  },
+  "items.5.heading": {
+    "original": " Global Expansion ",
+    "value": "",
+    "_base_original": " Global Expansion "
+  },
+  "items.5.text": {
+    "original": "  <p>Opened offices in London, Tokyo, and Sydney to better serve our international customers.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Opened offices in London, Tokyo, and Sydney to better serve our international customers.</p>\n  "
+  },
+  "label-only-parent": {
+    "original": "Label-only parent",
+    "value": "",
+    "_base_original": "Label-only parent"
   },
   "list": {
     "original": "List",
@@ -1554,10 +2079,25 @@
     "value": "Blog",
     "_base_original": "Blog"
   },
+  "nav:careers": {
+    "original": "Careers",
+    "value": "",
+    "_base_original": "Careers"
+  },
+  "nav:components": {
+    "original": "Components",
+    "value": "",
+    "_base_original": "Components"
+  },
   "nav:contact": {
     "original": "Contact",
     "value": "Contacto",
     "_base_original": "Contact"
+  },
+  "nav:documentation": {
+    "original": "Documentation",
+    "value": "",
+    "_base_original": "Documentation"
   },
   "nav:features": {
     "original": "Features",
@@ -1569,6 +2109,16 @@
     "value": "Comenzar",
     "_base_original": "Get started"
   },
+  "nav:getting-started": {
+    "original": "Getting Started",
+    "value": "Primeros pasos",
+    "_base_original": "Getting Started"
+  },
+  "nav:home": {
+    "original": "Home",
+    "value": "Inicio",
+    "_base_original": "Home"
+  },
   "nav:pricing": {
     "original": "Pricing",
     "value": "Precios",
@@ -1579,10 +2129,20 @@
     "value": "Problemas que hemos resuelto ↓",
     "_base_original": "Problems we've solved ↓"
   },
+  "nav:resources": {
+    "original": "Resources",
+    "value": "",
+    "_base_original": "Resources"
+  },
   "nav:search": {
     "original": "Search",
     "value": "Buscar",
     "_base_original": "Search"
+  },
+  "nav:support": {
+    "original": "Support",
+    "value": "",
+    "_base_original": "Support"
   },
   "nav:what-we-do-best": {
     "original": "What we do best ↓",
@@ -1593,6 +2153,21 @@
     "original": "Navigation",
     "value": "Navegación",
     "_base_original": "Navigation"
+  },
+  "new-arrivals": {
+    "original": "New Arrivals",
+    "value": "",
+    "_base_original": "New Arrivals"
+  },
+  "opens-from-row-tap-only": {
+    "original": "Opens from row tap only",
+    "value": "",
+    "_base_original": "Opens from row tap only"
+  },
+  "our-story": {
+    "original": "Our Story",
+    "value": "",
+    "_base_original": "Our Story"
   },
   "page-sections": {
     "original": "Page Sections",
@@ -1609,85 +2184,100 @@
     "value": "Personas",
     "_base_original": "People"
   },
-  "pricing:0:heading": {
-    "original": "  Pricing designed<br>by <span class=\"highlight-text\">engineers</span><br>who know value  ",
-    "value": "  Precios diseñados<br>por <span class=\"highlight-text\">ingenieros</span><br>que conocen el valor  ",
-    "_base_original": "  Pricing designed<br>by <span class=\"highlight-text\">engineers</span><br>who know value  "
-  },
-  "pricing:0:subtext": {
-    "original": "  <p>We’ve eliminated the confusion typically associated with infrastructure pricing <br>through a strategy we call \"being straightforward about what things cost.\"</p>\n  ",
-    "value": "  <p>Hemos eliminado la confusión que suele asociarse a los precios de infraestructura <br>mediante una estrategia que llamamos «ser claros sobre lo que cuestan las cosas».</p>\n  ",
-    "_base_original": "  <p>We’ve eliminated the confusion typically associated with infrastructure pricing <br>through a strategy we call \"being straightforward about what things cost.\"</p>\n  "
-  },
-  "pricing:1:0:subtext": {
-    "original": "  <p>For organizations that need reliability</p>\n  ",
-    "value": "  <p>Para organizaciones que necesitan fiabilidad</p>\n  ",
-    "_base_original": "  <p>For organizations that need reliability</p>\n  "
-  },
-  "pricing:1:0:text": {
-    "original": " Global CDN with 800+ edge nodes ",
-    "value": " CDN global con más de 800 nodos perimetrales ",
-    "_base_original": " Global CDN with 800+ edge nodes "
-  },
-  "pricing:1:0:title": {
-    "original": " Standard ",
-    "value": " Estándar ",
-    "_base_original": " Standard "
-  },
-  "pricing:1:1:subtext": {
-    "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
-    "value": "  <p>Para organizaciones que se niegan a aceptar el concepto de tiempo de inactividad</p>\n  ",
-    "_base_original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  "
-  },
-  "pricing:1:1:text": {
-    "original": " Priority traffic routing ",
-    "value": " Enrutamiento de tráfico prioritario ",
-    "_base_original": " Priority traffic routing "
-  },
-  "pricing:1:1:title": {
-    "original": " Team ",
-    "value": " Equipo ",
-    "_base_original": " Team "
-  },
-  "pricing:1:2:subtext": {
-    "original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  ",
-    "value": "  <p>Para organizaciones que consideran la infraestructura una ventaja competitiva</p>\n  ",
-    "_base_original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  "
-  },
-  "pricing:1:2:text": {
-    "original": " Custom API rate limits ",
-    "value": " Límites de tasa de API personalizados ",
-    "_base_original": " Custom API rate limits "
-  },
-  "pricing:1:2:title": {
-    "original": " Enterprise ",
-    "value": " Empresa ",
-    "_base_original": " Enterprise "
-  },
-  "pricing:2:heading": {
+  "pricing:0d6b8879-4892-4e71-980d-d0e52404d33b:heading": {
     "original": "  Compare plan features  ",
     "value": "  Compare las funciones de los planes  ",
     "_base_original": "  Compare plan features  "
   },
-  "pricing:3:0:0:text": {
-    "original": "  <p>Approximately seven minutes for basic setup, assuming you can type reasonably fast and don't get distracted.</p>\n<p>Our onboarding process involves pointing your DNS at our nameservers and letting our automation handle the rest.</p>\n<p>For more complex migrations requiring custom configurations, our team can have you operational within 24 hours.</p>\n<p>We've timed it. Multiple times. With stopwatches.</p>\n  ",
-    "value": "  <p>Aproximadamente siete minutos para la configuración básica, suponiendo que escriba razonablemente rápido y no se distraiga.</p>\n<p>Nuestro proceso de incorporación consiste en apuntar su DNS a nuestros servidores de nombres y dejar que nuestra automatización se encargue del resto.</p>\n<p>Para migraciones más complejas que requieran configuraciones personalizadas, nuestro equipo puede dejarle operativo en un plazo de 24 horas.</p>\n<p>Lo hemos cronometrado. Varias veces. Con cronómetros.</p>\n  ",
-    "_base_original": "  <p>Approximately seven minutes for basic setup, assuming you can type reasonably fast and don't get distracted.</p>\n<p>Our onboarding process involves pointing your DNS at our nameservers and letting our automation handle the rest.</p>\n<p>For more complex migrations requiring custom configurations, our team can have you operational within 24 hours.</p>\n<p>We've timed it. Multiple times. With stopwatches.</p>\n  "
-  },
-  "pricing:3:heading": {
-    "original": "  Common questions  ",
-    "value": "  Preguntas frecuentes  ",
-    "_base_original": "  Common questions  "
-  },
-  "pricing:4:heading": {
+  "pricing:3c7f9ae0-f294-4580-aa71-d9ccf7782865:heading": {
     "original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  ",
     "value": "  ¿Necesita más información?<br><span class=\"highlight-text\">Contáctenos</span>  ",
     "_base_original": "  Need more info?<br><span class=\"highlight-text\">Contact us</span>  "
   },
-  "pricing:4:subtext": {
+  "pricing:3c7f9ae0-f294-4580-aa71-d9ccf7782865:subtext": {
     "original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  ",
     "value": "  <p>Nuestro equipo de soluciones está listo con respuestas y un nivel de entusiasmo apropiado.</p>\n  ",
     "_base_original": "  <p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>\n  "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:subtext": {
+    "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
+    "value": "  <p>Para organizaciones que se niegan a aceptar el concepto de tiempo de inactividad</p>\n  ",
+    "_base_original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:text": {
+    "original": " Priority traffic routing ",
+    "value": " Enrutamiento de tráfico prioritario ",
+    "_base_original": " Priority traffic routing "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:title": {
+    "original": " Team ",
+    "value": " Equipo ",
+    "_base_original": " Team "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:subtext": {
+    "original": "  <p>For organizations that need reliability</p>\n  ",
+    "value": "  <p>Para organizaciones que necesitan fiabilidad</p>\n  ",
+    "_base_original": "  <p>For organizations that need reliability</p>\n  "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:text": {
+    "original": " Global CDN with 800+ edge nodes ",
+    "value": " CDN global con más de 800 nodos perimetrales ",
+    "_base_original": " Global CDN with 800+ edge nodes "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:title": {
+    "original": " Standard ",
+    "value": " Estándar ",
+    "_base_original": " Standard "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:subtext": {
+    "original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  ",
+    "value": "  <p>Para organizaciones que consideran la infraestructura una ventaja competitiva</p>\n  ",
+    "_base_original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:text": {
+    "original": " Custom API rate limits ",
+    "value": " Límites de tasa de API personalizados ",
+    "_base_original": " Custom API rate limits "
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:title": {
+    "original": " Enterprise ",
+    "value": " Empresa ",
+    "_base_original": " Enterprise "
+  },
+  "pricing:e6d1adfa-1354-4107-ac31-70ef093d9349:0804c86e-614e-4dde-ab65-f85f4b557f18:23f7ee01-0010-4599-9fdb-c1c0300a9360:text": {
+    "original": "  <p>You can cancel anytime from your dashboard without talking to a retention specialist who's been trained to make you feel guilty.</p>\n<p>We'll continue service through the end of your billing period, provide export tools for your configuration data, and part ways professionally.</p>\n<p>Our cancellation process takes approximately 90 seconds, which our legal team insists is still too generous but our engineering team considers appropriately respectful of people's time.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>You can cancel anytime from your dashboard without talking to a retention specialist who's been trained to make you feel guilty.</p>\n<p>We'll continue service through the end of your billing period, provide export tools for your configuration data, and part ways professionally.</p>\n<p>Our cancellation process takes approximately 90 seconds, which our legal team insists is still too generous but our engineering team considers appropriately respectful of people's time.</p>\n  "
+  },
+  "pricing:e6d1adfa-1354-4107-ac31-70ef093d9349:a139ef2c-c55f-4f4e-abec-24da61e21c39:f446809c-4332-4f34-a24a-b50715cac5fb:text": {
+    "original": "  <p>We'll send you a polite notification and continue serving your traffic without interruption, because throttling your users mid-session seems counterproductive to everyone involved.</p>\n<p>You'll be billed for overage at a reasonable per-GB rate that we've listed clearly in our documentation.</p>\n<p>If you're consistently exceeding your plan limits, we'll suggest upgrading to a tier that matches your actual usage — our billing team considers surprises a sign of poor communication.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>We'll send you a polite notification and continue serving your traffic without interruption, because throttling your users mid-session seems counterproductive to everyone involved.</p>\n<p>You'll be billed for overage at a reasonable per-GB rate that we've listed clearly in our documentation.</p>\n<p>If you're consistently exceeding your plan limits, we'll suggest upgrading to a tier that matches your actual usage — our billing team considers surprises a sign of poor communication.</p>\n  "
+  },
+  "pricing:e6d1adfa-1354-4107-ac31-70ef093d9349:b1cc2cba-bd9b-4910-8b29-e937841db431:4899e0ee-fb6f-48c0-b94d-4621b79aac86:text": {
+    "original": "  <p>Approximately seven minutes for basic setup, assuming you can type reasonably fast and don't get distracted.</p>\n<p>Our onboarding process involves pointing your DNS at our nameservers and letting our automation handle the rest.</p>\n<p>For more complex migrations requiring custom configurations, our team can have you operational within 24 hours.</p>\n<p>We've timed it. Multiple times. With stopwatches.</p>\n  ",
+    "value": "  <p>Aproximadamente siete minutos para la configuración básica, suponiendo que escriba razonablemente rápido y no se distraiga.</p>\n<p>Nuestro proceso de incorporación consiste en apuntar su DNS a nuestros servidores de nombres y dejar que nuestra automatización se encargue del resto.</p>\n<p>Para migraciones más complejas que requieran configuraciones personalizadas, nuestro equipo puede dejarle operativo en un plazo de 24 horas.</p>\n<p>Lo hemos cronometrado. Varias veces. Con cronómetros.</p>\n  ",
+    "_base_original": "  <p>Approximately seven minutes for basic setup, assuming you can type reasonably fast and don't get distracted.</p>\n<p>Our onboarding process involves pointing your DNS at our nameservers and letting our automation handle the rest.</p>\n<p>For more complex migrations requiring custom configurations, our team can have you operational within 24 hours.</p>\n<p>We've timed it. Multiple times. With stopwatches.</p>\n  "
+  },
+  "pricing:e6d1adfa-1354-4107-ac31-70ef093d9349:heading": {
+    "original": "  Common questions  ",
+    "value": "  Preguntas frecuentes  ",
+    "_base_original": "  Common questions  "
+  },
+  "pricing:f3029eba-2b7c-40d3-9b64-0f61a32b8fde:heading": {
+    "original": "  Pricing designed<br>by <span class=\"highlight-text\">engineers</span><br>who know value  ",
+    "value": "  Precios diseñados<br>por <span class=\"highlight-text\">ingenieros</span><br>que conocen el valor  ",
+    "_base_original": "  Pricing designed<br>by <span class=\"highlight-text\">engineers</span><br>who know value  "
+  },
+  "pricing:f3029eba-2b7c-40d3-9b64-0f61a32b8fde:subtext": {
+    "original": "  <p>We’ve eliminated the confusion typically associated with infrastructure pricing <br>through a strategy we call \"being straightforward about what things cost.\"</p>\n  ",
+    "value": "  <p>Hemos eliminado la confusión que suele asociarse a los precios de infraestructura <br>mediante una estrategia que llamamos «ser claros sobre lo que cuestan las cosas».</p>\n  ",
+    "_base_original": "  <p>We’ve eliminated the confusion typically associated with infrastructure pricing <br>through a strategy we call \"being straightforward about what things cost.\"</p>\n  "
+  },
+  "products": {
+    "original": "Products",
+    "value": "",
+    "_base_original": "Products"
   },
   "project-tour": {
     "original": "Project Tour",
@@ -1699,12 +2289,17 @@
     "value": "Rango",
     "_base_original": "Range"
   },
-  "search:0:heading": {
+  "resources": {
+    "original": "Resources",
+    "value": "",
+    "_base_original": "Resources"
+  },
+  "search:4bfff19a-a1c6-48cf-af17-1b6346988110:heading": {
     "original": "  How can we help?  ",
     "value": "  ¿Cómo podemos ayudar?  ",
     "_base_original": "  How can we help?  "
   },
-  "search:0:subtext": {
+  "search:4bfff19a-a1c6-48cf-af17-1b6346988110:subtext": {
     "original": "  <p>We've indexed every page on our website with the kind of thoroughness that borders on excessive.</p>\n  ",
     "value": "  <p>Hemos indexado cada página de nuestro sitio web con una minuciosidad que roza lo excesivo.</p>\n  ",
     "_base_original": "  <p>We've indexed every page on our website with the kind of thoroughness that borders on excessive.</p>\n  "
@@ -1719,6 +2314,11 @@
     "value": "Selector",
     "_base_original": "Select"
   },
+  "services": {
+    "original": "Services",
+    "value": "",
+    "_base_original": "Services"
+  },
   "side": {
     "original": "Side",
     "value": "Lateral",
@@ -1728,6 +2328,11 @@
     "original": "Simple Text",
     "value": "Texto simple",
     "_base_original": "Simple Text"
+  },
+  "site-search": {
+    "original": "Site search",
+    "value": "",
+    "_base_original": "Site search"
   },
   "spacer": {
     "original": "Spacer",
@@ -1744,6 +2349,21 @@
     "value": "Enviar",
     "_base_original": "Submit"
   },
+  "subtext": {
+    "original": "  <p>Fill out the form below and we'll get back to you as soon as possible.</p>\n  ",
+    "value": "",
+    "_base_original": "  <p>Fill out the form below and we'll get back to you as soon as possible.</p>\n  "
+  },
+  "support": {
+    "original": "Support",
+    "value": "",
+    "_base_original": "Support"
+  },
+  "support-hub": {
+    "original": "Support hub",
+    "value": "",
+    "_base_original": "Support hub"
+  },
   "tabbed-content": {
     "original": "Tabbed Content",
     "value": "Contenido en pestañas",
@@ -1753,6 +2373,11 @@
     "original": "Table",
     "value": "Tabla",
     "_base_original": "Table"
+  },
+  "team": {
+    "original": "Team",
+    "value": " Equipo ",
+    "_base_original": "Team"
   },
   "team-grid": {
     "original": "Team Grid",
@@ -1789,6 +2414,11 @@
     "value": "Interruptor",
     "_base_original": "Toggle"
   },
+  "training": {
+    "original": "Training",
+    "value": "",
+    "_base_original": "Training"
+  },
   "video": {
     "original": "Video",
     "value": "Vídeo",
@@ -1798,6 +2428,11 @@
     "original": "Video Modal",
     "value": "Modal de vídeo",
     "_base_original": "Video Modal"
+  },
+  "videos": {
+    "original": "Videos",
+    "value": "",
+    "_base_original": "Videos"
   },
   "wrappers": {
     "original": "Wrappers",

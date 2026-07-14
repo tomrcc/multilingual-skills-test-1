@@ -3,6 +3,7 @@ icon: timeline
 description: Description for Timeline component.
 value:
   _component: page-sections/info-blocks/timeline
+  _uuid:
   id:
   eyebrowIcon: {}
   eyebrowText: ""
@@ -48,6 +49,7 @@ _structures:
       - label: Item
         value:
           _component: page-sections/info-blocks/timeline/timeline-item
+          _uuid:
           icon:
             name: ""
             color: ""

@@ -3,6 +3,7 @@ icon: sidebar
 description: "Sidebar navigation with expandable sections."
 value:
   _component: navigation/side
+  _uuid:
   navData: []
 preview:
   text:

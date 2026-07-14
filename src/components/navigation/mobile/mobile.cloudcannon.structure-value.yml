@@ -3,6 +3,7 @@ icon: device-phone-mobile
 description: "Mobile navigation with full-screen overlay."
 value:
   _component: navigation/mobile
+  _uuid:
   logoSource: null
   logoAlt: null
   navData: []

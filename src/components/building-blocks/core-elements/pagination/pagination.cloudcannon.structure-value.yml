@@ -4,6 +4,7 @@ description: "Navigation component for multi-page content."
 structures: []
 value:
   _component: building-blocks/core-elements/pagination
+  _uuid:
   page: null
   showArrows: false
 preview:

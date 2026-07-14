@@ -2,7 +2,8 @@
 _schema: default
 title: Search
 description: >-
-  Static Pagefind search across pages and posts—filter by type, author, and tag with no backend.
+  Static Pagefind search across pages and posts—filter by type, author, and tag
+  with no backend.
 pageSections:
   - _component: page-sections/heroes/hero-center
     eyebrowIcon: {}
@@ -21,6 +22,7 @@ pageSections:
     contentBackground: false
     rounded: false
     eyebrow:
+    _uuid: 4bfff19a-a1c6-48cf-af17-1b6346988110
   - _component: page-sections/builders/custom-section
     label: ''
     contentSections:
@@ -107,6 +109,7 @@ pageSections:
               document.addEventListener('astro:page-load', initSearch);
           </script>
         aspectRatio: landscape
+        _uuid: 2e2605dd-6b73-436f-babc-1fa192bdf992
     maxContentWidth: xl
     paddingHorizontal: xl
     paddingVertical: 2xl
@@ -114,4 +117,5 @@ pageSections:
     backgroundColor: base
     rounded: false
     contentBackground: false
+    _uuid: c9c4265a-a926-48b2-b8d7-8712caf111f4
 ---

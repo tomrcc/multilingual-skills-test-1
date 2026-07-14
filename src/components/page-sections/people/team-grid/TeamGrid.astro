@@ -110,7 +110,7 @@ if (useCollection) {
           {...member}
           class="team-grid-item"
           data-index={index}
-          data-rosey-ns={member._uuid ?? String(index)}
+          data-rosey-ns={member._uuid ?? member.uuid ?? String(index)}
           data-editable={useCollection ? undefined : "array-item"}
           data-id={useCollection ? undefined : "page-sections/people/team-grid/team-item"}
           editable={useCollection ? false : true}
