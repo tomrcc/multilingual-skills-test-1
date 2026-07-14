@@ -19,8 +19,11 @@ let MarkdownText = text ? md.renderInline(text) : "";
 MarkdownText = MarkdownText.replace(/\n/g, "<br />");
 
 const effectiveDataProp = customDataProp ?? (useDefaultEditableBinding ? "text" : null);
+// data-type="text": renders inline markdown (md.renderInline — bold, links, <br>).
+// Without a data-type the region defaults to "span" (plain text), so CloudCannon
+// edits the raw source while Rosey captured the rendered HTML — perpetual staleness.
 const textDataAttributes = effectiveDataProp
-  ? { "data-editable": "text", "data-prop": effectiveDataProp }
+  ? { "data-editable": "text", "data-type": "text", "data-prop": effectiveDataProp }
   : {};
 
 // Auto-derive the Rosey translation key from the editing prop unless opted out

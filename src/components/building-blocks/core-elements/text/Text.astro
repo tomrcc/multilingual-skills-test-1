@@ -18,8 +18,12 @@ const {
 const markdownContent = text ? md.render(text) : "";
 
 const effectiveDataProp = customDataProp ?? (useDefaultEditableBinding ? "text" : null);
+// data-type="block": this renders markdown to multi-paragraph HTML (md.render).
+// Without a data-type the editable region defaults to "span" (plain text), so
+// CloudCannon shows the raw markdown source in the editor DOM while Rosey captured
+// the rendered HTML — the two never match and every field reads as stale.
 const textDataAttributes = effectiveDataProp
-  ? { "data-editable": "text", "data-prop": effectiveDataProp }
+  ? { "data-editable": "text", "data-type": "block", "data-prop": effectiveDataProp }
   : {};
 
 // Auto-derive the Rosey translation key from the editing prop unless opted out

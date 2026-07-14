@@ -1451,7 +1451,7 @@
   },
   "card.heading": {
     "original": "  <h1><strong>Why we rebuilt our DNS resolver from scratch (</strong><span class=\"highlight-text\"><strong>again</strong></span><strong>)</strong> </h1>  ",
-    "value": "",
+    "value": "  Por qué reconstruimos nuestro resolvedor de DNS desde cero (<span class=\"highlight-text\">otra vez</span>)  ",
     "_base_original": "  <h1><strong>Why we rebuilt our DNS resolver from scratch (</strong><span class=\"highlight-text\"><strong>again</strong></span><strong>)</strong> </h1>  "
   },
   "card.subtext": {
@@ -1810,9 +1810,9 @@
     "_base_original": "  Customer solutions that solve themselves  "
   },
   "index:26c76fd1-728d-46db-8c72-4b86ed7ab595:subtext": {
-    "original": " We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart. ",
+    "original": "  <p>We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart.</p>\n  ",
     "value": " No solo proporcionamos infraestructura — proporcionamos infraestructura que entiende su negocio. Y su corazón. ",
-    "_base_original": " We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart. "
+    "_base_original": "  <p>We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart.</p>\n  "
   },
   "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:subtext": {
     "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",

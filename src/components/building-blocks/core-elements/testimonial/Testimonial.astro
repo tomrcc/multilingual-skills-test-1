@@ -21,8 +21,11 @@ const md = MarkdownIt({ html: true });
 const MarkdownText = text ? md.render(text) : "";
 
 const effectiveDataProp = customDataProp ?? (useDefaultEditableBinding ? "text" : null);
+// data-type="block": the quote body is markdown rendered to HTML (md.render).
+// Without it the region defaults to "span" (plain text) and CloudCannon shows raw
+// markdown source, mismatching Rosey's rendered-HTML original. See Text.astro.
 const textDataAttributes = effectiveDataProp
-  ? { "data-editable": "text", "data-prop": effectiveDataProp }
+  ? { "data-editable": "text", "data-type": "block", "data-prop": effectiveDataProp }
   : {};
 
 // Translate only the quote body. Author name/designation are identity values
