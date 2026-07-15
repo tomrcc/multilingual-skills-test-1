@@ -1469,30 +1469,50 @@
     "value": " No solo proporcionamos infraestructura — proporcionamos infraestructura que entiende su negocio. Y su corazón. ",
     "_base_original": "<p>We don't just provide infrastructure — we provide infrastructure that understands your business. And your heart.</p>"
   },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:2fc2c58f-b04f-4aeb-b126-6201c5d5c672:text": {
+    "original": "Annual infrastructure health assessment conducted by our senior architects, complete with a 40-page report bound in a collectible presentation folder",
+    "value": "Annual infrastructure health assessment conducted by our senior architects, complete with a 40-page report bound in a collectible presentation folder",
+    "_base_original": "Annual infrastructure health assessment conducted by our senior architects, complete with a 40-page report bound in a collectible presentation folder"
+  },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:a1481267-dc45-48e0-8000-ebac3531f451:text": {
+    "original": "Priority traffic routing",
+    "value": "Priority traffic routing",
+    "_base_original": "Priority traffic routing"
+  },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:af6b9482-6baf-4e3d-8a69-c8a3c49e3f5b:text": {
+    "original": "Dedicated customer success specialist",
+    "value": "Dedicated customer success specialist",
+    "_base_original": "Dedicated customer success specialist"
+  },
   "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:subtext": {
     "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
     "value": "  <p>Para organizaciones que se niegan a aceptar el concepto de tiempo de inactividad</p>\n  ",
     "_base_original": "<p>For organizations that refuse to accept the concept of downtime</p>"
-  },
-  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:text": {
-    "original": " Priority traffic routing ",
-    "value": " Enrutamiento de tráfico prioritario ",
-    "_base_original": "Priority traffic routing"
   },
   "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:433d5a56-4f48-4102-a67a-73266005f8eb:title": {
     "original": " Team ",
     "value": " Equipo ",
     "_base_original": "Team"
   },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:abefe181-b84c-4de9-8b4b-f031c660efc9:text": {
+    "original": "Automated SSL certificate management",
+    "value": "Automated SSL certificate management",
+    "_base_original": "Automated SSL certificate management"
+  },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:f320bcd1-e7a4-4ace-9a9f-8123f3d5aaa3:text": {
+    "original": "Complimentary network topology consult with our most artistic engineer",
+    "value": "Complimentary network topology consult with our most artistic engineer",
+    "_base_original": "Complimentary network topology consult with our most artistic engineer"
+  },
+  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:f54e3c8f-083e-4cc2-803a-43f4b3c69ccc:text": {
+    "original": "Global CDN with 800+ edge nodes",
+    "value": "Global CDN with 800+ edge nodes",
+    "_base_original": "Global CDN with 800+ edge nodes"
+  },
   "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:subtext": {
     "original": "  <p>For organizations that need reliability</p>\n  ",
     "value": "  <p>Para organizaciones que necesitan fiabilidad</p>\n  ",
     "_base_original": "<p>For organizations that need reliability</p>"
-  },
-  "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:text": {
-    "original": " Global CDN with 800+ edge nodes ",
-    "value": " CDN global con más de 800 nodos perimetrales ",
-    "_base_original": "Global CDN with 800+ edge nodes"
   },
   "index:3af9da36-13ed-4ddf-8f0d-efbfdf4591f1:a5068a55-8ba9-4f3a-acac-42fcafba30e9:title": {
     "original": " Standard ",
@@ -1709,45 +1729,105 @@
     "value": "  <p>Nuestro equipo de soluciones está listo con respuestas y un nivel de entusiasmo apropiado.</p>\n  ",
     "_base_original": "<p>Our solutions team stands ready with answers and an appropriate level of enthusiasm.</p>"
   },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:265f4dd6-e489-46d4-b70a-b998a266dc49:text": {
+    "original": "Priority traffic routing",
+    "value": "Priority traffic routing",
+    "_base_original": "Priority traffic routing"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:67cec1a6-4813-424b-83f3-4fac0d0aea32:text": {
+    "original": "Dedicated customer success specialist",
+    "value": "Dedicated customer success specialist",
+    "_base_original": "Dedicated customer success specialist"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:96422339-d59d-4f0d-945f-de8774339fd9:text": {
+    "original": "Annual infrastructure health assessment conducted by our senior architects, complete with a 40-page report bound in a collectible presentation folder",
+    "value": "Annual infrastructure health assessment conducted by our senior architects, complete with a 40-page report bound in a collectible presentation folder",
+    "_base_original": "Annual infrastructure health assessment conducted by our senior architects, complete with a 40-page report bound in a collectible presentation folder"
+  },
   "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:subtext": {
     "original": "  <p>For organizations that refuse to accept the concept of downtime</p>\n  ",
     "value": "  <p>Para organizaciones que se niegan a aceptar el concepto de tiempo de inactividad</p>\n  ",
     "_base_original": "<p>For organizations that refuse to accept the concept of downtime</p>"
-  },
-  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:text": {
-    "original": " Priority traffic routing ",
-    "value": " Enrutamiento de tráfico prioritario ",
-    "_base_original": "Priority traffic routing"
   },
   "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:524d46a5-3c4d-461f-b15f-f6b76219e689:title": {
     "original": " Team ",
     "value": " Equipo ",
     "_base_original": "Team"
   },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:3002ece9-326f-4e3d-ae48-d8d37a87d6de:text": {
+    "original": "Automated SSL certificate management",
+    "value": "Automated SSL certificate management",
+    "_base_original": "Automated SSL certificate management"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:8b6b79be-4537-4242-9658-be175a152772:text": {
+    "original": "Complimentary network topology consult with our most artistic engineer",
+    "value": "Complimentary network topology consult with our most artistic engineer",
+    "_base_original": "Complimentary network topology consult with our most artistic engineer"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:92b71434-f4ea-4321-b92d-aaa8892d0047:text": {
+    "original": "Global CDN with 800+ edge nodes",
+    "value": "Global CDN with 800+ edge nodes",
+    "_base_original": "Global CDN with 800+ edge nodes"
+  },
   "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:subtext": {
     "original": "  <p>For organizations that need reliability</p>\n  ",
     "value": "  <p>Para organizaciones que necesitan fiabilidad</p>\n  ",
     "_base_original": "<p>For organizations that need reliability</p>"
-  },
-  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:text": {
-    "original": " Global CDN with 800+ edge nodes ",
-    "value": " CDN global con más de 800 nodos perimetrales ",
-    "_base_original": "Global CDN with 800+ edge nodes"
   },
   "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:9162d231-7af8-48d3-91b2-797fcc888ed1:title": {
     "original": " Standard ",
     "value": " Estándar ",
     "_base_original": "Standard"
   },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:00c6f2de-75c5-4fe7-aab4-41220dd4c360:text": {
+    "original": "Daily infrastructure audits",
+    "value": "Daily infrastructure audits",
+    "_base_original": "Daily infrastructure audits"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:1263390c-0abf-43e1-87fb-ef6261f22963:text": {
+    "original": "Dedicated Slack channel with our operations team",
+    "value": "Dedicated Slack channel with our operations team",
+    "_base_original": "Dedicated Slack channel with our operations team"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:15379802-c9e6-4873-976c-0118f592d0e4:text": {
+    "original": "Access to ‘experimental’ features",
+    "value": "Access to ‘experimental’ features",
+    "_base_original": "Access to ‘experimental’ features"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:391fce57-af6b-4359-8a0d-f8c089394b45:text": {
+    "original": "Custom API rate limits",
+    "value": "Custom API rate limits",
+    "_base_original": "Custom API rate limits"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:936945b3-cc8f-484c-9c0f-36db925b3507:text": {
+    "original": "Private peering arrangements",
+    "value": "Private peering arrangements",
+    "_base_original": "Private peering arrangements"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:b62f5de1-e857-41e2-af88-a50819571a43:text": {
+    "original": "Quarterly capacity planning sessions",
+    "value": "Quarterly capacity planning sessions",
+    "_base_original": "Quarterly capacity planning sessions"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:e7cd2bd2-1614-4549-992f-fdd94d695502:text": {
+    "original": "Custom security rules",
+    "value": "Custom security rules",
+    "_base_original": "Custom security rules"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:f09fe9ca-f410-4f4b-b33b-eb4ba5d18678:text": {
+    "original": "Priority feature requests",
+    "value": "Priority feature requests",
+    "_base_original": "Priority feature requests"
+  },
+  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:ffb0a58d-5ec7-400f-bd7b-d779ac0923c3:text": {
+    "original": "Contractual response times",
+    "value": "Contractual response times",
+    "_base_original": "Contractual response times"
+  },
   "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:subtext": {
     "original": "  <p>For organizations that consider infrastructure a competitive advantage</p>\n  ",
     "value": "  <p>Para organizaciones que consideran la infraestructura una ventaja competitiva</p>\n  ",
     "_base_original": "<p>For organizations that consider infrastructure a competitive advantage</p>"
-  },
-  "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:text": {
-    "original": " Custom API rate limits ",
-    "value": " Límites de tasa de API personalizados ",
-    "_base_original": "Custom API rate limits"
   },
   "pricing:a6aa1ca8-a4f6-402a-943d-fce8a750323a:b38c7912-7d68-4387-9e5b-260c06808075:title": {
     "original": " Enterprise ",
