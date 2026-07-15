@@ -13,6 +13,7 @@ const {
   "data-prop": customDataProp,
   "data-rosey": roseyProp,
   _component,
+  _uuid,
   ...htmlAttributes
 } = Astro.props;
 
@@ -35,6 +36,7 @@ const hasIcon = showIcon && iconName;
 
 <li
   class:list={["item", className, hasIcon && "list-item-has-icon"]}
+  data-rosey-ns={_uuid}
   {...htmlAttributes}
 >
   {
