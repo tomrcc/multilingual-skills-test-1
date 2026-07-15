@@ -242,7 +242,20 @@ featureGridItems:
                     amount: "599"
                     suffix: /mo
         subtext:
-          type: textarea
+          type: markdown
+          comment: Supporting text for the pricing item.
+          options:
+            blockquote: false
+            bold: true
+            format:
+            italic: true
+            link: true
+            strike: false
+            subscript: true
+            superscript: true
+            underline: false
+            bulletedlist: false
+            numberedlist: false
         list:
           type: object
           options:
